@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.center {
+  padding: 0 calc((100% - 1200px) / 2);
+}
+
+.header {
+  height: 50px;
+  background-color: #7c70ff;
+}
+
+.header__cont {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__cont__logo {
+  color: aquamarine;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.header__cont__navi {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__cont__navi__link {
+  color: aquamarine;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.header__cont__navi__link:hover {
+  color: #cfbe2d;
+}
+
+.main__contacts_and_about_me {
+  background-color: #f3f2ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main__contacts_and_about_me__vacancy {
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main__contacts_and_about_me__name {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.main__contacts_and_about_me__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.main__contacts_and_about_me__cont__my_photo {
+  max-width: 30%;
+  max-height: 480px;
+}
+
+.main__contacts_and_about_me__cont__info {
+  min-height: 480px;
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link {
+  text-decoration: none;
+  color: #7c70ff;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link:hover,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link:hover {
+  color: #cfbe2d;
+}
+
+.main__contacts_and_about_me__cont__info__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication {
+  text-decoration: none;
+  color: aquamarine;
+  background-color: #7c70ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 2px solid transparent;
+  -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:hover {
+  color: #7c70ff;
+  background-color: aquamarine;
+  border: 2px solid #7c70ff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:active {
+  position: relative;
+  top: 5px;
+}
+
+.my_projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fffcf5;
+}
+
+.my_projects__cont__menu {
+  list-style-type: none;
+}
+
+.my_projects__cont__menu__item {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.my_projects__cont__menu__item__link {
+  text-decoration: none;
+  color: #7c70ff;
+}
+
+.my_projects__cont__menu__item__link:hover {
+  text-decoration: underline;
+  color: #cfbe2d;
+}
+
+.my_projects__cont__menu__item-duck_hunt {
+  font-weight: 700;
+}
+
+.my_skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3f2ff;
+}
+
+.my_skills__cont__technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my_skills__cont__technologies__item {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my_skills__cont__technologies__item__img {
+  width: 125px;
+}
+
+.my_skills__cont__technologies__item__description {
+  display: none;
+}
+
+.my_certificates {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my_certificates__cont__description {
+  text-align: center;
+}
+
+.my_certificates__cont__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my_certificates__cont__main__card {
+  margin: 10px;
+}
+
+.my_certificates__cont__main__card__spec {
+  position: relative;
+  line-height: 0;
+}
+
+.my_certificates__cont__main__card__spec__checkbox {
+  position: absolute;
+  top: 0;
+  left: -500vw;
+}
+
+.my_certificates__cont__main__card__spec__overlay {
+  display: none;
+}
+
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 0;
+}
+
+.my_certificates__cont__main__card__spec__overlay__img {
+  width: 500px;
+}
+
+.my_certificates__cont__main__card__spec__img {
+  width: 500px;
+}
+
+.my_certificates__cont__main__card__spec__label {
+  position: relative;
+  left: 25px;
+  display: block;
+  height: 24px;
+  width: 50px;
+  background-color: red;
+  border-radius: 12px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label {
+  background-color: green;
+}
+
+.my_certificates__cont__main__card__spec__label::before {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label::before {
+  left: 26px;
+}
+
+.my_certificates__cont__main__card__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  content: "ru";
+  color: red;
+}
+
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: 53px;
+  content: "en";
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */

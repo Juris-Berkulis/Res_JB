@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Ресюме Юрий Беркуль</title>
+    <script src="scripts/myCertificatesMain.js" defer></script>
+    <script src="scripts/myCertificatesTests.js" defer></script>
+    <script src="scripts/sectionLayoutMyCertificates.js" defer></script>
+    <title>Резюме Юрий Беркуль</title>
 </head>
 <body>
     <header class="header center">
@@ -61,19 +64,22 @@
                 <h2 class="my_projects__cont__title">Мои проекты</h2>
                 <menu class="my_projects__cont__menu">
                     <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_0902/">New Automation</a>
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_0902/">New Automation</a> на html и css;
                     </li>
                     <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204/">Simple</a>
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204/">Simple</a> на html и css;
                     </li>
                     <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204_Second_Layout/">Waxom</a>
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204_Second_Layout/">Waxom</a> на html и css;
                     </li>
                     <li class="my_projects__cont__menu__item my_projects__cont__menu__item-duck_hunt">Игра 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Duck_hunt/">Duck hunt</a>
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Duck_hunt/">Duck hunt</a> на чистых html и css (без JavaScript и прочего);
                     </li>
                     <li class="my_projects__cont__menu__item">Тренировочный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html">Burger menu</a>
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html">Burger menu</a> на html, css и JavaScript;
+                    </li>
+                    <li class="my_projects__cont__menu__item">Учебный проект 
+                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_0106_JS_L1_HW/">Home Work. JS - Level 1</a> на JavaScript.
                     </li>
                 </menu>
             </div>
@@ -153,26 +159,39 @@
             <div class="my_certificates__cont">
                 <h2 class="my_certificates__cont__title">Мои сертификаты</h2>
                 <p class="my_certificates__cont__description">Более 80-ти сертификатов</p>
-                <div class="my_certificates__cont__tests">
-                    <!-- *TODO: Сделать подсекцию "tests" по аналогии с подсекцией "main". -->
-                </div>
-                <div class="my_certificates__cont__main">
-                    <!-- *! Тестовый пример карточки с сертификатами: -->
-                    <div class="my_certificates__cont__main__card">
-                        <div class="my_certificates__cont__main__card__spec">
-                            <input class="my_certificates__cont__main__card__spec__checkbox" type="checkbox" id="Certificate_GeekBrains_Figma_First_level">
-                            <div class="my_certificates__cont__main__card__spec__overlay">
-                                <img class="my_certificates__cont__main__card__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" width="50">
+                <h3 class="my_certificates__cont__title">Сертификаты за прохождение тестов</h3>
+                <div class="my_certificates__cont__tests my_certificates__cont__tests-mini">
+                    <!--* Первая карточка с сертификатом сделана здесь (в html-файле index.html), остальные карточки - в js-файлах myCertificatesTests.js и sectionLayoutMyCertificates.js: -->
+                    <div class="my_certificates__cont__tests__card">
+                        <div class="my_certificates__cont__tests__card__spec">
+                            <input class="my_certificates__cont__tests__card__spec__checkbox" type="checkbox" id="certificate_main_1">
+                            <div class="my_certificates__cont__tests__card__spec__overlay">
+                                <img class="my_certificates__cont__tests__card__spec__overlay__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
                             </div>
-                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" width="50">
-                            <label class="my_certificates__cont__main__card__spec__label" for="Certificate_GeekBrains_Figma_First_level"></label>
+                            <img class="my_certificates__cont__tests__card__spec__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
+                            <label class="my_certificates__cont__tests__card__spec__label" for="certificate_main_1"></label>
                         </div>
                     </div>
-                    <!-- *TODO: Добавить карточек с сертификатами по аналогии. -->
                 </div>
+                <h3 class="my_certificates__cont__title my_certificates__cont__tests-mini">Основные сертификаты</h3>
+                <div class="my_certificates__cont__main">
+                    <!--* Первая карточка с сертификатом сделана здесь (в html-файле index.html), остальные карточки - в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
+                    <div class="my_certificates__cont__main__card">
+                        <div class="my_certificates__cont__main__card__spec">
+                            <input class="my_certificates__cont__main__card__spec__checkbox" type="checkbox" id="certificate_main_1">
+                            <div class="my_certificates__cont__main__card__spec__overlay">
+                                <img class="my_certificates__cont__main__card__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
+                            </div>
+                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
+                            <label class="my_certificates__cont__main__card__spec__label" for="certificate_main_1"></label>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="my_certificates__cont__title my_certificates__cont__tests-mini">Дополнительные сертификаты</h3>
                 <div class="my_certificates__cont__minor">
                     <!-- *TODO: Сделать подсекцию "minor" по аналогии с подсекцией "main". -->
                 </div>
+                <h3 class="my_certificates__cont__title my_certificates__cont__tests-mini">Прочие сертификаты</h3>
                 <div class="my_certificates__cont__other">
                     <!-- *TODO: Сделать подсекцию "tests" по аналогии с подсекцией "main" или просто заменить параграфом. -->
                 </div>

@@ -24,7 +24,7 @@ p {
 
 .header {
   height: 50px;
-  background-color: #7c70ff;
+  background-color: #fcecd2;
 }
 
 .header__cont {
@@ -41,7 +41,7 @@ p {
 }
 
 .header__cont__logo {
-  color: aquamarine;
+  color: #7c70ff;
   font-size: 36px;
   line-height: 36px;
   margin: 0;
@@ -58,7 +58,7 @@ p {
 }
 
 .header__cont__navi__link {
-  color: aquamarine;
+  color: #7c70ff;
   text-decoration: none;
   font-size: 20px;
   line-height: 20px;
@@ -140,13 +140,13 @@ p {
 
 .main__contacts_and_about_me__cont__info__action__communication {
   text-decoration: none;
-  color: aquamarine;
-  background-color: #7c70ff;
+  color: #7c70ff;
+  background-color: #fcecd2;
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 16px;
   line-height: 16px;
-  border: 2px solid transparent;
+  border: 2px solid #7c70ff;
   -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
   transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
   transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
@@ -154,9 +154,9 @@ p {
 }
 
 .main__contacts_and_about_me__cont__info__action__communication:hover {
-  color: #7c70ff;
-  background-color: aquamarine;
-  border: 2px solid #7c70ff;
+  color: #fcecd2;
+  background-color: #7c70ff;
+  border: 2px solid transparent;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }

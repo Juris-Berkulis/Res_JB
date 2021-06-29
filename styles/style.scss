@@ -1,6 +1,6 @@
-$color__main: #7c70ff;
+$color__main: #fcecd2;
 $color__link_hover: #cfbe2d;
-$color__link_text: aquamarine;
+$color__link_text: #7c70ff;
 $color_bg__section_1: #f3f2ff;
 $color_bg__section_2: #fffcf5;
 $height__my_photo: 480px;
@@ -110,7 +110,7 @@ p {
 .main__contacts_and_about_me__cont__info__text__contacts__phone__link,
 .main__contacts_and_about_me__cont__info__text__contacts__email__link {
   text-decoration: none;
-  color: $color__main;
+  color: $color__link_text;
 }
 
 .main__contacts_and_about_me__cont__info__text__contacts__phone__link:hover,
@@ -130,7 +130,7 @@ p {
   padding: 10px 20px;
   border-radius: 20px;
   @include text_font(16px, 16px);
-  border: 2px solid transparent;
+  border: 2px solid $color__link_text;
   transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s,
     background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
 }
@@ -138,7 +138,7 @@ p {
 .main__contacts_and_about_me__cont__info__action__communication:hover {
   color: $color__main;
   background-color: $color__link_text;
-  border: 2px solid $color__main;
+  border: 2px solid transparent;
   transform: scale(1.2);
 }
 
@@ -163,7 +163,7 @@ p {
 
 .my_projects__cont__menu__item__link {
   text-decoration: none;
-  color: $color__main;
+  color: $color__link_text;
 }
 
 .my_projects__cont__menu__item__link:hover {

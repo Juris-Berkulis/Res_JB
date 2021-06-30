@@ -6,13 +6,14 @@ $color_bg__section_2: #fffcf5;
 $height__my_photo: 480px;
 $width__image__certificate: 150px;
 $width__period: 15%;
+$animation_point_item: rotate_point_item 4s linear 0.5s infinite normal none;
 
 @mixin text_font($fs: 16px, $lh: 20px) {
   font-size: $fs;
   line-height: $lh;
 }
 
-@mixin item_point {
+@mixin title_decoration {
   content: "";
   display: inline-block;
   height: 0;
@@ -23,9 +24,16 @@ $width__period: 15%;
   border-right: 7px solid transparent;
   border-bottom: 7px solid transparent;
   border-left: 7px solid transparent;
-  margin-right: 10px;
-  transform: rotateZ(0deg);
-  animation: rotate_item_point 3.5s linear 1s infinite normal none;
+  margin: 0 10px;
+  animation: rotate_item_point 1s linear 1s infinite none;
+}
+
+@mixin point_item {
+  content: "";
+  height: 100%;
+  width: 0;
+  border: 5px solid red;
+  margin: 0 10px;
 }
 
 @keyframes rotate_item_point {
@@ -63,6 +71,21 @@ $width__period: 15%;
   }
 }
 
+@keyframes rotate_point_item {
+  0% {
+    transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -72,22 +95,22 @@ $width__period: 15%;
 h2 {
   font-size: 24px;
   line-height: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
   text-align: center;
   cursor: context-menu;
 }
 
+h2::before,
 h2::after {
-  content: "";
-  width: 250px;
-  border-bottom: 2px solid $color__link_text;
-  display: block;
-  margin: 5px auto 0;
+  @include title_decoration;
 }
 
-h2:hover::after {
-  content: "";
-  border-bottom: 2px solid $color__link_hover;
+h2::before {
+  animation-direction: normal;
+}
+
+h2::after {
+  animation-direction: reverse;
 }
 
 h3 {
@@ -178,6 +201,36 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.anchor {
+  font-size: 0;
+  line-height: 0;
+}
+
+.career__line {
+  display: inline;
+  height: 0;
+  width: 0;
+  margin: 0 auto;
+}
+
+.career__line::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid $color__link_text;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.career__line:hover::after {
+  content: "";
+  border-bottom: 2px solid $color__link_hover;
+}
+
+h2:hover + .career__line::after {
+  content: "";
+  border-bottom: 2px solid $color__link_hover;
 }
 
 .main__contacts_and_about_me__cont__info__text__contacts__phone__link,
@@ -485,10 +538,16 @@ p {
   margin-top: 3px;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .career__title__cards__item__description__responsibilities__list__item::before {
-  @include item_point;
+  @include point_item;
+}
+
+.career__title__cards__item:hover
+  .career__title__cards__item__description__responsibilities__list__item::before {
+  animation: $animation_point_item;
 }
 
 .career__title__cards__item__description__achievements__paragraph {
@@ -500,8 +559,14 @@ p {
   margin-top: 3px;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .career__title__cards__item__description__achievements__list__item::before {
-  @include item_point;
+  @include point_item;
+}
+
+.career__title__cards__item:hover
+  .career__title__cards__item__description__achievements__list__item::before {
+  animation: $animation_point_item;
 }

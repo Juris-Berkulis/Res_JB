@@ -84,6 +84,42 @@
   }
 }
 
+@-webkit-keyframes rotate_point_item {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
+@keyframes rotate_point_item {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -94,22 +130,35 @@
 h2 {
   font-size: 24px;
   line-height: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
   text-align: center;
   cursor: context-menu;
 }
 
+h2::before,
 h2::after {
   content: "";
-  width: 250px;
-  border-bottom: 2px solid #7c70ff;
-  display: block;
-  margin: 5px auto 0;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin: 0 10px;
+  -webkit-animation: rotate_item_point 1s linear 1s infinite none;
+          animation: rotate_item_point 1s linear 1s infinite none;
 }
 
-h2:hover::after {
-  content: "";
-  border-bottom: 2px solid #cfbe2d;
+h2::before {
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+h2::after {
+  animation-direction: reverse;
 }
 
 h3 {
@@ -224,6 +273,36 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.anchor {
+  font-size: 0;
+  line-height: 0;
+}
+
+.career__line {
+  display: inline;
+  height: 0;
+  width: 0;
+  margin: 0 auto;
+}
+
+.career__line::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid #7c70ff;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.career__line:hover::after {
+  content: "";
+  border-bottom: 2px solid #cfbe2d;
+}
+
+h2:hover + .career__line::after {
+  content: "";
+  border-bottom: 2px solid #cfbe2d;
 }
 
 .main__contacts_and_about_me__cont__info__text__contacts__phone__link,
@@ -342,6 +421,7 @@ p {
 .my_certificates {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #fffcf5;
 }
 
 .my_certificates__cont__description {
@@ -524,6 +604,7 @@ p {
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #fffcf5;
 }
 
 .career__title__cards__item {
@@ -565,24 +646,23 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .career__title__cards__item__description__responsibilities__list__item::before {
   content: "";
-  display: inline-block;
-  height: 0;
+  height: 100%;
   width: 0;
-  border-radius: 50%;
-  border: 7px solid transparent;
-  border-top: 7px solid red;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 7px solid transparent;
-  margin-right: 10px;
-  -webkit-transform: rotateZ(0deg);
-          transform: rotateZ(0deg);
-  -webkit-animation: rotate_item_point 3.5s linear 1s infinite normal none;
-          animation: rotate_item_point 3.5s linear 1s infinite normal none;
+  border: 5px solid red;
+  margin: 0 10px;
+}
+
+.career__title__cards__item:hover
+.career__title__cards__item__description__responsibilities__list__item::before {
+  -webkit-animation: rotate_point_item 4s linear 0.5s infinite normal none;
+          animation: rotate_point_item 4s linear 0.5s infinite normal none;
 }
 
 .career__title__cards__item__description__achievements__paragraph {
@@ -596,23 +676,22 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .career__title__cards__item__description__achievements__list__item::before {
   content: "";
-  display: inline-block;
-  height: 0;
+  height: 100%;
   width: 0;
-  border-radius: 50%;
-  border: 7px solid transparent;
-  border-top: 7px solid red;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 7px solid transparent;
-  margin-right: 10px;
-  -webkit-transform: rotateZ(0deg);
-          transform: rotateZ(0deg);
-  -webkit-animation: rotate_item_point 3.5s linear 1s infinite normal none;
-          animation: rotate_item_point 3.5s linear 1s infinite normal none;
+  border: 5px solid red;
+  margin: 0 10px;
+}
+
+.career__title__cards__item:hover
+.career__title__cards__item__description__achievements__list__item::before {
+  -webkit-animation: rotate_point_item 4s linear 0.5s infinite normal none;
+          animation: rotate_point_item 4s linear 0.5s infinite normal none;
 }
 /*# sourceMappingURL=style.css.map */

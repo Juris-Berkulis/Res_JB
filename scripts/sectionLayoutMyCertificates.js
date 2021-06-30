@@ -1,6 +1,6 @@
-var myPartClass = ['tests', 'main'];
-var masCountCertificatesInHtml = [1, 1];
-var masMyCertificates = [myCertificatesTests, myCertificatesMain];
+var myPartClass = ['tests', 'main', 'minor'];
+var masCountCertificatesInHtml = [1, 1, 1];
+var masMyCertificates = [myCertificatesTests, myCertificatesMain, myCertificatesMinor];
 
 for (var j = 1; j <= myPartClass.length; j++) {
     var divMyCertificatesCoin = document.querySelector('.my_certificates__cont__' + myPartClass[j - 1]);

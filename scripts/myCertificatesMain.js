@@ -1,3 +1,9 @@
+//* Первый сертификат свёрстан в файле "index.html":
+//* {
+//*     en: 'Сертификат. GeekBrains. Figma. Начальный уровень.en', 
+//*     ru: 'Сертификат. GeekBrains. Figma. Начальный уровень.ru'
+//* }, 
+
 var myCertificatesMain = [
     {
         en: 'Сертификат. GeekBrains. Python - вредные советы.en', 

@@ -1,3 +1,89 @@
+@-webkit-keyframes rotate_item_point {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    -webkit-transform: rotateZ(51.42857deg);
+            transform: rotateZ(51.42857deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    -webkit-transform: rotateZ(102.85714deg);
+            transform: rotateZ(102.85714deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    -webkit-transform: rotateZ(154.28571deg);
+            transform: rotateZ(154.28571deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    -webkit-transform: rotateZ(205.71429deg);
+            transform: rotateZ(205.71429deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    -webkit-transform: rotateZ(257.14286deg);
+            transform: rotateZ(257.14286deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    -webkit-transform: rotateZ(308.87143deg);
+            transform: rotateZ(308.87143deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
+}
+
+@keyframes rotate_item_point {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    -webkit-transform: rotateZ(51.42857deg);
+            transform: rotateZ(51.42857deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    -webkit-transform: rotateZ(102.85714deg);
+            transform: rotateZ(102.85714deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    -webkit-transform: rotateZ(154.28571deg);
+            transform: rotateZ(154.28571deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    -webkit-transform: rotateZ(205.71429deg);
+            transform: rotateZ(205.71429deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    -webkit-transform: rotateZ(257.14286deg);
+            transform: rotateZ(257.14286deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    -webkit-transform: rotateZ(308.87143deg);
+            transform: rotateZ(308.87143deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +96,20 @@ h2 {
   line-height: 24px;
   margin-bottom: 10px;
   text-align: center;
+  cursor: context-menu;
+}
+
+h2::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid #7c70ff;
+  display: block;
+  margin: 5px auto 0;
+}
+
+h2:hover::after {
+  content: "";
+  border-bottom: 2px solid #cfbe2d;
 }
 
 h3 {
@@ -388,5 +488,131 @@ p {
   left: 53px;
   content: "en";
   color: green;
+}
+
+.education {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3f2ff;
+}
+
+.education__cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education__cards__item__period {
+  width: 15%;
+  font-weight: 700;
+}
+
+.education__cards__item__where {
+  width: 80%;
+}
+
+.education__cards__item__where__institution {
+  font-weight: 700;
+}
+
+.career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.career__title__cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career__title__cards__item__period {
+  width: 15%;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description {
+  width: 80%;
+}
+
+.career__title__cards__item__description__position {
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__list {
+  margin-bottom: 10px;
+}
+
+.career__title__cards__item__description__responsibilities__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.career__title__cards__item__description__responsibilities__list__item::before {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin-right: 10px;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+  -webkit-animation: rotate_item_point 3.5s linear 1s infinite normal none;
+          animation: rotate_item_point 3.5s linear 1s infinite normal none;
+}
+
+.career__title__cards__item__description__achievements__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__achievements__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.career__title__cards__item__description__achievements__list__item::before {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin-right: 10px;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+  -webkit-animation: rotate_item_point 3.5s linear 1s infinite normal none;
+          animation: rotate_item_point 3.5s linear 1s infinite normal none;
 }
 /*# sourceMappingURL=style.css.map */

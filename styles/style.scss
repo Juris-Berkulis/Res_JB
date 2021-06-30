@@ -5,10 +5,62 @@ $color_bg__section_1: #f3f2ff;
 $color_bg__section_2: #fffcf5;
 $height__my_photo: 480px;
 $width__image__certificate: 150px;
+$width__period: 15%;
 
 @mixin text_font($fs: 16px, $lh: 20px) {
   font-size: $fs;
   line-height: $lh;
+}
+
+@mixin item_point {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin-right: 10px;
+  transform: rotateZ(0deg);
+  animation: rotate_item_point 3.5s linear 1s infinite normal none;
+}
+
+@keyframes rotate_item_point {
+  0% {
+    transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    transform: rotateZ(51.4285714deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    transform: rotateZ(102.857143deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    transform: rotateZ(154.285714deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    transform: rotateZ(205.714286deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    transform: rotateZ(257.142857deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    transform: rotateZ(308.871429deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
 }
 
 * {
@@ -22,6 +74,20 @@ h2 {
   line-height: 24px;
   margin-bottom: 10px;
   text-align: center;
+  cursor: context-menu;
+}
+
+h2::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid $color__link_text;
+  display: block;
+  margin: 5px auto 0;
+}
+
+h2:hover::after {
+  content: "";
+  border-bottom: 2px solid $color__link_hover;
 }
 
 h3 {
@@ -212,6 +278,7 @@ p {
 .my_certificates {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: $color_bg__section_2;
 }
 
 .my_certificates__cont__description {
@@ -352,4 +419,89 @@ p {
   left: 53px;
   content: "en";
   color: green;
+}
+
+.education {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_1;
+}
+
+.education__cards__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education__cards__item__period {
+  width: $width__period;
+  font-weight: 700;
+}
+
+.education__cards__item__where {
+  width: 100% - $width__period - 5%;
+}
+
+.education__cards__item__where__institution {
+  font-weight: 700;
+}
+
+.career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_2;
+}
+
+.career__title__cards__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.career__title__cards__item__period {
+  width: $width__period;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description {
+  width: 100% - $width__period - 5%;
+}
+
+.career__title__cards__item__description__position {
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__list {
+  margin-bottom: 10px;
+}
+
+.career__title__cards__item__description__responsibilities__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: flex;
+}
+
+.career__title__cards__item__description__responsibilities__list__item::before {
+  @include item_point;
+}
+
+.career__title__cards__item__description__achievements__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__achievements__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: flex;
+}
+
+.career__title__cards__item__description__achievements__list__item::before {
+  @include item_point;
 }

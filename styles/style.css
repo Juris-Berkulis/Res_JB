@@ -508,6 +508,24 @@ h2:hover + .career__line::after {
   cursor: pointer;
   -webkit-transition: background-color 0.5s linear 0.1s;
   transition: background-color 0.5s linear 0.1s;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear 0.01s;
+  transition: -webkit-transform 0.2s linear 0.01s;
+  transition: transform 0.2s linear 0.01s;
+  transition: transform 0.2s linear 0.01s, -webkit-transform 0.2s linear 0.01s;
+}
+
+.my_certificates__cont__tests__card:hover
+.my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card:hover
+.my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card:hover
+.my_certificates__cont__minor__card__spec__label {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked

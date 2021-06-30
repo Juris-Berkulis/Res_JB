@@ -414,6 +414,18 @@ h2:hover + .career__line::after {
   padding: 1px;
   cursor: pointer;
   transition: background-color 0.5s linear 0.1s;
+  transform-origin: top;
+  transform: scale(0);
+  transition: transform 0.2s linear 0.01s;
+}
+
+.my_certificates__cont__tests__card:hover
+  .my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card:hover
+  .my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card:hover
+  .my_certificates__cont__minor__card__spec__label {
+  transform: scale(1);
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked

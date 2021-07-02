@@ -133,6 +133,7 @@ h2 {
   margin-bottom: 3px;
   text-align: center;
   cursor: context-menu;
+  color: #9c271f;
 }
 
 h2::before,
@@ -408,6 +409,18 @@ h2:hover + .career__line::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.2s linear 0.1s;
+  transition: -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.my_skills__cont__technologies__item:hover {
+  background-color: #fcecd2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .my_skills__cont__technologies__item__img {
@@ -422,6 +435,7 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #fffcf5;
+  background: conic-gradient(at 0% 30%, red 7.14286%, orange 14.28571%, yellow 21.42857%, green 28.57143%, cyan 35.71428%, blue 42.85714%, blueviolet 50%);
 }
 
 .my_certificates__cont__description {
@@ -488,10 +502,33 @@ h2:hover + .career__line::after {
   width: 150px;
 }
 
+.my_certificates__cont__tests__card__spec__overlay__img:hover,
+.my_certificates__cont__main__card__spec__overlay__img:hover,
+.my_certificates__cont__minor__card__spec__overlay__img:hover {
+  position: relative;
+  bottom: 10px;
+}
+
 .my_certificates__cont__tests__card__spec__img,
 .my_certificates__cont__main__card__spec__img,
 .my_certificates__cont__minor__card__spec__img {
   width: 150px;
+}
+
+.my_certificates__cont__tests__card__spec__img:hover,
+.my_certificates__cont__main__card__spec__img:hover,
+.my_certificates__cont__minor__card__spec__img:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__img {
+  visibility: hidden;
 }
 
 .my_certificates__cont__tests__card__spec__label,
@@ -623,6 +660,7 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #fffcf5;
+  background: linear-gradient(45deg, rgba(252, 236, 210, 0.2) 50%, rgba(0, 186, 0, 0.2)), linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, rgba(252, 236, 210, 0.2));
 }
 
 .career__title__cards__item {

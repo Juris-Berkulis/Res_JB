@@ -98,6 +98,7 @@ h2 {
   margin-bottom: 3px;
   text-align: center;
   cursor: context-menu;
+  color: #9c271f;
 }
 
 h2::before,
@@ -318,6 +319,13 @@ h2:hover + .career__line::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(1);
+  transition: transform 0.2s linear 0.1s;
+}
+
+.my_skills__cont__technologies__item:hover {
+  background-color: $color__main;
+  transform: scale(1.2);
 }
 
 .my_skills__cont__technologies__item__img {
@@ -332,6 +340,16 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $color_bg__section_2;
+  background: conic-gradient(
+    at 0% 30%,
+    red 7.1428571%,
+    orange 14.285714%,
+    yellow 21.428571%,
+    green 28.571428%,
+    cyan 35.714285%,
+    blue 42.857142%,
+    blueviolet 50%
+  );
 }
 
 .my_certificates__cont__description {
@@ -395,10 +413,33 @@ h2:hover + .career__line::after {
   width: $width__image__certificate;
 }
 
+.my_certificates__cont__tests__card__spec__overlay__img:hover,
+.my_certificates__cont__main__card__spec__overlay__img:hover,
+.my_certificates__cont__minor__card__spec__overlay__img:hover {
+  position: relative;
+  bottom: 10px;
+}
+
 .my_certificates__cont__tests__card__spec__img,
 .my_certificates__cont__main__card__spec__img,
 .my_certificates__cont__minor__card__spec__img {
   width: $width__image__certificate;
+}
+
+.my_certificates__cont__tests__card__spec__img:hover,
+.my_certificates__cont__main__card__spec__img:hover,
+.my_certificates__cont__minor__card__spec__img:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__img {
+  visibility: hidden;
 }
 
 .my_certificates__cont__tests__card__spec__label,
@@ -516,6 +557,12 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $color_bg__section_2;
+  background: linear-gradient(
+      45deg,
+      rgba(252, 236, 210, 0.2) 50%,
+      rgba(0, 186, 0, 0.2)
+    ),
+    linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, rgba(252, 236, 210, 0.2));
 }
 
 .career__title__cards__item {

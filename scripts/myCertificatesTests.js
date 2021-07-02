@@ -30,6 +30,10 @@ var myCertificatesTests = [
         ru: 'Сертификат. GeekBrains. Тест по HTML5&CSS3.ru'
     }, 
     {
+        en: 'Сертификат. GeekBrains. Тест по JavaScript. Начальный уровень.en', 
+        ru: 'Сертификат. GeekBrains. Тест по JavaScript. Начальный уровень.ru'
+    }, 
+    {
         en: 'Сертификат. GeekBrains. Тест по Python. Начальный уровень.en', 
         ru: 'Сертификат. GeekBrains. Тест по Python. Начальный уровень.ru'
     }, 
@@ -52,6 +56,10 @@ var myCertificatesTests = [
     {
         en: 'Сертификат. GeekBrains. Тест по Основам программирования. Начальный уровень.en', 
         ru: 'Сертификат. GeekBrains. Тест по Основам программирования. Начальный уровень.ru'
+    }, 
+    {
+        en: 'Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.en', 
+        ru: 'Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.ru'
     }, 
     {
         en: 'Сертификат. GeekBrains. Тест по Охота на уток на чистом HTML и CSS.en', 

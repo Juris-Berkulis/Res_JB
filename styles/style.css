@@ -127,6 +127,43 @@
           box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-button {
+  width: 12px;
+  background-color: #7c70ff;
+}
+
+body:hover::-webkit-scrollbar-button {
+  background-color: #fcecd2;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+body:hover::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  background-color: #7c70ff;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #fcecd2;
+}
+
 h2 {
   font-size: 24px;
   line-height: 24px;
@@ -462,14 +499,20 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec,
 .my_certificates__cont__main__card__spec,
-.my_certificates__cont__minor__card__spec {
+.my_certificates__cont__minor__card__spec,
+.my_certificates__big__spec {
   position: relative;
   line-height: 0;
 }
 
+.my_certificates__big__spec {
+  background-color: #7c70ff;
+}
+
 .my_certificates__cont__tests__card__spec__checkbox,
 .my_certificates__cont__main__card__spec__checkbox,
-.my_certificates__cont__minor__card__spec__checkbox {
+.my_certificates__cont__minor__card__spec__checkbox,
+.my_certificates__big__spec__checkbox {
   position: absolute;
   top: 0;
   left: -500vw;
@@ -477,7 +520,8 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec__overlay,
 .my_certificates__cont__main__card__spec__overlay,
-.my_certificates__cont__minor__card__spec__overlay {
+.my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__overlay {
   display: none;
 }
 
@@ -486,7 +530,9 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
 ~ .my_certificates__cont__main__card__spec__overlay,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-~ .my_certificates__cont__minor__card__spec__overlay {
+~ .my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__overlay {
   display: block;
   position: absolute;
   top: 0;
@@ -533,7 +579,8 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card__spec__label,
-.my_certificates__cont__minor__card__spec__label {
+.my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__label {
   position: relative;
   left: 25px;
   display: block;
@@ -555,12 +602,17 @@ h2:hover + .career__line::after {
   transition: transform 0.2s linear 0.01s, -webkit-transform 0.2s linear 0.01s;
 }
 
+.my_certificates__big__spec__label {
+  bottom: 30px;
+}
+
 .my_certificates__cont__tests__card:hover
 .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card:hover
 .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card:hover
-.my_certificates__cont__minor__card__spec__label {
+.my_certificates__cont__minor__card__spec__label,
+.my_certificates__big:hover .my_certificates__big__spec__label {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -570,13 +622,16 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
 ~ .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-~ .my_certificates__cont__minor__card__spec__label {
+~ .my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label {
   background-color: green;
 }
 
 .my_certificates__cont__tests__card__spec__label::before,
 .my_certificates__cont__main__card__spec__label::before,
-.my_certificates__cont__minor__card__spec__label::before {
+.my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__label::before {
   position: absolute;
   left: 0;
   content: "";
@@ -596,13 +651,16 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
 ~ .my_certificates__cont__main__card__spec__label::before,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-~ .my_certificates__cont__minor__card__spec__label::before {
+~ .my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label::before {
   left: 26px;
 }
 
 .my_certificates__cont__tests__card__spec__label::after,
 .my_certificates__cont__main__card__spec__label::after,
-.my_certificates__cont__minor__card__spec__label::after {
+.my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__label::after {
   position: absolute;
   top: 12px;
   left: -15px;
@@ -617,12 +675,65 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
 ~ .my_certificates__cont__main__card__spec__label::after,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-~ .my_certificates__cont__minor__card__spec__label::after {
+~ .my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label::after {
   position: absolute;
   top: 12px;
   left: 53px;
   content: "en";
   color: green;
+}
+
+.my_certificates__big {
+  position: fixed;
+  top: 2vh;
+  left: 20vw;
+  z-index: 2;
+}
+
+.my_certificates__big__btn {
+  display: block;
+  width: 5vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.my_certificates__big__btn:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+  color: #cfbe2d;
+}
+
+.my_certificates__big__btn-back {
+  left: -5vw;
+  background: radial-gradient(ellipse farthest-side at 100% 50%, rgba(252, 236, 210, 0.2), rgba(30, 144, 255, 0.5) 50%, transparent);
+}
+
+.my_certificates__big__btn-back:hover {
+  background: radial-gradient(ellipse farthest-side at 100% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+}
+
+.my_certificates__big__btn-next {
+  right: -5vw;
+  background: radial-gradient(ellipse farthest-side at 0% 50%, rgba(252, 236, 210, 0.2), rgba(30, 144, 255, 0.5) 50%, transparent);
+}
+
+.my_certificates__big__btn-next:hover {
+  background: radial-gradient(ellipse farthest-side at 0% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+}
+
+.my_certificates__big__spec__overlay__img {
+  width: 60vw;
+}
+
+.my_certificates__big__spec__img {
+  width: 60vw;
 }
 
 .education {

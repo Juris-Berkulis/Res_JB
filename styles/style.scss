@@ -1,4 +1,5 @@
 $color__main: #fcecd2;
+$color__main_trasparent: rgba(252, 236, 210, 0.2);
 $color__link_hover: #cfbe2d;
 $color__link_text: #7c70ff;
 $color_bg__section_1: #f3f2ff;
@@ -90,6 +91,39 @@ $animation_point_item: rotate_point_item 4s linear 0.5s infinite normal none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-button {
+  width: 12px;
+  background-color: $color__link_text;
+}
+
+body:hover::-webkit-scrollbar-button {
+  background-color: $color__main;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+body:hover::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  background-color: $color__link_text;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: $color__main;
 }
 
 h2 {
@@ -372,14 +406,20 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec,
 .my_certificates__cont__main__card__spec,
-.my_certificates__cont__minor__card__spec {
+.my_certificates__cont__minor__card__spec,
+.my_certificates__big__spec {
   position: relative;
   line-height: 0;
 }
 
+.my_certificates__big__spec {
+  background-color: $color__link_text;
+}
+
 .my_certificates__cont__tests__card__spec__checkbox,
 .my_certificates__cont__main__card__spec__checkbox,
-.my_certificates__cont__minor__card__spec__checkbox {
+.my_certificates__cont__minor__card__spec__checkbox,
+.my_certificates__big__spec__checkbox {
   position: absolute;
   top: 0;
   left: -500vw;
@@ -387,7 +427,8 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec__overlay,
 .my_certificates__cont__main__card__spec__overlay,
-.my_certificates__cont__minor__card__spec__overlay {
+.my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__overlay {
   display: none;
 }
 
@@ -396,7 +437,9 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
   ~ .my_certificates__cont__main__card__spec__overlay,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-  ~ .my_certificates__cont__minor__card__spec__overlay {
+  ~ .my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__overlay {
   display: block;
   position: absolute;
   top: 0;
@@ -444,7 +487,8 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card__spec__label,
-.my_certificates__cont__minor__card__spec__label {
+.my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__label {
   position: relative;
   left: 25px;
   display: block;
@@ -460,12 +504,17 @@ h2:hover + .career__line::after {
   transition: transform 0.2s linear 0.01s;
 }
 
+.my_certificates__big__spec__label {
+  bottom: 30px;
+}
+
 .my_certificates__cont__tests__card:hover
   .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card:hover
   .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card:hover
-  .my_certificates__cont__minor__card__spec__label {
+  .my_certificates__cont__minor__card__spec__label,
+.my_certificates__big:hover .my_certificates__big__spec__label {
   transform: scale(1);
 }
 
@@ -474,13 +523,16 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
   ~ .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-  ~ .my_certificates__cont__minor__card__spec__label {
+  ~ .my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label {
   background-color: green;
 }
 
 .my_certificates__cont__tests__card__spec__label::before,
 .my_certificates__cont__main__card__spec__label::before,
-.my_certificates__cont__minor__card__spec__label::before {
+.my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__label::before {
   position: absolute;
   left: 0;
   content: "";
@@ -499,13 +551,16 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
   ~ .my_certificates__cont__main__card__spec__label::before,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-  ~ .my_certificates__cont__minor__card__spec__label::before {
+  ~ .my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label::before {
   left: 26px;
 }
 
 .my_certificates__cont__tests__card__spec__label::after,
 .my_certificates__cont__main__card__spec__label::after,
-.my_certificates__cont__minor__card__spec__label::after {
+.my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__label::after {
   position: absolute;
   top: 12px;
   left: -15px;
@@ -519,12 +574,85 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__checkbox:checked
   ~ .my_certificates__cont__main__card__spec__label::after,
 .my_certificates__cont__minor__card__spec__checkbox:checked
-  ~ .my_certificates__cont__minor__card__spec__label::after {
+  ~ .my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label::after {
   position: absolute;
   top: 12px;
   left: 53px;
   content: "en";
   color: green;
+}
+
+.my_certificates__big {
+  position: fixed;
+  top: 2vh;
+  left: 20vw;
+  z-index: 2;
+}
+
+.my_certificates__big__btn {
+  display: block;
+  width: 5vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.my_certificates__big__btn:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+  color: $color__link_hover;
+}
+
+.my_certificates__big__btn-back {
+  left: -5vw;
+  background: radial-gradient(
+    ellipse farthest-side at 100% 50%,
+    $color__main_trasparent,
+    rgba(30, 144, 255, 0.5) 50%,
+    transparent
+  );
+}
+
+.my_certificates__big__btn-back:hover {
+  background: radial-gradient(
+    ellipse farthest-side at 100% 50%,
+    $color__link_text,
+    rgba(30, 144, 255, 1) 50%,
+    rgba(239, 239, 239, 0.8)
+  );
+}
+
+.my_certificates__big__btn-next {
+  right: -5vw;
+  background: radial-gradient(
+    ellipse farthest-side at 0% 50%,
+    $color__main_trasparent,
+    rgba(30, 144, 255, 0.5) 50%,
+    transparent
+  );
+}
+
+.my_certificates__big__btn-next:hover {
+  background: radial-gradient(
+    ellipse farthest-side at 0% 50%,
+    $color__link_text,
+    rgba(30, 144, 255, 1) 50%,
+    rgba(239, 239, 239, 0.8)
+  );
+}
+
+.my_certificates__big__spec__overlay__img {
+  width: 60vw;
+}
+
+.my_certificates__big__spec__img {
+  width: 60vw;
 }
 
 .education {
@@ -559,10 +687,10 @@ h2:hover + .career__line::after {
   background-color: $color_bg__section_2;
   background: linear-gradient(
       45deg,
-      rgba(252, 236, 210, 0.2) 50%,
+      $color__main_trasparent 50%,
       rgba(0, 186, 0, 0.2)
     ),
-    linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, rgba(252, 236, 210, 0.2));
+    linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, $color__main_trasparent);
 }
 
 .career__title__cards__item {

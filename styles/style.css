@@ -128,11 +128,11 @@
 }
 
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 14px;
 }
 
 body::-webkit-scrollbar-button {
-  width: 12px;
+  width: 14px;
   background-color: #7c70ff;
 }
 
@@ -143,12 +143,14 @@ body:hover::-webkit-scrollbar-button {
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
           box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: rgba(124, 112, 255, 0.6);
   border-radius: 10px;
 }
 
 body:hover::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
           box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(252, 236, 210, 0.6);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -497,6 +499,15 @@ h2:hover + .career__line::after {
   margin: 10px;
 }
 
+.my_certificates__cont__tests__card:hover,
+.my_certificates__cont__main__card:hover,
+.my_certificates__cont__minor__card:hover {
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
 .my_certificates__cont__tests__card__spec,
 .my_certificates__cont__main__card__spec,
 .my_certificates__cont__minor__card__spec,
@@ -548,24 +559,10 @@ h2:hover + .career__line::after {
   width: 150px;
 }
 
-.my_certificates__cont__tests__card__spec__overlay__img:hover,
-.my_certificates__cont__main__card__spec__overlay__img:hover,
-.my_certificates__cont__minor__card__spec__overlay__img:hover {
-  position: relative;
-  bottom: 10px;
-}
-
 .my_certificates__cont__tests__card__spec__img,
 .my_certificates__cont__main__card__spec__img,
 .my_certificates__cont__minor__card__spec__img {
   width: 150px;
-}
-
-.my_certificates__cont__tests__card__spec__img:hover,
-.my_certificates__cont__main__card__spec__img:hover,
-.my_certificates__cont__minor__card__spec__img:hover {
-  position: relative;
-  bottom: 10px;
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked
@@ -615,6 +612,8 @@ h2:hover + .career__line::after {
 .my_certificates__big:hover .my_certificates__big__spec__label {
   -webkit-transform: scale(1);
           transform: scale(1);
+  position: relative;
+  top: 10px;
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked

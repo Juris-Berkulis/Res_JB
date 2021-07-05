@@ -1,10 +1,22 @@
 //* Первый сертификат свёрстан в файле "index.html":
-//* {
-//*     en: 'Сертификат. GeekBrains. Figma. Начальный уровень.en', 
-//*     ru: 'Сертификат. GeekBrains. Figma. Начальный уровень.ru'
-//* }, 
 
 var myCertificatesMain = [
+    {
+        en: 'Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02', 
+        ru: ''
+    }, 
+    {
+        en: '', 
+        ru: 'Сертификат. Level Up. Основы программирования на языке Python. Уровень 1'
+    }, 
+    {
+        en: '', 
+        ru: 'Сертификат. Level Up. Основы программирования на языке Python. Уровень 2'
+    }, 
+    {
+        en: 'Сертификат. GeekBrains. Figma. Начальный уровень.en', 
+        ru: 'Сертификат. GeekBrains. Figma. Начальный уровень.ru'
+    }, 
     {
         en: 'Сертификат. GeekBrains. Python - вредные советы.en', 
         ru: 'Сертификат. GeekBrains. Python - вредные советы.ru'

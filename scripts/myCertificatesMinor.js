@@ -1,10 +1,10 @@
 //* Первый сертификат свёрстан в файле "index.html":
-//* {
-//*     en: 'Сертификат. GeekBrains. Big Data в действии.en', 
-//*     ru: 'Сертификат. GeekBrains. Big Data в действии.ru'
-//* }, 
 
 var myCertificatesMinor = [
+    {
+        en: 'Сертификат. GeekBrains. Big Data в действии.en', 
+        ru: 'Сертификат. GeekBrains. Big Data в действии.ru'
+    }, 
     {
         en: 'Сертификат. GeekBrains. Java для начинающих.en', 
         ru: 'Сертификат. GeekBrains. Java для начинающих.ru'

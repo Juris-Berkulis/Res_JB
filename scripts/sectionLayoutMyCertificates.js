@@ -12,10 +12,6 @@ for (var j = 1; j <= myPartClass.length; j++) {
         
         var divMyCertificatesContCardSpec = document.createElement('div');
         divMyCertificatesContCardSpec.setAttribute('class', 'my_certificates__cont__' + myPartClass[j - 1] + '__card__spec');
-
-        console.log(j, i, !(myCertificates[i - countCertificatesInHtml - 1].en == '') && !(myCertificates[i - countCertificatesInHtml - 1].ru == ''));
-        console.log(j, i, !(myCertificates[i - countCertificatesInHtml - 1].en == ''));
-        console.log(j, i, !(myCertificates[i - countCertificatesInHtml - 1].ru == ''));
         
         if (!(myCertificates[i - countCertificatesInHtml - 1].en == '') && !(myCertificates[i - countCertificatesInHtml - 1].ru == '')) {
             var inputMyCertificatesContCardSpecCheckbox = document.createElement('input');
@@ -30,6 +26,8 @@ for (var j = 1; j <= myPartClass.length; j++) {
             imgMyCertificatesContCardSpecOverlayImg.setAttribute('class', 'my_certificates__cont__' + myPartClass[j - 1] + '__card__spec__overlay__img');
             imgMyCertificatesContCardSpecOverlayImg.setAttribute('src', 'img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + myCertificates[i - countCertificatesInHtml - 1].en + '.jpg');
             imgMyCertificatesContCardSpecOverlayImg.setAttribute('alt', myCertificates[i - countCertificatesInHtml - 1].en);
+            imgMyCertificatesContCardSpecOverlayImg.setAttribute('id', j + '_' + i + '_en');
+            imgMyCertificatesContCardSpecOverlayImg.onclick = enlargeImg;
             imgMyCertificatesContCardSpecOverlayImg.setAttribute('width', '50');
 
             var labelMyCertificatesContCardSpecLabel = document.createElement('label');
@@ -43,10 +41,14 @@ for (var j = 1; j <= myPartClass.length; j++) {
         if (!(myCertificates[i - countCertificatesInHtml - 1].ru == '')) {
             imgMyCertificatesContCardSpecImg.setAttribute('src', 'img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + myCertificates[i - countCertificatesInHtml - 1].ru + '.jpg');
             imgMyCertificatesContCardSpecImg.setAttribute('alt', myCertificates[i - countCertificatesInHtml - 1].ru);
+            imgMyCertificatesContCardSpecImg.setAttribute('id', j + '_' + i + '_ru');
+            imgMyCertificatesContCardSpecImg.onclick = enlargeImg;
         }
         else {
             imgMyCertificatesContCardSpecImg.setAttribute('src', 'img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + myCertificates[i - countCertificatesInHtml - 1].en + '.jpg');
             imgMyCertificatesContCardSpecImg.setAttribute('alt', myCertificates[i - countCertificatesInHtml - 1].en);
+            imgMyCertificatesContCardSpecImg.setAttribute('id', j + '_' + i + '_en');
+            imgMyCertificatesContCardSpecImg.onclick = enlargeImg;
         }
 
         imgMyCertificatesContCardSpecImg.setAttribute('width', '50');

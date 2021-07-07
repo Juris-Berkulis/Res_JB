@@ -30,6 +30,10 @@ $animation__point_item: rotate_point_item 4s linear 0.5s infinite normal none;
   animation: rotate_item_point 1s linear 1s infinite none;
 }
 
+@mixin transform__when_card_hover__for_label {
+  transform: scale(1);
+}
+
 @mixin point_item {
   content: "";
   height: 100%;
@@ -505,14 +509,17 @@ h2:hover + .career__line::after {
   bottom: 30px;
 }
 
+.my_certificates__big:hover .my_certificates__big__spec__label {
+  @include transform__when_card_hover__for_label;
+}
+
 .my_certificates__cont__tests__card:hover
   .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card:hover
   .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card:hover
-  .my_certificates__cont__minor__card__spec__label,
-.my_certificates__big:hover .my_certificates__big__spec__label {
-  transform: scale(1);
+  .my_certificates__cont__minor__card__spec__label {
+  @include transform__when_card_hover__for_label;
   position: relative;
   top: $action__card_certificates_up;
 }
@@ -588,6 +595,7 @@ h2:hover + .career__line::after {
   top: 2vh;
   left: 20vw;
   z-index: 2;
+  display: none;
 }
 
 .my_certificates__big__btn {

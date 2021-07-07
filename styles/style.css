@@ -603,13 +603,17 @@ h2:hover + .career__line::after {
   bottom: 30px;
 }
 
+.my_certificates__big:hover .my_certificates__big__spec__label {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .my_certificates__cont__tests__card:hover
 .my_certificates__cont__tests__card__spec__label,
 .my_certificates__cont__main__card:hover
 .my_certificates__cont__main__card__spec__label,
 .my_certificates__cont__minor__card:hover
-.my_certificates__cont__minor__card__spec__label,
-.my_certificates__big:hover .my_certificates__big__spec__label {
+.my_certificates__cont__minor__card__spec__label {
   -webkit-transform: scale(1);
           transform: scale(1);
   position: relative;
@@ -689,6 +693,7 @@ h2:hover + .career__line::after {
   top: 2vh;
   left: 20vw;
   z-index: 2;
+  display: none;
 }
 
 .my_certificates__big__btn {

@@ -740,6 +740,38 @@ h2:hover + .career__line::after {
   width: 60vw;
 }
 
+.my_certificates__big__close_big_certificate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  font-size: 40px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.my_certificates__big__spec:hover
+~ .my_certificates__big__close_big_certificate,
+.my_certificates__big__spec:hover
+~ .my_certificates__big__close_big_certificate {
+  color: #7c70ff;
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.my_certificates__big__close_big_certificate:hover {
+  color: #cfbe2d;
+  background-color: rgba(133, 133, 133, 0.8);
+}
+
+.my_certificates__big__close_big_certificate__cross {
+  display: block;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
 .education {
   padding-top: 20px;
   padding-bottom: 20px;

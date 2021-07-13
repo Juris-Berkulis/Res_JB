@@ -430,6 +430,7 @@ h2:hover + .career__line::after {
 
 .my_certificates__big__spec {
   background-color: $color__link_text;
+  //* padding-bottom: управление идёт в файле "bigCertificate.js";
 }
 
 .my_certificates__cont__tests__card__spec__checkbox,
@@ -469,12 +470,14 @@ h2:hover + .career__line::after {
 .my_certificates__cont__main__card__spec__overlay__img,
 .my_certificates__cont__minor__card__spec__overlay__img {
   width: $width__image__certificate;
+  cursor: zoom-in;
 }
 
 .my_certificates__cont__tests__card__spec__img,
 .my_certificates__cont__main__card__spec__img,
 .my_certificates__cont__minor__card__spec__img {
   width: $width__image__certificate;
+  cursor: zoom-in;
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked
@@ -506,7 +509,8 @@ h2:hover + .career__line::after {
 }
 
 .my_certificates__big__spec__label {
-  bottom: 30px;
+  margin-top: 3px;
+  //* bottom: 30px - Возможно, так менее красиво;
 }
 
 .my_certificates__big:hover .my_certificates__big__spec__label {
@@ -609,6 +613,7 @@ h2:hover + .career__line::after {
   background-color: transparent;
   border: none;
   color: transparent;
+  cursor: pointer;
 }
 
 .my_certificates__big__btn:hover {
@@ -673,6 +678,7 @@ h2:hover + .career__line::after {
   line-height: 40px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 .my_certificates__big__spec:hover

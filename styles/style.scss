@@ -1,9 +1,10 @@
 $color__main: #fcecd2;
 $color__main_trasparent: rgba(252, 236, 210, 0.2);
-$color__link_hover: #cfbe2d;
+$color__link_hover: #d69200;
 $color__link_text: #7c70ff;
 $color_bg__section_1: #f3f2ff;
 $color_bg__section_2: #fffcf5;
+$transition__time__my_project_title: 0.1s linear 0.01s;
 $color_bg__line: #39e295;
 $incline_bg_color__line: 85deg;
 $height__my_photo: 480px;
@@ -34,6 +35,12 @@ $stars__color: yellow 1px, white 1.2px, transparent 1.6px;
   border-left: 7px solid transparent;
   margin: 0 10px;
   animation: rotate_item_point 1s linear 1s infinite none;
+}
+
+@mixin my_project__title__font {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  @include text_font(20px, 20px);
 }
 
 @mixin transform__when_card_hover__for_label {
@@ -356,26 +363,93 @@ h2:hover + .career__line::after {
     );
 }
 
-.my_projects__cont__menu {
-  list-style-type: none;
+.my_projects__cont__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.my_projects__cont__menu__item {
-  @include text_font(24px, 28px);
+.my_projects__cont__projects__item {
+  width: 300px;
+  margin: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #add8e6aa;
+  box-shadow: 5px 5px 2px 1px #00000033;
 }
 
-.my_projects__cont__menu__item__link {
-  text-decoration: none;
+.my_projects__cont__projects__item:hover {
+  background-color: #add8e6dd;
+  box-shadow: 5px 5px 2px 1px #00000055;
+}
+
+.my_projects__cont__projects__item__top_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_projects__cont__projects__item__top_part__category {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__top_part__site_title {
+  text-align: center;
+  @include my_project__title__font;
+  text-shadow: 0 0 0px #5588bb;
+  transform: scale(1);
+  transition: text-shadow $transition__time__my_project_title,
+    transform $transition__time__my_project_title;
+}
+
+.my_projects__cont__projects__item__top_part__site_title:hover {
+  text-shadow: 1px 1px 0px #5588bb;
+  transform: scale(1.2);
+}
+
+.my_projects__cont__projects__item__top_part__site_title__link {
   color: $color__link_text;
+  text-decoration: none;
+  transition: color $transition__time__my_project_title;
 }
 
-.my_projects__cont__menu__item__link:hover {
-  text-decoration: underline;
+.my_projects__cont__projects__item__top_part__site_title__link:hover {
   color: $color__link_hover;
 }
 
-.my_projects__cont__menu__item-duck_hunt {
-  font-weight: 700;
+.my_projects__cont__projects__item__top_part__site_title__spare {
+  text-align: center;
+  @include my_project__title__font;
+}
+
+.my_projects__cont__projects__item__top_part__paragraph {
+  text-align: center;
+  font-weight: 400;
+}
+
+.my_projects__cont__projects__item__technologies {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 300;
+}
+
+.my_projects__cont__projects__item__GitHub {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__GitHub__link {
+  color: $color__link_text;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color $transition__time__my_project_title;
+}
+
+.my_projects__cont__projects__item__GitHub__link:hover {
+  color: $color__link_hover;
 }
 
 .my_skills {

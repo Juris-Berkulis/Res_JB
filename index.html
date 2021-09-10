@@ -17,6 +17,9 @@
     <script src="scripts/sectionLayoutMyCertificates.js" defer></script>
     <script src="scripts/closeBigCertificate.js" defer></script>
     <script src="scripts/flipBigCertificate.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14" defer></script>
+    <script src="scripts/vueComponentMyProjects.js" defer></script>
+    <script src="scripts/vueMain.js" defer></script>
     <title>Резюме Юрий Беркуль</title>
 </head>
 <body>
@@ -34,7 +37,7 @@
             </nav>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="main">
         <section class="main__contacts_and_about_me center">
             <h1 class="main__contacts_and_about_me__vacancy">Frontend-разработчик</h1>
             <p class="main__contacts_and_about_me__name">Беркуль Юрий Эдуардович</p>
@@ -73,31 +76,30 @@
             </div>
         </section>
         <section class="my_projects center">
+            <myprojectslist></myprojectslist>
+            <!--* Ниже приведён пример получающегося html-кода, а вся секция свёрстана при помощи vue.js-кода в vue.js-файле "vueComponentMyProjects.js" под управлением vue.js-файла "vueMain.js":
             <div class="my_projects__cont">
                 <a class="my_projects__cont__anchor anchor" name="my_projects" href="#"></a>
                 <h2 class="my_projects__cont__title">Мои проекты</h2>
                 <div class="career__line"></div>
-                <menu class="my_projects__cont__menu">
-                    <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_0902/">New Automation</a> на html и css;
-                    </li>
-                    <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204/">Simple</a> на html и css;
-                    </li>
-                    <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_1204_Second_Layout/">Waxom</a> на html и css;
-                    </li>
-                    <li class="my_projects__cont__menu__item my_projects__cont__menu__item-duck_hunt">Игра 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Duck_hunt/">Duck hunt</a> на чистых html и css (без JavaScript и прочего);
-                    </li>
-                    <li class="my_projects__cont__menu__item">Тренировочный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html">Burger menu</a> на html, css и JavaScript;
-                    </li>
-                    <li class="my_projects__cont__menu__item">Учебный проект 
-                        <a class="my_projects__cont__menu__item__link" target="_blank" href="https://juris-berkulis.github.io/GB_0106_JS_L1_HW/">Home Work. JS - Level 1</a> на JavaScript.
-                    </li>
-                </menu>
+                <div class="my_projects__cont__projects">
+                    <div class="my_projects__cont__projects__item">
+                        <div class="my_projects__cont__projects__item__top_part">
+                            <p class="my_projects__cont__projects__item__top_part__category">{{ projectItem.category }}</p>
+                            <p class="my_projects__cont__projects__item__top_part__site_title" v-if="projectItem.hrefSite">
+                                <a class="my_projects__cont__projects__item__top_part__site_title__link" target="_blank" :href="projectItem.hrefSite">{{ projectItem.title }}</a>
+                            </p>
+                            <p class="my_projects__cont__projects__item__top_part__site_title__spare" v-else="projectItem.hrefSite">{{ projectItem.title }}</p>
+                            <p class="my_projects__cont__projects__item__top_part__paragraph">Используемые технологии:</p>
+                        </div>
+                        <p class="my_projects__cont__projects__item__technologies">{{ projectItem.technologies }}</p>
+                        <p class="my_projects__cont__projects__item__GitHub">Проект на 
+                            <a class="my_projects__cont__projects__item__GitHub__link" target="_blank" :href="projectItem.hrefGitHub">GitHub</a>
+                        </p>
+                    </div>
+                </div>
             </div>
+            -->
         </section>
         <section class="my_skills center">
             <div class="my_skills__cont">

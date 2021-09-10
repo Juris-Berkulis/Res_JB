@@ -173,6 +173,8 @@ h2 {
   text-align: center;
   cursor: context-menu;
   color: #9c271f;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 }
 
 h2::before,
@@ -206,12 +208,16 @@ h3 {
   line-height: 20px;
   margin-bottom: 10px;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 
 p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 24px;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .center {
@@ -241,6 +247,9 @@ p {
   font-size: 36px;
   line-height: 36px;
   margin: 0;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .header__cont__navi {
@@ -258,6 +267,8 @@ p {
   text-decoration: none;
   font-size: 20px;
   line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 
 .header__cont__navi__link:hover {
@@ -275,6 +286,8 @@ p {
   font-size: 30px;
   line-height: 30px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .main__contacts_and_about_me__name {
@@ -360,11 +373,14 @@ h2:hover + .career__line::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 .main__contacts_and_about_me__cont__info__action__communication {
+  margin: 5px 0;
   text-decoration: none;
   color: #7c70ff;
   background-color: #fcecd2;
@@ -373,6 +389,8 @@ h2:hover + .career__line::after {
   font-size: 16px;
   line-height: 16px;
   border: 2px solid #7c70ff;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
   -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
   transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
   transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
@@ -396,6 +414,7 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #fffcf5;
+  background: conic-gradient(at 0% 100%, #ff000022 0 85deg, #39e295 85deg 0.25turn, #ff000022 0.25turn 1turn), conic-gradient(at 0% 100%, transparent 0 85deg, #1199ff 85deg 0.25turn, transparent 0.25turn 1turn);
 }
 
 .my_projects__cont__menu {
@@ -425,6 +444,8 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f3f2ff;
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 24% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 5% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 59% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 32% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 25%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 79%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 4%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 32% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 84% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 27%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 33%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 29% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 17%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 24% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 5% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 59% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 32% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 25%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 79%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 94% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 4%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 32% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 84% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 27%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 33%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 29% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 17%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
 }
 
 .my_skills__cont__technologies {
@@ -439,12 +460,17 @@ h2:hover + .career__line::after {
 
 .my_skills__cont__technologies__item {
   margin: 10px;
+  padding: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -457,17 +483,21 @@ h2:hover + .career__line::after {
 }
 
 .my_skills__cont__technologies__item:hover {
-  background-color: #fcecd2;
+  background-color: rgba(252, 236, 210, 0.2);
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 .my_skills__cont__technologies__item__img {
   width: 125px;
+  margin-bottom: 5px;
 }
 
 .my_skills__cont__technologies__item__description {
-  display: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0;
 }
 
 .my_certificates {
@@ -782,6 +812,7 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f3f2ff;
+  background: linear-gradient(45deg, #ff990022 50%, #eb23ff22), linear-gradient(-45deg, #eb23ff22 50%, #ff990022);
 }
 
 .education__cards__item {
@@ -812,8 +843,10 @@ h2:hover + .career__line::after {
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #fffcf5;
-  background: linear-gradient(45deg, rgba(252, 236, 210, 0.2) 50%, rgba(0, 186, 0, 0.2)), linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, rgba(252, 236, 210, 0.2));
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #0066ff22;
+  background: linear-gradient(0deg, #ff000022, transparent 66.67%), linear-gradient(120deg, #00ff0022, transparent 66.67%), linear-gradient(240deg, #0000ff22, transparent 66.67%);
 }
 
 .career__title__cards__item {
@@ -902,5 +935,81 @@ h2:hover + .career__line::after {
 .career__title__cards__item__description__achievements__list__item::before {
   -webkit-animation: rotate_point_item 4s linear 0.5s infinite normal none;
           animation: rotate_point_item 4s linear 0.5s infinite normal none;
+}
+
+.footer {
+  background-color: #00ff0022;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__info__name {
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  white-space: nowrap;
+  color: #00000088;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.footer__info__panel {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__info__panel__btn {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #7c70ff;
+  background-color: #fcecd2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 2px solid #7c70ff;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.footer__info__panel__btn:hover {
+  color: #fcecd2;
+  background-color: #7c70ff;
+  border: 2px solid transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer__info__panel__btn:active {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 1240px) {
+  .center {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

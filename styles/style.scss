@@ -4,13 +4,19 @@ $color__link_hover: #cfbe2d;
 $color__link_text: #7c70ff;
 $color_bg__section_1: #f3f2ff;
 $color_bg__section_2: #fffcf5;
+$color_bg__line: #39e295;
+$incline_bg_color__line: 85deg;
 $height__my_photo: 480px;
 $action__card_certificates_up: 10px;
 $width__image__certificate: 150px;
 $width__period: 15%;
 $animation__point_item: rotate_point_item 4s linear 0.5s infinite normal none;
+$color_bg__sky: #1199ff;
+$stars__controlling_spread__initial_value: 1;
+$stars__controlling_spread__scatter: 98;
+$stars__color: yellow 1px, white 1.2px, transparent 1.6px;
 
-@mixin text_font($fs: 16px, $lh: 20px) {
+@mixin text_font($fs: 20px, $lh: 24px) {
   font-size: $fs;
   line-height: $lh;
 }
@@ -140,6 +146,8 @@ h2 {
   text-align: center;
   cursor: context-menu;
   color: #9c271f;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 }
 
 h2::before,
@@ -160,11 +168,15 @@ h3 {
   line-height: 20px;
   margin-bottom: 10px;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 
 p {
   @include text_font;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .center {
@@ -188,6 +200,9 @@ p {
   font-size: 36px;
   line-height: 36px;
   margin: 0;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .header__cont__navi {
@@ -201,6 +216,8 @@ p {
   text-decoration: none;
   font-size: 20px;
   line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 
 .header__cont__navi__link:hover {
@@ -218,6 +235,8 @@ p {
   font-size: 30px;
   line-height: 30px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .main__contacts_and_about_me__name {
@@ -288,10 +307,12 @@ h2:hover + .career__line::after {
 
 .main__contacts_and_about_me__cont__info__action {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .main__contacts_and_about_me__cont__info__action__communication {
+  margin: 5px 0;
   text-decoration: none;
   color: $color__link_text;
   background-color: $color__main;
@@ -299,6 +320,8 @@ h2:hover + .career__line::after {
   border-radius: 20px;
   @include text_font(16px, 16px);
   border: 2px solid $color__link_text;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
   transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s,
     background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
 }
@@ -319,6 +342,18 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $color_bg__section_2;
+  background: conic-gradient(
+      at 0% 100%,
+      #ff000022 0 $incline_bg_color__line,
+      $color_bg__line $incline_bg_color__line 0.25turn,
+      #ff000022 0.25turn 1turn
+    ),
+    conic-gradient(
+      at 0% 100%,
+      transparent 0 $incline_bg_color__line,
+      $color_bg__sky $incline_bg_color__line 0.25turn,
+      transparent 0.25turn 1turn
+    );
 }
 
 .my_projects__cont__menu {
@@ -347,6 +382,1177 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $color_bg__section_1;
+  background: conic-gradient(
+      at 100% 0%,
+      transparent 0 (180deg + $incline_bg_color__line),
+      $color_bg__line (180deg + $incline_bg_color__line) 0.75turn,
+      transparent 0.75turn 1turn
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      orange 20px,
+      yellow 40px,
+      transparent 60px
+    ),
+    radial-gradient(
+      circle closest-side at 20% 50%,
+      white 30px,
+      cyan 32px,
+      transparent 40px
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    linear-gradient($color_bg__sky);
 }
 
 .my_skills__cont__technologies {
@@ -357,24 +1563,30 @@ h2:hover + .career__line::after {
 
 .my_skills__cont__technologies__item {
   margin: 10px;
+  padding: 10px 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   transform: scale(1);
   transition: transform 0.2s linear 0.1s;
 }
 
 .my_skills__cont__technologies__item:hover {
-  background-color: $color__main;
+  background-color: $color__main_trasparent;
   transform: scale(1.2);
 }
 
 .my_skills__cont__technologies__item__img {
   width: 125px;
+  margin-bottom: 5px;
 }
 
 .my_skills__cont__technologies__item__description {
-  display: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0;
 }
 
 .my_certificates {
@@ -703,6 +1915,8 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $color_bg__section_1;
+  background: linear-gradient(45deg, #ff990022 50%, #eb23ff22),
+    linear-gradient(-45deg, #eb23ff22 50%, #ff990022);
 }
 
 .education__cards__item {
@@ -728,13 +1942,11 @@ h2:hover + .career__line::after {
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: $color_bg__section_2;
-  background: linear-gradient(
-      45deg,
-      $color__main_trasparent 50%,
-      rgba(0, 186, 0, 0.2)
-    ),
-    linear-gradient(-45deg, rgba(0, 186, 0, 0.2) 50%, $color__main_trasparent);
+  @include text_font(20px, 20px);
+  background-color: #0066ff22;
+  background: linear-gradient(0deg, #ff000022, transparent 66.67%),
+    linear-gradient(120deg, #00ff0022, transparent 66.67%),
+    linear-gradient(240deg, #0000ff22, transparent 66.67%);
 }
 
 .career__title__cards__item {
@@ -800,4 +2012,65 @@ h2:hover + .career__line::after {
 .career__title__cards__item:hover
   .career__title__cards__item__description__achievements__list__item::before {
   animation: $animation__point_item;
+}
+
+.footer {
+  background-color: #00ff0022;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__info__name {
+  @include text_font(2.5vw, 2.5vw);
+  white-space: nowrap;
+  color: #00000088;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.footer__info__panel {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer__info__panel__btn {
+  margin: 5px 0;
+  text-decoration: none;
+  color: $color__link_text;
+  background-color: $color__main;
+  padding: 10px 20px;
+  border-radius: 20px;
+  @include text_font(16px, 16px);
+  border: 2px solid $color__link_text;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s,
+    background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+}
+
+.footer__info__panel__btn:hover {
+  color: $color__main;
+  background-color: $color__link_text;
+  border: 2px solid transparent;
+  transform: scale(1.2);
+}
+
+.footer__info__panel__btn:active {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 1240px) {
+  .center {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }

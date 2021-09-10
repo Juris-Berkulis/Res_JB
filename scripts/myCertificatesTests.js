@@ -38,6 +38,10 @@ var myCertificatesTests = [
         ru: 'Сертификат. GeekBrains. Тест по JavaScript. Начальный уровень.ru'
     }, 
     {
+        en: 'Сертификат. GeekBrains. Тест по JavaScript. Средний уровень.en', 
+        ru: 'Сертификат. GeekBrains. Тест по JavaScript. Средний уровень.ru'
+    }, 
+    {
         en: 'Сертификат. GeekBrains. Тест по Python. Начальный уровень.en', 
         ru: 'Сертификат. GeekBrains. Тест по Python. Начальный уровень.ru'
     }, 

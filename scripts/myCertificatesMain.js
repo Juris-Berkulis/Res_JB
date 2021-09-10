@@ -62,6 +62,10 @@ var myCertificatesMain = [
         ru: 'Сертификат. GeekBrains. Веб-разработчик. Курс 03 - JavaScript. Уровень 1.ru'
     }, 
     {
+        en: 'Сертификат. GeekBrains. Веб-разработчик. Курс 04 - Продвинутый курс Javascript (JavaScript. Уровень 2).en', 
+        ru: 'Сертификат. GeekBrains. Веб-разработчик. Курс 04 - Продвинутый курс Javascript (JavaScript. Уровень 2).ru'
+    }, 
+    {
         en: 'Сертификат. GeekBrains. Верстаем landing page на HTML5.en', 
         ru: 'Сертификат. GeekBrains. Верстаем landing page на HTML5.ru'
     }, 
@@ -144,5 +148,9 @@ var myCertificatesMain = [
     {
         en: 'Сертификат. GeekBrains. Что такое Front-end. Как из кода для машин получается сайт для людей.en', 
         ru: 'Сертификат. GeekBrains. Что такое Front-end. Как из кода для машин получается сайт для людей.ru'
+    }, 
+    {
+        en: '', 
+        ru: 'Сертификат. Restart-Academy. Дизайнер сайтов на Тильде'
     }, 
 ]

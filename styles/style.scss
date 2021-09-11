@@ -105,6 +105,21 @@ $stars__color: yellow 1px, white 1.2px, transparent 1.6px;
   }
 }
 
+@keyframes animation__footer__bg__waves {
+  @for $i from 0 through 100 {
+    #{$i * 1%} {
+      background: linear-gradient(
+        to right,
+        #0000ff44 -100% #{($i - 65) * 1%},
+        #ff000044 #{($i - 55) * 1%} #{($i - 45) * 1%},
+        #0000ff44 #{($i - 33) * 1%} #{($i + 35) * 1%},
+        #ff000044 #{($i + 45) * 1%} #{($i + 55) * 1%},
+        #0000ff44 #{($i + 65) * 1%} 200%
+      );
+    }
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -444,12 +459,20 @@ h2:hover + .career__line::after {
 .my_projects__cont__projects__item__GitHub__link {
   color: $color__link_text;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   transition: color $transition__time__my_project_title;
 }
 
 .my_projects__cont__projects__item__GitHub__link:hover {
   color: $color__link_hover;
+}
+
+.my_projects__cont__projects__item__GitHub__spare {
+  @include text_font;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .my_skills {
@@ -2013,6 +2036,16 @@ h2:hover + .career__line::after {
   font-weight: 700;
 }
 
+.education__cards__item__where__institution__link {
+  color: $color__link_text;
+  text-decoration: none;
+  transition: color $transition__time__my_project_title;
+}
+
+.education__cards__item__where__institution__link:hover {
+  color: $color__link_hover;
+}
+
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2092,6 +2125,7 @@ h2:hover + .career__line::after {
   background-color: #00ff0022;
   padding-top: 20px;
   padding-bottom: 20px;
+  animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
 }
 
 .footer__info {

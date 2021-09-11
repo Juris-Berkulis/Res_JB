@@ -120,6 +120,820 @@
   }
 }
 
+@-webkit-keyframes animation__footer__bg__waves {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-55%, #ff000044), color-stop(-33%, #0000ff44), color-stop(45%, #ff000044), color-stop(65%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -65%, #ff000044 -55% -45%, #0000ff44 -33% 35%, #ff000044 45% 55%, #0000ff44 65% 200%);
+  }
+  1% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-54%, #ff000044), color-stop(-32%, #0000ff44), color-stop(46%, #ff000044), color-stop(66%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -64%, #ff000044 -54% -44%, #0000ff44 -32% 36%, #ff000044 46% 56%, #0000ff44 66% 200%);
+  }
+  2% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-53%, #ff000044), color-stop(-31%, #0000ff44), color-stop(47%, #ff000044), color-stop(67%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -63%, #ff000044 -53% -43%, #0000ff44 -31% 37%, #ff000044 47% 57%, #0000ff44 67% 200%);
+  }
+  3% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-52%, #ff000044), color-stop(-30%, #0000ff44), color-stop(48%, #ff000044), color-stop(68%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -62%, #ff000044 -52% -42%, #0000ff44 -30% 38%, #ff000044 48% 58%, #0000ff44 68% 200%);
+  }
+  4% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-51%, #ff000044), color-stop(-29%, #0000ff44), color-stop(49%, #ff000044), color-stop(69%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -61%, #ff000044 -51% -41%, #0000ff44 -29% 39%, #ff000044 49% 59%, #0000ff44 69% 200%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-50%, #ff000044), color-stop(-28%, #0000ff44), color-stop(50%, #ff000044), color-stop(70%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -60%, #ff000044 -50% -40%, #0000ff44 -28% 40%, #ff000044 50% 60%, #0000ff44 70% 200%);
+  }
+  6% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-49%, #ff000044), color-stop(-27%, #0000ff44), color-stop(51%, #ff000044), color-stop(71%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -59%, #ff000044 -49% -39%, #0000ff44 -27% 41%, #ff000044 51% 61%, #0000ff44 71% 200%);
+  }
+  7% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-48%, #ff000044), color-stop(-26%, #0000ff44), color-stop(52%, #ff000044), color-stop(72%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -58%, #ff000044 -48% -38%, #0000ff44 -26% 42%, #ff000044 52% 62%, #0000ff44 72% 200%);
+  }
+  8% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-47%, #ff000044), color-stop(-25%, #0000ff44), color-stop(53%, #ff000044), color-stop(73%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -57%, #ff000044 -47% -37%, #0000ff44 -25% 43%, #ff000044 53% 63%, #0000ff44 73% 200%);
+  }
+  9% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-46%, #ff000044), color-stop(-24%, #0000ff44), color-stop(54%, #ff000044), color-stop(74%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -56%, #ff000044 -46% -36%, #0000ff44 -24% 44%, #ff000044 54% 64%, #0000ff44 74% 200%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-45%, #ff000044), color-stop(-23%, #0000ff44), color-stop(55%, #ff000044), color-stop(75%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -55%, #ff000044 -45% -35%, #0000ff44 -23% 45%, #ff000044 55% 65%, #0000ff44 75% 200%);
+  }
+  11% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-44%, #ff000044), color-stop(-22%, #0000ff44), color-stop(56%, #ff000044), color-stop(76%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -54%, #ff000044 -44% -34%, #0000ff44 -22% 46%, #ff000044 56% 66%, #0000ff44 76% 200%);
+  }
+  12% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-43%, #ff000044), color-stop(-21%, #0000ff44), color-stop(57%, #ff000044), color-stop(77%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -53%, #ff000044 -43% -33%, #0000ff44 -21% 47%, #ff000044 57% 67%, #0000ff44 77% 200%);
+  }
+  13% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-42%, #ff000044), color-stop(-20%, #0000ff44), color-stop(58%, #ff000044), color-stop(78%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -52%, #ff000044 -42% -32%, #0000ff44 -20% 48%, #ff000044 58% 68%, #0000ff44 78% 200%);
+  }
+  14% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-41%, #ff000044), color-stop(-19%, #0000ff44), color-stop(59%, #ff000044), color-stop(79%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -51%, #ff000044 -41% -31%, #0000ff44 -19% 49%, #ff000044 59% 69%, #0000ff44 79% 200%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-40%, #ff000044), color-stop(-18%, #0000ff44), color-stop(60%, #ff000044), color-stop(80%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -50%, #ff000044 -40% -30%, #0000ff44 -18% 50%, #ff000044 60% 70%, #0000ff44 80% 200%);
+  }
+  16% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-39%, #ff000044), color-stop(-17%, #0000ff44), color-stop(61%, #ff000044), color-stop(81%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -49%, #ff000044 -39% -29%, #0000ff44 -17% 51%, #ff000044 61% 71%, #0000ff44 81% 200%);
+  }
+  17% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-38%, #ff000044), color-stop(-16%, #0000ff44), color-stop(62%, #ff000044), color-stop(82%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -48%, #ff000044 -38% -28%, #0000ff44 -16% 52%, #ff000044 62% 72%, #0000ff44 82% 200%);
+  }
+  18% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-37%, #ff000044), color-stop(-15%, #0000ff44), color-stop(63%, #ff000044), color-stop(83%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -47%, #ff000044 -37% -27%, #0000ff44 -15% 53%, #ff000044 63% 73%, #0000ff44 83% 200%);
+  }
+  19% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-36%, #ff000044), color-stop(-14%, #0000ff44), color-stop(64%, #ff000044), color-stop(84%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -46%, #ff000044 -36% -26%, #0000ff44 -14% 54%, #ff000044 64% 74%, #0000ff44 84% 200%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-35%, #ff000044), color-stop(-13%, #0000ff44), color-stop(65%, #ff000044), color-stop(85%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -45%, #ff000044 -35% -25%, #0000ff44 -13% 55%, #ff000044 65% 75%, #0000ff44 85% 200%);
+  }
+  21% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-34%, #ff000044), color-stop(-12%, #0000ff44), color-stop(66%, #ff000044), color-stop(86%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -44%, #ff000044 -34% -24%, #0000ff44 -12% 56%, #ff000044 66% 76%, #0000ff44 86% 200%);
+  }
+  22% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-33%, #ff000044), color-stop(-11%, #0000ff44), color-stop(67%, #ff000044), color-stop(87%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -43%, #ff000044 -33% -23%, #0000ff44 -11% 57%, #ff000044 67% 77%, #0000ff44 87% 200%);
+  }
+  23% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-32%, #ff000044), color-stop(-10%, #0000ff44), color-stop(68%, #ff000044), color-stop(88%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -42%, #ff000044 -32% -22%, #0000ff44 -10% 58%, #ff000044 68% 78%, #0000ff44 88% 200%);
+  }
+  24% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-31%, #ff000044), color-stop(-9%, #0000ff44), color-stop(69%, #ff000044), color-stop(89%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -41%, #ff000044 -31% -21%, #0000ff44 -9% 59%, #ff000044 69% 79%, #0000ff44 89% 200%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-30%, #ff000044), color-stop(-8%, #0000ff44), color-stop(70%, #ff000044), color-stop(90%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -40%, #ff000044 -30% -20%, #0000ff44 -8% 60%, #ff000044 70% 80%, #0000ff44 90% 200%);
+  }
+  26% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-29%, #ff000044), color-stop(-7%, #0000ff44), color-stop(71%, #ff000044), color-stop(91%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -39%, #ff000044 -29% -19%, #0000ff44 -7% 61%, #ff000044 71% 81%, #0000ff44 91% 200%);
+  }
+  27% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-28%, #ff000044), color-stop(-6%, #0000ff44), color-stop(72%, #ff000044), color-stop(92%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -38%, #ff000044 -28% -18%, #0000ff44 -6% 62%, #ff000044 72% 82%, #0000ff44 92% 200%);
+  }
+  28% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-27%, #ff000044), color-stop(-5%, #0000ff44), color-stop(73%, #ff000044), color-stop(93%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -37%, #ff000044 -27% -17%, #0000ff44 -5% 63%, #ff000044 73% 83%, #0000ff44 93% 200%);
+  }
+  29% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-26%, #ff000044), color-stop(-4%, #0000ff44), color-stop(74%, #ff000044), color-stop(94%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -36%, #ff000044 -26% -16%, #0000ff44 -4% 64%, #ff000044 74% 84%, #0000ff44 94% 200%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-25%, #ff000044), color-stop(-3%, #0000ff44), color-stop(75%, #ff000044), color-stop(95%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -35%, #ff000044 -25% -15%, #0000ff44 -3% 65%, #ff000044 75% 85%, #0000ff44 95% 200%);
+  }
+  31% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-24%, #ff000044), color-stop(-2%, #0000ff44), color-stop(76%, #ff000044), color-stop(96%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -34%, #ff000044 -24% -14%, #0000ff44 -2% 66%, #ff000044 76% 86%, #0000ff44 96% 200%);
+  }
+  32% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-23%, #ff000044), color-stop(-1%, #0000ff44), color-stop(77%, #ff000044), color-stop(97%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -33%, #ff000044 -23% -13%, #0000ff44 -1% 67%, #ff000044 77% 87%, #0000ff44 97% 200%);
+  }
+  33% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-22%, #ff000044), color-stop(0%, #0000ff44), color-stop(78%, #ff000044), color-stop(98%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -32%, #ff000044 -22% -12%, #0000ff44 0% 68%, #ff000044 78% 88%, #0000ff44 98% 200%);
+  }
+  34% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-21%, #ff000044), color-stop(1%, #0000ff44), color-stop(79%, #ff000044), color-stop(99%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -31%, #ff000044 -21% -11%, #0000ff44 1% 69%, #ff000044 79% 89%, #0000ff44 99% 200%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-20%, #ff000044), color-stop(2%, #0000ff44), color-stop(80%, #ff000044), to(#0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -30%, #ff000044 -20% -10%, #0000ff44 2% 70%, #ff000044 80% 90%, #0000ff44 100% 200%);
+  }
+  36% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-19%, #ff000044), color-stop(3%, #0000ff44), color-stop(81%, #ff000044), color-stop(101%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -29%, #ff000044 -19% -9%, #0000ff44 3% 71%, #ff000044 81% 91%, #0000ff44 101% 200%);
+  }
+  37% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-18%, #ff000044), color-stop(4%, #0000ff44), color-stop(82%, #ff000044), color-stop(102%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -28%, #ff000044 -18% -8%, #0000ff44 4% 72%, #ff000044 82% 92%, #0000ff44 102% 200%);
+  }
+  38% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-17%, #ff000044), color-stop(5%, #0000ff44), color-stop(83%, #ff000044), color-stop(103%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -27%, #ff000044 -17% -7%, #0000ff44 5% 73%, #ff000044 83% 93%, #0000ff44 103% 200%);
+  }
+  39% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-16%, #ff000044), color-stop(6%, #0000ff44), color-stop(84%, #ff000044), color-stop(104%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -26%, #ff000044 -16% -6%, #0000ff44 6% 74%, #ff000044 84% 94%, #0000ff44 104% 200%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-15%, #ff000044), color-stop(7%, #0000ff44), color-stop(85%, #ff000044), color-stop(105%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -25%, #ff000044 -15% -5%, #0000ff44 7% 75%, #ff000044 85% 95%, #0000ff44 105% 200%);
+  }
+  41% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-14%, #ff000044), color-stop(8%, #0000ff44), color-stop(86%, #ff000044), color-stop(106%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -24%, #ff000044 -14% -4%, #0000ff44 8% 76%, #ff000044 86% 96%, #0000ff44 106% 200%);
+  }
+  42% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-13%, #ff000044), color-stop(9%, #0000ff44), color-stop(87%, #ff000044), color-stop(107%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -23%, #ff000044 -13% -3%, #0000ff44 9% 77%, #ff000044 87% 97%, #0000ff44 107% 200%);
+  }
+  43% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-12%, #ff000044), color-stop(10%, #0000ff44), color-stop(88%, #ff000044), color-stop(108%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -22%, #ff000044 -12% -2%, #0000ff44 10% 78%, #ff000044 88% 98%, #0000ff44 108% 200%);
+  }
+  44% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-11%, #ff000044), color-stop(11%, #0000ff44), color-stop(89%, #ff000044), color-stop(109%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -21%, #ff000044 -11% -1%, #0000ff44 11% 79%, #ff000044 89% 99%, #0000ff44 109% 200%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-10%, #ff000044), color-stop(12%, #0000ff44), color-stop(90%, #ff000044), color-stop(110%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -20%, #ff000044 -10% 0%, #0000ff44 12% 80%, #ff000044 90% 100%, #0000ff44 110% 200%);
+  }
+  46% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-9%, #ff000044), color-stop(13%, #0000ff44), color-stop(91%, #ff000044), color-stop(111%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -19%, #ff000044 -9% 1%, #0000ff44 13% 81%, #ff000044 91% 101%, #0000ff44 111% 200%);
+  }
+  47% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-8%, #ff000044), color-stop(14%, #0000ff44), color-stop(92%, #ff000044), color-stop(112%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -18%, #ff000044 -8% 2%, #0000ff44 14% 82%, #ff000044 92% 102%, #0000ff44 112% 200%);
+  }
+  48% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-7%, #ff000044), color-stop(15%, #0000ff44), color-stop(93%, #ff000044), color-stop(113%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -17%, #ff000044 -7% 3%, #0000ff44 15% 83%, #ff000044 93% 103%, #0000ff44 113% 200%);
+  }
+  49% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-6%, #ff000044), color-stop(16%, #0000ff44), color-stop(94%, #ff000044), color-stop(114%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -16%, #ff000044 -6% 4%, #0000ff44 16% 84%, #ff000044 94% 104%, #0000ff44 114% 200%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-5%, #ff000044), color-stop(17%, #0000ff44), color-stop(95%, #ff000044), color-stop(115%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -15%, #ff000044 -5% 5%, #0000ff44 17% 85%, #ff000044 95% 105%, #0000ff44 115% 200%);
+  }
+  51% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-4%, #ff000044), color-stop(18%, #0000ff44), color-stop(96%, #ff000044), color-stop(116%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -14%, #ff000044 -4% 6%, #0000ff44 18% 86%, #ff000044 96% 106%, #0000ff44 116% 200%);
+  }
+  52% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-3%, #ff000044), color-stop(19%, #0000ff44), color-stop(97%, #ff000044), color-stop(117%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -13%, #ff000044 -3% 7%, #0000ff44 19% 87%, #ff000044 97% 107%, #0000ff44 117% 200%);
+  }
+  53% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-2%, #ff000044), color-stop(20%, #0000ff44), color-stop(98%, #ff000044), color-stop(118%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -12%, #ff000044 -2% 8%, #0000ff44 20% 88%, #ff000044 98% 108%, #0000ff44 118% 200%);
+  }
+  54% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-1%, #ff000044), color-stop(21%, #0000ff44), color-stop(99%, #ff000044), color-stop(119%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -11%, #ff000044 -1% 9%, #0000ff44 21% 89%, #ff000044 99% 109%, #0000ff44 119% 200%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(0%, #ff000044), color-stop(22%, #0000ff44), color-stop(100%, #ff000044), color-stop(120%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -10%, #ff000044 0% 10%, #0000ff44 22% 90%, #ff000044 100% 110%, #0000ff44 120% 200%);
+  }
+  56% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(1%, #ff000044), color-stop(23%, #0000ff44), color-stop(101%, #ff000044), color-stop(121%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -9%, #ff000044 1% 11%, #0000ff44 23% 91%, #ff000044 101% 111%, #0000ff44 121% 200%);
+  }
+  57% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(2%, #ff000044), color-stop(24%, #0000ff44), color-stop(102%, #ff000044), color-stop(122%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -8%, #ff000044 2% 12%, #0000ff44 24% 92%, #ff000044 102% 112%, #0000ff44 122% 200%);
+  }
+  58% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(3%, #ff000044), color-stop(25%, #0000ff44), color-stop(103%, #ff000044), color-stop(123%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -7%, #ff000044 3% 13%, #0000ff44 25% 93%, #ff000044 103% 113%, #0000ff44 123% 200%);
+  }
+  59% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(4%, #ff000044), color-stop(26%, #0000ff44), color-stop(104%, #ff000044), color-stop(124%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -6%, #ff000044 4% 14%, #0000ff44 26% 94%, #ff000044 104% 114%, #0000ff44 124% 200%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(5%, #ff000044), color-stop(27%, #0000ff44), color-stop(105%, #ff000044), color-stop(125%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -5%, #ff000044 5% 15%, #0000ff44 27% 95%, #ff000044 105% 115%, #0000ff44 125% 200%);
+  }
+  61% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(6%, #ff000044), color-stop(28%, #0000ff44), color-stop(106%, #ff000044), color-stop(126%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -4%, #ff000044 6% 16%, #0000ff44 28% 96%, #ff000044 106% 116%, #0000ff44 126% 200%);
+  }
+  62% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(7%, #ff000044), color-stop(29%, #0000ff44), color-stop(107%, #ff000044), color-stop(127%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -3%, #ff000044 7% 17%, #0000ff44 29% 97%, #ff000044 107% 117%, #0000ff44 127% 200%);
+  }
+  63% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(8%, #ff000044), color-stop(30%, #0000ff44), color-stop(108%, #ff000044), color-stop(128%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -2%, #ff000044 8% 18%, #0000ff44 30% 98%, #ff000044 108% 118%, #0000ff44 128% 200%);
+  }
+  64% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(9%, #ff000044), color-stop(31%, #0000ff44), color-stop(109%, #ff000044), color-stop(129%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -1%, #ff000044 9% 19%, #0000ff44 31% 99%, #ff000044 109% 119%, #0000ff44 129% 200%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(10%, #ff000044), color-stop(32%, #0000ff44), color-stop(110%, #ff000044), color-stop(130%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 0%, #ff000044 10% 20%, #0000ff44 32% 100%, #ff000044 110% 120%, #0000ff44 130% 200%);
+  }
+  66% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(11%, #ff000044), color-stop(33%, #0000ff44), color-stop(111%, #ff000044), color-stop(131%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 1%, #ff000044 11% 21%, #0000ff44 33% 101%, #ff000044 111% 121%, #0000ff44 131% 200%);
+  }
+  67% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(12%, #ff000044), color-stop(34%, #0000ff44), color-stop(112%, #ff000044), color-stop(132%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 2%, #ff000044 12% 22%, #0000ff44 34% 102%, #ff000044 112% 122%, #0000ff44 132% 200%);
+  }
+  68% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(13%, #ff000044), color-stop(35%, #0000ff44), color-stop(113%, #ff000044), color-stop(133%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 3%, #ff000044 13% 23%, #0000ff44 35% 103%, #ff000044 113% 123%, #0000ff44 133% 200%);
+  }
+  69% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(14%, #ff000044), color-stop(36%, #0000ff44), color-stop(114%, #ff000044), color-stop(134%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 4%, #ff000044 14% 24%, #0000ff44 36% 104%, #ff000044 114% 124%, #0000ff44 134% 200%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(15%, #ff000044), color-stop(37%, #0000ff44), color-stop(115%, #ff000044), color-stop(135%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 5%, #ff000044 15% 25%, #0000ff44 37% 105%, #ff000044 115% 125%, #0000ff44 135% 200%);
+  }
+  71% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(16%, #ff000044), color-stop(38%, #0000ff44), color-stop(116%, #ff000044), color-stop(136%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 6%, #ff000044 16% 26%, #0000ff44 38% 106%, #ff000044 116% 126%, #0000ff44 136% 200%);
+  }
+  72% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(17%, #ff000044), color-stop(39%, #0000ff44), color-stop(117%, #ff000044), color-stop(137%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 7%, #ff000044 17% 27%, #0000ff44 39% 107%, #ff000044 117% 127%, #0000ff44 137% 200%);
+  }
+  73% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(18%, #ff000044), color-stop(40%, #0000ff44), color-stop(118%, #ff000044), color-stop(138%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 8%, #ff000044 18% 28%, #0000ff44 40% 108%, #ff000044 118% 128%, #0000ff44 138% 200%);
+  }
+  74% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(19%, #ff000044), color-stop(41%, #0000ff44), color-stop(119%, #ff000044), color-stop(139%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 9%, #ff000044 19% 29%, #0000ff44 41% 109%, #ff000044 119% 129%, #0000ff44 139% 200%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(20%, #ff000044), color-stop(42%, #0000ff44), color-stop(120%, #ff000044), color-stop(140%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 10%, #ff000044 20% 30%, #0000ff44 42% 110%, #ff000044 120% 130%, #0000ff44 140% 200%);
+  }
+  76% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(21%, #ff000044), color-stop(43%, #0000ff44), color-stop(121%, #ff000044), color-stop(141%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 11%, #ff000044 21% 31%, #0000ff44 43% 111%, #ff000044 121% 131%, #0000ff44 141% 200%);
+  }
+  77% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(22%, #ff000044), color-stop(44%, #0000ff44), color-stop(122%, #ff000044), color-stop(142%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 12%, #ff000044 22% 32%, #0000ff44 44% 112%, #ff000044 122% 132%, #0000ff44 142% 200%);
+  }
+  78% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(23%, #ff000044), color-stop(45%, #0000ff44), color-stop(123%, #ff000044), color-stop(143%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 13%, #ff000044 23% 33%, #0000ff44 45% 113%, #ff000044 123% 133%, #0000ff44 143% 200%);
+  }
+  79% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(24%, #ff000044), color-stop(46%, #0000ff44), color-stop(124%, #ff000044), color-stop(144%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 14%, #ff000044 24% 34%, #0000ff44 46% 114%, #ff000044 124% 134%, #0000ff44 144% 200%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(25%, #ff000044), color-stop(47%, #0000ff44), color-stop(125%, #ff000044), color-stop(145%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 15%, #ff000044 25% 35%, #0000ff44 47% 115%, #ff000044 125% 135%, #0000ff44 145% 200%);
+  }
+  81% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(26%, #ff000044), color-stop(48%, #0000ff44), color-stop(126%, #ff000044), color-stop(146%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 16%, #ff000044 26% 36%, #0000ff44 48% 116%, #ff000044 126% 136%, #0000ff44 146% 200%);
+  }
+  82% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(27%, #ff000044), color-stop(49%, #0000ff44), color-stop(127%, #ff000044), color-stop(147%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 17%, #ff000044 27% 37%, #0000ff44 49% 117%, #ff000044 127% 137%, #0000ff44 147% 200%);
+  }
+  83% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(28%, #ff000044), color-stop(50%, #0000ff44), color-stop(128%, #ff000044), color-stop(148%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 18%, #ff000044 28% 38%, #0000ff44 50% 118%, #ff000044 128% 138%, #0000ff44 148% 200%);
+  }
+  84% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(29%, #ff000044), color-stop(51%, #0000ff44), color-stop(129%, #ff000044), color-stop(149%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 19%, #ff000044 29% 39%, #0000ff44 51% 119%, #ff000044 129% 139%, #0000ff44 149% 200%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(30%, #ff000044), color-stop(52%, #0000ff44), color-stop(130%, #ff000044), color-stop(150%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 20%, #ff000044 30% 40%, #0000ff44 52% 120%, #ff000044 130% 140%, #0000ff44 150% 200%);
+  }
+  86% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(31%, #ff000044), color-stop(53%, #0000ff44), color-stop(131%, #ff000044), color-stop(151%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 21%, #ff000044 31% 41%, #0000ff44 53% 121%, #ff000044 131% 141%, #0000ff44 151% 200%);
+  }
+  87% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(32%, #ff000044), color-stop(54%, #0000ff44), color-stop(132%, #ff000044), color-stop(152%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 22%, #ff000044 32% 42%, #0000ff44 54% 122%, #ff000044 132% 142%, #0000ff44 152% 200%);
+  }
+  88% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(33%, #ff000044), color-stop(55%, #0000ff44), color-stop(133%, #ff000044), color-stop(153%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 23%, #ff000044 33% 43%, #0000ff44 55% 123%, #ff000044 133% 143%, #0000ff44 153% 200%);
+  }
+  89% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(34%, #ff000044), color-stop(56%, #0000ff44), color-stop(134%, #ff000044), color-stop(154%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 24%, #ff000044 34% 44%, #0000ff44 56% 124%, #ff000044 134% 144%, #0000ff44 154% 200%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(35%, #ff000044), color-stop(57%, #0000ff44), color-stop(135%, #ff000044), color-stop(155%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 25%, #ff000044 35% 45%, #0000ff44 57% 125%, #ff000044 135% 145%, #0000ff44 155% 200%);
+  }
+  91% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(36%, #ff000044), color-stop(58%, #0000ff44), color-stop(136%, #ff000044), color-stop(156%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 26%, #ff000044 36% 46%, #0000ff44 58% 126%, #ff000044 136% 146%, #0000ff44 156% 200%);
+  }
+  92% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(37%, #ff000044), color-stop(59%, #0000ff44), color-stop(137%, #ff000044), color-stop(157%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 27%, #ff000044 37% 47%, #0000ff44 59% 127%, #ff000044 137% 147%, #0000ff44 157% 200%);
+  }
+  93% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(38%, #ff000044), color-stop(60%, #0000ff44), color-stop(138%, #ff000044), color-stop(158%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 28%, #ff000044 38% 48%, #0000ff44 60% 128%, #ff000044 138% 148%, #0000ff44 158% 200%);
+  }
+  94% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(39%, #ff000044), color-stop(61%, #0000ff44), color-stop(139%, #ff000044), color-stop(159%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 29%, #ff000044 39% 49%, #0000ff44 61% 129%, #ff000044 139% 149%, #0000ff44 159% 200%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(40%, #ff000044), color-stop(62%, #0000ff44), color-stop(140%, #ff000044), color-stop(160%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 30%, #ff000044 40% 50%, #0000ff44 62% 130%, #ff000044 140% 150%, #0000ff44 160% 200%);
+  }
+  96% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(41%, #ff000044), color-stop(63%, #0000ff44), color-stop(141%, #ff000044), color-stop(161%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 31%, #ff000044 41% 51%, #0000ff44 63% 131%, #ff000044 141% 151%, #0000ff44 161% 200%);
+  }
+  97% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(42%, #ff000044), color-stop(64%, #0000ff44), color-stop(142%, #ff000044), color-stop(162%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 32%, #ff000044 42% 52%, #0000ff44 64% 132%, #ff000044 142% 152%, #0000ff44 162% 200%);
+  }
+  98% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(43%, #ff000044), color-stop(65%, #0000ff44), color-stop(143%, #ff000044), color-stop(163%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 33%, #ff000044 43% 53%, #0000ff44 65% 133%, #ff000044 143% 153%, #0000ff44 163% 200%);
+  }
+  99% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(44%, #ff000044), color-stop(66%, #0000ff44), color-stop(144%, #ff000044), color-stop(164%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 34%, #ff000044 44% 54%, #0000ff44 66% 134%, #ff000044 144% 154%, #0000ff44 164% 200%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(45%, #ff000044), color-stop(67%, #0000ff44), color-stop(145%, #ff000044), color-stop(165%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 35%, #ff000044 45% 55%, #0000ff44 67% 135%, #ff000044 145% 155%, #0000ff44 165% 200%);
+  }
+}
+
+@keyframes animation__footer__bg__waves {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-55%, #ff000044), color-stop(-33%, #0000ff44), color-stop(45%, #ff000044), color-stop(65%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -65%, #ff000044 -55% -45%, #0000ff44 -33% 35%, #ff000044 45% 55%, #0000ff44 65% 200%);
+  }
+  1% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-54%, #ff000044), color-stop(-32%, #0000ff44), color-stop(46%, #ff000044), color-stop(66%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -64%, #ff000044 -54% -44%, #0000ff44 -32% 36%, #ff000044 46% 56%, #0000ff44 66% 200%);
+  }
+  2% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-53%, #ff000044), color-stop(-31%, #0000ff44), color-stop(47%, #ff000044), color-stop(67%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -63%, #ff000044 -53% -43%, #0000ff44 -31% 37%, #ff000044 47% 57%, #0000ff44 67% 200%);
+  }
+  3% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-52%, #ff000044), color-stop(-30%, #0000ff44), color-stop(48%, #ff000044), color-stop(68%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -62%, #ff000044 -52% -42%, #0000ff44 -30% 38%, #ff000044 48% 58%, #0000ff44 68% 200%);
+  }
+  4% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-51%, #ff000044), color-stop(-29%, #0000ff44), color-stop(49%, #ff000044), color-stop(69%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -61%, #ff000044 -51% -41%, #0000ff44 -29% 39%, #ff000044 49% 59%, #0000ff44 69% 200%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-50%, #ff000044), color-stop(-28%, #0000ff44), color-stop(50%, #ff000044), color-stop(70%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -60%, #ff000044 -50% -40%, #0000ff44 -28% 40%, #ff000044 50% 60%, #0000ff44 70% 200%);
+  }
+  6% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-49%, #ff000044), color-stop(-27%, #0000ff44), color-stop(51%, #ff000044), color-stop(71%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -59%, #ff000044 -49% -39%, #0000ff44 -27% 41%, #ff000044 51% 61%, #0000ff44 71% 200%);
+  }
+  7% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-48%, #ff000044), color-stop(-26%, #0000ff44), color-stop(52%, #ff000044), color-stop(72%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -58%, #ff000044 -48% -38%, #0000ff44 -26% 42%, #ff000044 52% 62%, #0000ff44 72% 200%);
+  }
+  8% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-47%, #ff000044), color-stop(-25%, #0000ff44), color-stop(53%, #ff000044), color-stop(73%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -57%, #ff000044 -47% -37%, #0000ff44 -25% 43%, #ff000044 53% 63%, #0000ff44 73% 200%);
+  }
+  9% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-46%, #ff000044), color-stop(-24%, #0000ff44), color-stop(54%, #ff000044), color-stop(74%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -56%, #ff000044 -46% -36%, #0000ff44 -24% 44%, #ff000044 54% 64%, #0000ff44 74% 200%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-45%, #ff000044), color-stop(-23%, #0000ff44), color-stop(55%, #ff000044), color-stop(75%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -55%, #ff000044 -45% -35%, #0000ff44 -23% 45%, #ff000044 55% 65%, #0000ff44 75% 200%);
+  }
+  11% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-44%, #ff000044), color-stop(-22%, #0000ff44), color-stop(56%, #ff000044), color-stop(76%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -54%, #ff000044 -44% -34%, #0000ff44 -22% 46%, #ff000044 56% 66%, #0000ff44 76% 200%);
+  }
+  12% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-43%, #ff000044), color-stop(-21%, #0000ff44), color-stop(57%, #ff000044), color-stop(77%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -53%, #ff000044 -43% -33%, #0000ff44 -21% 47%, #ff000044 57% 67%, #0000ff44 77% 200%);
+  }
+  13% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-42%, #ff000044), color-stop(-20%, #0000ff44), color-stop(58%, #ff000044), color-stop(78%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -52%, #ff000044 -42% -32%, #0000ff44 -20% 48%, #ff000044 58% 68%, #0000ff44 78% 200%);
+  }
+  14% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-41%, #ff000044), color-stop(-19%, #0000ff44), color-stop(59%, #ff000044), color-stop(79%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -51%, #ff000044 -41% -31%, #0000ff44 -19% 49%, #ff000044 59% 69%, #0000ff44 79% 200%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-40%, #ff000044), color-stop(-18%, #0000ff44), color-stop(60%, #ff000044), color-stop(80%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -50%, #ff000044 -40% -30%, #0000ff44 -18% 50%, #ff000044 60% 70%, #0000ff44 80% 200%);
+  }
+  16% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-39%, #ff000044), color-stop(-17%, #0000ff44), color-stop(61%, #ff000044), color-stop(81%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -49%, #ff000044 -39% -29%, #0000ff44 -17% 51%, #ff000044 61% 71%, #0000ff44 81% 200%);
+  }
+  17% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-38%, #ff000044), color-stop(-16%, #0000ff44), color-stop(62%, #ff000044), color-stop(82%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -48%, #ff000044 -38% -28%, #0000ff44 -16% 52%, #ff000044 62% 72%, #0000ff44 82% 200%);
+  }
+  18% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-37%, #ff000044), color-stop(-15%, #0000ff44), color-stop(63%, #ff000044), color-stop(83%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -47%, #ff000044 -37% -27%, #0000ff44 -15% 53%, #ff000044 63% 73%, #0000ff44 83% 200%);
+  }
+  19% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-36%, #ff000044), color-stop(-14%, #0000ff44), color-stop(64%, #ff000044), color-stop(84%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -46%, #ff000044 -36% -26%, #0000ff44 -14% 54%, #ff000044 64% 74%, #0000ff44 84% 200%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-35%, #ff000044), color-stop(-13%, #0000ff44), color-stop(65%, #ff000044), color-stop(85%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -45%, #ff000044 -35% -25%, #0000ff44 -13% 55%, #ff000044 65% 75%, #0000ff44 85% 200%);
+  }
+  21% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-34%, #ff000044), color-stop(-12%, #0000ff44), color-stop(66%, #ff000044), color-stop(86%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -44%, #ff000044 -34% -24%, #0000ff44 -12% 56%, #ff000044 66% 76%, #0000ff44 86% 200%);
+  }
+  22% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-33%, #ff000044), color-stop(-11%, #0000ff44), color-stop(67%, #ff000044), color-stop(87%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -43%, #ff000044 -33% -23%, #0000ff44 -11% 57%, #ff000044 67% 77%, #0000ff44 87% 200%);
+  }
+  23% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-32%, #ff000044), color-stop(-10%, #0000ff44), color-stop(68%, #ff000044), color-stop(88%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -42%, #ff000044 -32% -22%, #0000ff44 -10% 58%, #ff000044 68% 78%, #0000ff44 88% 200%);
+  }
+  24% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-31%, #ff000044), color-stop(-9%, #0000ff44), color-stop(69%, #ff000044), color-stop(89%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -41%, #ff000044 -31% -21%, #0000ff44 -9% 59%, #ff000044 69% 79%, #0000ff44 89% 200%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-30%, #ff000044), color-stop(-8%, #0000ff44), color-stop(70%, #ff000044), color-stop(90%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -40%, #ff000044 -30% -20%, #0000ff44 -8% 60%, #ff000044 70% 80%, #0000ff44 90% 200%);
+  }
+  26% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-29%, #ff000044), color-stop(-7%, #0000ff44), color-stop(71%, #ff000044), color-stop(91%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -39%, #ff000044 -29% -19%, #0000ff44 -7% 61%, #ff000044 71% 81%, #0000ff44 91% 200%);
+  }
+  27% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-28%, #ff000044), color-stop(-6%, #0000ff44), color-stop(72%, #ff000044), color-stop(92%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -38%, #ff000044 -28% -18%, #0000ff44 -6% 62%, #ff000044 72% 82%, #0000ff44 92% 200%);
+  }
+  28% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-27%, #ff000044), color-stop(-5%, #0000ff44), color-stop(73%, #ff000044), color-stop(93%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -37%, #ff000044 -27% -17%, #0000ff44 -5% 63%, #ff000044 73% 83%, #0000ff44 93% 200%);
+  }
+  29% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-26%, #ff000044), color-stop(-4%, #0000ff44), color-stop(74%, #ff000044), color-stop(94%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -36%, #ff000044 -26% -16%, #0000ff44 -4% 64%, #ff000044 74% 84%, #0000ff44 94% 200%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-25%, #ff000044), color-stop(-3%, #0000ff44), color-stop(75%, #ff000044), color-stop(95%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -35%, #ff000044 -25% -15%, #0000ff44 -3% 65%, #ff000044 75% 85%, #0000ff44 95% 200%);
+  }
+  31% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-24%, #ff000044), color-stop(-2%, #0000ff44), color-stop(76%, #ff000044), color-stop(96%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -34%, #ff000044 -24% -14%, #0000ff44 -2% 66%, #ff000044 76% 86%, #0000ff44 96% 200%);
+  }
+  32% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-23%, #ff000044), color-stop(-1%, #0000ff44), color-stop(77%, #ff000044), color-stop(97%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -33%, #ff000044 -23% -13%, #0000ff44 -1% 67%, #ff000044 77% 87%, #0000ff44 97% 200%);
+  }
+  33% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-22%, #ff000044), color-stop(0%, #0000ff44), color-stop(78%, #ff000044), color-stop(98%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -32%, #ff000044 -22% -12%, #0000ff44 0% 68%, #ff000044 78% 88%, #0000ff44 98% 200%);
+  }
+  34% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-21%, #ff000044), color-stop(1%, #0000ff44), color-stop(79%, #ff000044), color-stop(99%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -31%, #ff000044 -21% -11%, #0000ff44 1% 69%, #ff000044 79% 89%, #0000ff44 99% 200%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-20%, #ff000044), color-stop(2%, #0000ff44), color-stop(80%, #ff000044), to(#0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -30%, #ff000044 -20% -10%, #0000ff44 2% 70%, #ff000044 80% 90%, #0000ff44 100% 200%);
+  }
+  36% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-19%, #ff000044), color-stop(3%, #0000ff44), color-stop(81%, #ff000044), color-stop(101%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -29%, #ff000044 -19% -9%, #0000ff44 3% 71%, #ff000044 81% 91%, #0000ff44 101% 200%);
+  }
+  37% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-18%, #ff000044), color-stop(4%, #0000ff44), color-stop(82%, #ff000044), color-stop(102%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -28%, #ff000044 -18% -8%, #0000ff44 4% 72%, #ff000044 82% 92%, #0000ff44 102% 200%);
+  }
+  38% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-17%, #ff000044), color-stop(5%, #0000ff44), color-stop(83%, #ff000044), color-stop(103%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -27%, #ff000044 -17% -7%, #0000ff44 5% 73%, #ff000044 83% 93%, #0000ff44 103% 200%);
+  }
+  39% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-16%, #ff000044), color-stop(6%, #0000ff44), color-stop(84%, #ff000044), color-stop(104%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -26%, #ff000044 -16% -6%, #0000ff44 6% 74%, #ff000044 84% 94%, #0000ff44 104% 200%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-15%, #ff000044), color-stop(7%, #0000ff44), color-stop(85%, #ff000044), color-stop(105%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -25%, #ff000044 -15% -5%, #0000ff44 7% 75%, #ff000044 85% 95%, #0000ff44 105% 200%);
+  }
+  41% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-14%, #ff000044), color-stop(8%, #0000ff44), color-stop(86%, #ff000044), color-stop(106%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -24%, #ff000044 -14% -4%, #0000ff44 8% 76%, #ff000044 86% 96%, #0000ff44 106% 200%);
+  }
+  42% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-13%, #ff000044), color-stop(9%, #0000ff44), color-stop(87%, #ff000044), color-stop(107%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -23%, #ff000044 -13% -3%, #0000ff44 9% 77%, #ff000044 87% 97%, #0000ff44 107% 200%);
+  }
+  43% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-12%, #ff000044), color-stop(10%, #0000ff44), color-stop(88%, #ff000044), color-stop(108%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -22%, #ff000044 -12% -2%, #0000ff44 10% 78%, #ff000044 88% 98%, #0000ff44 108% 200%);
+  }
+  44% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-11%, #ff000044), color-stop(11%, #0000ff44), color-stop(89%, #ff000044), color-stop(109%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -21%, #ff000044 -11% -1%, #0000ff44 11% 79%, #ff000044 89% 99%, #0000ff44 109% 200%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-10%, #ff000044), color-stop(12%, #0000ff44), color-stop(90%, #ff000044), color-stop(110%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -20%, #ff000044 -10% 0%, #0000ff44 12% 80%, #ff000044 90% 100%, #0000ff44 110% 200%);
+  }
+  46% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-9%, #ff000044), color-stop(13%, #0000ff44), color-stop(91%, #ff000044), color-stop(111%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -19%, #ff000044 -9% 1%, #0000ff44 13% 81%, #ff000044 91% 101%, #0000ff44 111% 200%);
+  }
+  47% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-8%, #ff000044), color-stop(14%, #0000ff44), color-stop(92%, #ff000044), color-stop(112%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -18%, #ff000044 -8% 2%, #0000ff44 14% 82%, #ff000044 92% 102%, #0000ff44 112% 200%);
+  }
+  48% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-7%, #ff000044), color-stop(15%, #0000ff44), color-stop(93%, #ff000044), color-stop(113%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -17%, #ff000044 -7% 3%, #0000ff44 15% 83%, #ff000044 93% 103%, #0000ff44 113% 200%);
+  }
+  49% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-6%, #ff000044), color-stop(16%, #0000ff44), color-stop(94%, #ff000044), color-stop(114%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -16%, #ff000044 -6% 4%, #0000ff44 16% 84%, #ff000044 94% 104%, #0000ff44 114% 200%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-5%, #ff000044), color-stop(17%, #0000ff44), color-stop(95%, #ff000044), color-stop(115%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -15%, #ff000044 -5% 5%, #0000ff44 17% 85%, #ff000044 95% 105%, #0000ff44 115% 200%);
+  }
+  51% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-4%, #ff000044), color-stop(18%, #0000ff44), color-stop(96%, #ff000044), color-stop(116%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -14%, #ff000044 -4% 6%, #0000ff44 18% 86%, #ff000044 96% 106%, #0000ff44 116% 200%);
+  }
+  52% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-3%, #ff000044), color-stop(19%, #0000ff44), color-stop(97%, #ff000044), color-stop(117%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -13%, #ff000044 -3% 7%, #0000ff44 19% 87%, #ff000044 97% 107%, #0000ff44 117% 200%);
+  }
+  53% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-2%, #ff000044), color-stop(20%, #0000ff44), color-stop(98%, #ff000044), color-stop(118%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -12%, #ff000044 -2% 8%, #0000ff44 20% 88%, #ff000044 98% 108%, #0000ff44 118% 200%);
+  }
+  54% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-1%, #ff000044), color-stop(21%, #0000ff44), color-stop(99%, #ff000044), color-stop(119%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -11%, #ff000044 -1% 9%, #0000ff44 21% 89%, #ff000044 99% 109%, #0000ff44 119% 200%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(0%, #ff000044), color-stop(22%, #0000ff44), color-stop(100%, #ff000044), color-stop(120%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -10%, #ff000044 0% 10%, #0000ff44 22% 90%, #ff000044 100% 110%, #0000ff44 120% 200%);
+  }
+  56% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(1%, #ff000044), color-stop(23%, #0000ff44), color-stop(101%, #ff000044), color-stop(121%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -9%, #ff000044 1% 11%, #0000ff44 23% 91%, #ff000044 101% 111%, #0000ff44 121% 200%);
+  }
+  57% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(2%, #ff000044), color-stop(24%, #0000ff44), color-stop(102%, #ff000044), color-stop(122%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -8%, #ff000044 2% 12%, #0000ff44 24% 92%, #ff000044 102% 112%, #0000ff44 122% 200%);
+  }
+  58% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(3%, #ff000044), color-stop(25%, #0000ff44), color-stop(103%, #ff000044), color-stop(123%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -7%, #ff000044 3% 13%, #0000ff44 25% 93%, #ff000044 103% 113%, #0000ff44 123% 200%);
+  }
+  59% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(4%, #ff000044), color-stop(26%, #0000ff44), color-stop(104%, #ff000044), color-stop(124%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -6%, #ff000044 4% 14%, #0000ff44 26% 94%, #ff000044 104% 114%, #0000ff44 124% 200%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(5%, #ff000044), color-stop(27%, #0000ff44), color-stop(105%, #ff000044), color-stop(125%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -5%, #ff000044 5% 15%, #0000ff44 27% 95%, #ff000044 105% 115%, #0000ff44 125% 200%);
+  }
+  61% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(6%, #ff000044), color-stop(28%, #0000ff44), color-stop(106%, #ff000044), color-stop(126%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -4%, #ff000044 6% 16%, #0000ff44 28% 96%, #ff000044 106% 116%, #0000ff44 126% 200%);
+  }
+  62% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(7%, #ff000044), color-stop(29%, #0000ff44), color-stop(107%, #ff000044), color-stop(127%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -3%, #ff000044 7% 17%, #0000ff44 29% 97%, #ff000044 107% 117%, #0000ff44 127% 200%);
+  }
+  63% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(8%, #ff000044), color-stop(30%, #0000ff44), color-stop(108%, #ff000044), color-stop(128%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -2%, #ff000044 8% 18%, #0000ff44 30% 98%, #ff000044 108% 118%, #0000ff44 128% 200%);
+  }
+  64% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(9%, #ff000044), color-stop(31%, #0000ff44), color-stop(109%, #ff000044), color-stop(129%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -1%, #ff000044 9% 19%, #0000ff44 31% 99%, #ff000044 109% 119%, #0000ff44 129% 200%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(10%, #ff000044), color-stop(32%, #0000ff44), color-stop(110%, #ff000044), color-stop(130%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 0%, #ff000044 10% 20%, #0000ff44 32% 100%, #ff000044 110% 120%, #0000ff44 130% 200%);
+  }
+  66% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(11%, #ff000044), color-stop(33%, #0000ff44), color-stop(111%, #ff000044), color-stop(131%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 1%, #ff000044 11% 21%, #0000ff44 33% 101%, #ff000044 111% 121%, #0000ff44 131% 200%);
+  }
+  67% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(12%, #ff000044), color-stop(34%, #0000ff44), color-stop(112%, #ff000044), color-stop(132%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 2%, #ff000044 12% 22%, #0000ff44 34% 102%, #ff000044 112% 122%, #0000ff44 132% 200%);
+  }
+  68% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(13%, #ff000044), color-stop(35%, #0000ff44), color-stop(113%, #ff000044), color-stop(133%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 3%, #ff000044 13% 23%, #0000ff44 35% 103%, #ff000044 113% 123%, #0000ff44 133% 200%);
+  }
+  69% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(14%, #ff000044), color-stop(36%, #0000ff44), color-stop(114%, #ff000044), color-stop(134%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 4%, #ff000044 14% 24%, #0000ff44 36% 104%, #ff000044 114% 124%, #0000ff44 134% 200%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(15%, #ff000044), color-stop(37%, #0000ff44), color-stop(115%, #ff000044), color-stop(135%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 5%, #ff000044 15% 25%, #0000ff44 37% 105%, #ff000044 115% 125%, #0000ff44 135% 200%);
+  }
+  71% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(16%, #ff000044), color-stop(38%, #0000ff44), color-stop(116%, #ff000044), color-stop(136%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 6%, #ff000044 16% 26%, #0000ff44 38% 106%, #ff000044 116% 126%, #0000ff44 136% 200%);
+  }
+  72% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(17%, #ff000044), color-stop(39%, #0000ff44), color-stop(117%, #ff000044), color-stop(137%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 7%, #ff000044 17% 27%, #0000ff44 39% 107%, #ff000044 117% 127%, #0000ff44 137% 200%);
+  }
+  73% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(18%, #ff000044), color-stop(40%, #0000ff44), color-stop(118%, #ff000044), color-stop(138%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 8%, #ff000044 18% 28%, #0000ff44 40% 108%, #ff000044 118% 128%, #0000ff44 138% 200%);
+  }
+  74% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(19%, #ff000044), color-stop(41%, #0000ff44), color-stop(119%, #ff000044), color-stop(139%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 9%, #ff000044 19% 29%, #0000ff44 41% 109%, #ff000044 119% 129%, #0000ff44 139% 200%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(20%, #ff000044), color-stop(42%, #0000ff44), color-stop(120%, #ff000044), color-stop(140%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 10%, #ff000044 20% 30%, #0000ff44 42% 110%, #ff000044 120% 130%, #0000ff44 140% 200%);
+  }
+  76% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(21%, #ff000044), color-stop(43%, #0000ff44), color-stop(121%, #ff000044), color-stop(141%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 11%, #ff000044 21% 31%, #0000ff44 43% 111%, #ff000044 121% 131%, #0000ff44 141% 200%);
+  }
+  77% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(22%, #ff000044), color-stop(44%, #0000ff44), color-stop(122%, #ff000044), color-stop(142%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 12%, #ff000044 22% 32%, #0000ff44 44% 112%, #ff000044 122% 132%, #0000ff44 142% 200%);
+  }
+  78% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(23%, #ff000044), color-stop(45%, #0000ff44), color-stop(123%, #ff000044), color-stop(143%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 13%, #ff000044 23% 33%, #0000ff44 45% 113%, #ff000044 123% 133%, #0000ff44 143% 200%);
+  }
+  79% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(24%, #ff000044), color-stop(46%, #0000ff44), color-stop(124%, #ff000044), color-stop(144%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 14%, #ff000044 24% 34%, #0000ff44 46% 114%, #ff000044 124% 134%, #0000ff44 144% 200%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(25%, #ff000044), color-stop(47%, #0000ff44), color-stop(125%, #ff000044), color-stop(145%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 15%, #ff000044 25% 35%, #0000ff44 47% 115%, #ff000044 125% 135%, #0000ff44 145% 200%);
+  }
+  81% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(26%, #ff000044), color-stop(48%, #0000ff44), color-stop(126%, #ff000044), color-stop(146%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 16%, #ff000044 26% 36%, #0000ff44 48% 116%, #ff000044 126% 136%, #0000ff44 146% 200%);
+  }
+  82% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(27%, #ff000044), color-stop(49%, #0000ff44), color-stop(127%, #ff000044), color-stop(147%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 17%, #ff000044 27% 37%, #0000ff44 49% 117%, #ff000044 127% 137%, #0000ff44 147% 200%);
+  }
+  83% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(28%, #ff000044), color-stop(50%, #0000ff44), color-stop(128%, #ff000044), color-stop(148%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 18%, #ff000044 28% 38%, #0000ff44 50% 118%, #ff000044 128% 138%, #0000ff44 148% 200%);
+  }
+  84% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(29%, #ff000044), color-stop(51%, #0000ff44), color-stop(129%, #ff000044), color-stop(149%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 19%, #ff000044 29% 39%, #0000ff44 51% 119%, #ff000044 129% 139%, #0000ff44 149% 200%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(30%, #ff000044), color-stop(52%, #0000ff44), color-stop(130%, #ff000044), color-stop(150%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 20%, #ff000044 30% 40%, #0000ff44 52% 120%, #ff000044 130% 140%, #0000ff44 150% 200%);
+  }
+  86% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(31%, #ff000044), color-stop(53%, #0000ff44), color-stop(131%, #ff000044), color-stop(151%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 21%, #ff000044 31% 41%, #0000ff44 53% 121%, #ff000044 131% 141%, #0000ff44 151% 200%);
+  }
+  87% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(32%, #ff000044), color-stop(54%, #0000ff44), color-stop(132%, #ff000044), color-stop(152%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 22%, #ff000044 32% 42%, #0000ff44 54% 122%, #ff000044 132% 142%, #0000ff44 152% 200%);
+  }
+  88% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(33%, #ff000044), color-stop(55%, #0000ff44), color-stop(133%, #ff000044), color-stop(153%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 23%, #ff000044 33% 43%, #0000ff44 55% 123%, #ff000044 133% 143%, #0000ff44 153% 200%);
+  }
+  89% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(34%, #ff000044), color-stop(56%, #0000ff44), color-stop(134%, #ff000044), color-stop(154%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 24%, #ff000044 34% 44%, #0000ff44 56% 124%, #ff000044 134% 144%, #0000ff44 154% 200%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(35%, #ff000044), color-stop(57%, #0000ff44), color-stop(135%, #ff000044), color-stop(155%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 25%, #ff000044 35% 45%, #0000ff44 57% 125%, #ff000044 135% 145%, #0000ff44 155% 200%);
+  }
+  91% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(36%, #ff000044), color-stop(58%, #0000ff44), color-stop(136%, #ff000044), color-stop(156%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 26%, #ff000044 36% 46%, #0000ff44 58% 126%, #ff000044 136% 146%, #0000ff44 156% 200%);
+  }
+  92% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(37%, #ff000044), color-stop(59%, #0000ff44), color-stop(137%, #ff000044), color-stop(157%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 27%, #ff000044 37% 47%, #0000ff44 59% 127%, #ff000044 137% 147%, #0000ff44 157% 200%);
+  }
+  93% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(38%, #ff000044), color-stop(60%, #0000ff44), color-stop(138%, #ff000044), color-stop(158%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 28%, #ff000044 38% 48%, #0000ff44 60% 128%, #ff000044 138% 148%, #0000ff44 158% 200%);
+  }
+  94% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(39%, #ff000044), color-stop(61%, #0000ff44), color-stop(139%, #ff000044), color-stop(159%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 29%, #ff000044 39% 49%, #0000ff44 61% 129%, #ff000044 139% 149%, #0000ff44 159% 200%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(40%, #ff000044), color-stop(62%, #0000ff44), color-stop(140%, #ff000044), color-stop(160%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 30%, #ff000044 40% 50%, #0000ff44 62% 130%, #ff000044 140% 150%, #0000ff44 160% 200%);
+  }
+  96% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(41%, #ff000044), color-stop(63%, #0000ff44), color-stop(141%, #ff000044), color-stop(161%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 31%, #ff000044 41% 51%, #0000ff44 63% 131%, #ff000044 141% 151%, #0000ff44 161% 200%);
+  }
+  97% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(42%, #ff000044), color-stop(64%, #0000ff44), color-stop(142%, #ff000044), color-stop(162%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 32%, #ff000044 42% 52%, #0000ff44 64% 132%, #ff000044 142% 152%, #0000ff44 162% 200%);
+  }
+  98% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(43%, #ff000044), color-stop(65%, #0000ff44), color-stop(143%, #ff000044), color-stop(163%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 33%, #ff000044 43% 53%, #0000ff44 65% 133%, #ff000044 143% 153%, #0000ff44 163% 200%);
+  }
+  99% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(44%, #ff000044), color-stop(66%, #0000ff44), color-stop(144%, #ff000044), color-stop(164%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 34%, #ff000044 44% 54%, #0000ff44 66% 134%, #ff000044 144% 154%, #0000ff44 164% 200%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(45%, #ff000044), color-stop(67%, #0000ff44), color-stop(145%, #ff000044), color-stop(165%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 35%, #ff000044 45% 55%, #0000ff44 67% 135%, #ff000044 145% 155%, #0000ff44 165% 200%);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -531,6 +1345,7 @@ h2:hover + .career__line::after {
 .my_projects__cont__projects__item__GitHub__link {
   color: #7c70ff;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   -webkit-transition: color 0.1s linear 0.01s;
   transition: color 0.1s linear 0.01s;
@@ -540,12 +1355,20 @@ h2:hover + .career__line::after {
   color: #d69200;
 }
 
+.my_projects__cont__projects__item__GitHub__spare {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 .my_skills {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f3f2ff;
-  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 35% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 85% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 83% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 19% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 40%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 81% 9%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 28% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 67%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 44%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 25%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 12% 16%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 76%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 55% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 31%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
-  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 35% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 85% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 83% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 95% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 19% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 40%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 62% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 81% 9%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 28% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 67%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 44%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 25%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 12% 16%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 76%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 55% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 31%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 72% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 12%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 5% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 66% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 12% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 48% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 81% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 8% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 66% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 15% 27%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 29% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 21%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 72% 80%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 60% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 12%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 5% 31%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 66% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 12% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 48% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 24%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 81% 30%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 8% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 23%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 11%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 75%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 66% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 53%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 87% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 70%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 58%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 73% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 15% 27%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 21%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 29% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 21%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
 }
 
 .my_skills__cont__technologies {
@@ -940,6 +1763,17 @@ h2:hover + .career__line::after {
   font-weight: 700;
 }
 
+.education__cards__item__where__institution__link {
+  color: #7c70ff;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear 0.01s;
+  transition: color 0.1s linear 0.01s;
+}
+
+.education__cards__item__where__institution__link:hover {
+  color: #d69200;
+}
+
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1041,6 +1875,8 @@ h2:hover + .career__line::after {
   background-color: #00ff0022;
   padding-top: 20px;
   padding-bottom: 20px;
+  -webkit-animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
+          animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
 }
 
 .footer__info {

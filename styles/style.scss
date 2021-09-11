@@ -327,6 +327,10 @@ h2:hover + .career__line::after {
   color: $color__link_hover;
 }
 
+.main__contacts_and_about_me__cont__info__text__about_me__paragraph {
+  text-indent: 20pt;
+}
+
 .main__contacts_and_about_me__cont__info__action {
   display: flex;
   flex-wrap: wrap;

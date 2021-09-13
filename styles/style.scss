@@ -1,7 +1,9 @@
+$header__height: 50px;
 $color__main: #fcecd2;
 $color__main_trasparent: rgba(252, 236, 210, 0.2);
 $color__link_hover: #d69200;
 $color__link_text: #7c70ff;
+$width__navi__mobile: 80vw;
 $color_bg__section_1: #f3f2ff;
 $color_bg__section_2: #fffcf5;
 $transition__time__my_project_title: 0.1s linear 0.01s;
@@ -20,6 +22,11 @@ $stars__color: yellow 1px, white 1.2px, transparent 1.6px;
 @mixin text_font($fs: 20px, $lh: 24px) {
   font-size: $fs;
   line-height: $lh;
+}
+
+@mixin transition_navi_moving {
+  transform: translateX(0);
+  transition: transform 1s linear 0.5s;
 }
 
 @mixin title_decoration {
@@ -206,7 +213,7 @@ p {
 }
 
 .header {
-  height: 50px;
+  height: $header__height;
   background-color: $color__main;
 }
 
@@ -225,6 +232,22 @@ p {
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.header__cont__checkbox {
+  display: none;
+}
+
+.header__cont__burger_menu {
+  display: none;
+}
+
+.header__cont__cross {
+  display: none;
+}
+
+.header__cont__full_name_navi_mobile {
+  display: none;
 }
 
 .header__cont__navi {
@@ -2180,9 +2203,125 @@ h2:hover + .career__line::after {
   top: 5px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1240px), (orientation: portrait) {
   .center {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .header__cont__burger_menu {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .header__cont__burger_menu__img {
+    fill: $color__link_text;
+  }
+
+  .header__cont__burger_menu__img:hover {
+    fill: $color__link_hover;
+  }
+
+  .header__cont__cross {
+    display: block;
+    position: fixed;
+    top: 55px;
+    left: -10vw;
+    font-size: 5vw;
+    line-height: 3.5vw;
+    color: $color__link_text;
+    cursor: pointer;
+    @include transition_navi_moving;
+    z-index: 3;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__cross {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__cross:hover {
+    color: $color__link_hover;
+  }
+
+  .header__cont__full_name_navi_mobile {
+    display: block;
+    position: fixed;
+    top: 2vw;
+    left: -$width__navi__mobile + 14vw;
+    font-size: 4vw;
+    font-family: "Roboro", sans-serif;
+    font-weight: 400;
+    color: #00000088;
+    @include transition_navi_moving;
+    z-index: 3;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__full_name_navi_mobile {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__navi {
+    position: fixed;
+    top: 0;
+    left: -$width__navi__mobile;
+    width: $width__navi__mobile;
+    height: 100vh;
+    padding-top: $header__height;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color__main;
+    z-index: 2;
+    @include transition_navi_moving;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__navi {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__navi__link {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__info__name {
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main__contacts_and_about_me__cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main__contacts_and_about_me__cont__my_photo {
+    margin-bottom: 10px;
+  }
+
+  .main__contacts_and_about_me__cont__info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__info__name {
+    font-size: 5vw;
+    line-height: 4vw;
   }
 }

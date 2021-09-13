@@ -17,7 +17,7 @@
     <script src="scripts/sectionLayoutMyCertificates.js" defer></script>
     <script src="scripts/closeBigCertificate.js" defer></script>
     <script src="scripts/flipBigCertificate.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
     <script src="scripts/vueComponentMyProjects.js" defer></script>
     <script src="scripts/vueMain.js" defer></script>
     <title>Резюме Юрий Беркуль</title>
@@ -26,6 +26,16 @@
     <header class="header center">
         <div class="header__cont">
             <p class="header__cont__logo">Юрий Беркуль</p>
+            <input class="header__cont__checkbox" type="checkbox" id="header__cont__checkbox">
+            <label class="header__cont__burger_menu" for="header__cont__checkbox">
+                <svg class="header__cont__burger_menu__img" viewBox="0 0 100 80" width="40" height="40">
+                    <rect class="header__cont__burger_menu__img__line" y="0" width="100" height="20" rx="8"></rect>
+                    <rect class="header__cont__burger_menu__img__line" y="30" width="100" height="20" rx="8"></rect>
+                    <rect class="header__cont__burger_menu__img__line" y="60" width="100" height="20" rx="8"></rect>
+                </svg>
+            </label>
+            <label class="header__cont__cross" for="header__cont__checkbox">&#10006;</label>
+            <p class="header__cont__full_name_navi_mobile">Беркуль Юрий Эдуардович</p>
             <nav class="header__cont__navi">
                 <a class="header__cont__navi__link" href="#contacts">Контакты</a>
                 <a class="header__cont__navi__link" href="#about_me">Обо мне</a>

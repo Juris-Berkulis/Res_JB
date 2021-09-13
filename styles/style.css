@@ -1,0 +1,2117 @@
+@-webkit-keyframes rotate_item_point {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    -webkit-transform: rotateZ(51.42857deg);
+            transform: rotateZ(51.42857deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    -webkit-transform: rotateZ(102.85714deg);
+            transform: rotateZ(102.85714deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    -webkit-transform: rotateZ(154.28571deg);
+            transform: rotateZ(154.28571deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    -webkit-transform: rotateZ(205.71429deg);
+            transform: rotateZ(205.71429deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    -webkit-transform: rotateZ(257.14286deg);
+            transform: rotateZ(257.14286deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    -webkit-transform: rotateZ(308.87143deg);
+            transform: rotateZ(308.87143deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
+}
+
+@keyframes rotate_item_point {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    -webkit-transform: rotateZ(51.42857deg);
+            transform: rotateZ(51.42857deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    -webkit-transform: rotateZ(102.85714deg);
+            transform: rotateZ(102.85714deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    -webkit-transform: rotateZ(154.28571deg);
+            transform: rotateZ(154.28571deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    -webkit-transform: rotateZ(205.71429deg);
+            transform: rotateZ(205.71429deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    -webkit-transform: rotateZ(257.14286deg);
+            transform: rotateZ(257.14286deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    -webkit-transform: rotateZ(308.87143deg);
+            transform: rotateZ(308.87143deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
+}
+
+@-webkit-keyframes rotate_point_item {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
+@keyframes rotate_point_item {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
+@-webkit-keyframes animation__footer__bg__waves {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-55%, #ff000044), color-stop(-33%, #0000ff44), color-stop(45%, #ff000044), color-stop(65%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -65%, #ff000044 -55% -45%, #0000ff44 -33% 35%, #ff000044 45% 55%, #0000ff44 65% 200%);
+  }
+  1% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-54%, #ff000044), color-stop(-32%, #0000ff44), color-stop(46%, #ff000044), color-stop(66%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -64%, #ff000044 -54% -44%, #0000ff44 -32% 36%, #ff000044 46% 56%, #0000ff44 66% 200%);
+  }
+  2% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-53%, #ff000044), color-stop(-31%, #0000ff44), color-stop(47%, #ff000044), color-stop(67%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -63%, #ff000044 -53% -43%, #0000ff44 -31% 37%, #ff000044 47% 57%, #0000ff44 67% 200%);
+  }
+  3% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-52%, #ff000044), color-stop(-30%, #0000ff44), color-stop(48%, #ff000044), color-stop(68%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -62%, #ff000044 -52% -42%, #0000ff44 -30% 38%, #ff000044 48% 58%, #0000ff44 68% 200%);
+  }
+  4% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-51%, #ff000044), color-stop(-29%, #0000ff44), color-stop(49%, #ff000044), color-stop(69%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -61%, #ff000044 -51% -41%, #0000ff44 -29% 39%, #ff000044 49% 59%, #0000ff44 69% 200%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-50%, #ff000044), color-stop(-28%, #0000ff44), color-stop(50%, #ff000044), color-stop(70%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -60%, #ff000044 -50% -40%, #0000ff44 -28% 40%, #ff000044 50% 60%, #0000ff44 70% 200%);
+  }
+  6% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-49%, #ff000044), color-stop(-27%, #0000ff44), color-stop(51%, #ff000044), color-stop(71%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -59%, #ff000044 -49% -39%, #0000ff44 -27% 41%, #ff000044 51% 61%, #0000ff44 71% 200%);
+  }
+  7% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-48%, #ff000044), color-stop(-26%, #0000ff44), color-stop(52%, #ff000044), color-stop(72%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -58%, #ff000044 -48% -38%, #0000ff44 -26% 42%, #ff000044 52% 62%, #0000ff44 72% 200%);
+  }
+  8% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-47%, #ff000044), color-stop(-25%, #0000ff44), color-stop(53%, #ff000044), color-stop(73%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -57%, #ff000044 -47% -37%, #0000ff44 -25% 43%, #ff000044 53% 63%, #0000ff44 73% 200%);
+  }
+  9% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-46%, #ff000044), color-stop(-24%, #0000ff44), color-stop(54%, #ff000044), color-stop(74%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -56%, #ff000044 -46% -36%, #0000ff44 -24% 44%, #ff000044 54% 64%, #0000ff44 74% 200%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-45%, #ff000044), color-stop(-23%, #0000ff44), color-stop(55%, #ff000044), color-stop(75%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -55%, #ff000044 -45% -35%, #0000ff44 -23% 45%, #ff000044 55% 65%, #0000ff44 75% 200%);
+  }
+  11% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-44%, #ff000044), color-stop(-22%, #0000ff44), color-stop(56%, #ff000044), color-stop(76%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -54%, #ff000044 -44% -34%, #0000ff44 -22% 46%, #ff000044 56% 66%, #0000ff44 76% 200%);
+  }
+  12% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-43%, #ff000044), color-stop(-21%, #0000ff44), color-stop(57%, #ff000044), color-stop(77%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -53%, #ff000044 -43% -33%, #0000ff44 -21% 47%, #ff000044 57% 67%, #0000ff44 77% 200%);
+  }
+  13% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-42%, #ff000044), color-stop(-20%, #0000ff44), color-stop(58%, #ff000044), color-stop(78%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -52%, #ff000044 -42% -32%, #0000ff44 -20% 48%, #ff000044 58% 68%, #0000ff44 78% 200%);
+  }
+  14% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-41%, #ff000044), color-stop(-19%, #0000ff44), color-stop(59%, #ff000044), color-stop(79%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -51%, #ff000044 -41% -31%, #0000ff44 -19% 49%, #ff000044 59% 69%, #0000ff44 79% 200%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-40%, #ff000044), color-stop(-18%, #0000ff44), color-stop(60%, #ff000044), color-stop(80%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -50%, #ff000044 -40% -30%, #0000ff44 -18% 50%, #ff000044 60% 70%, #0000ff44 80% 200%);
+  }
+  16% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-39%, #ff000044), color-stop(-17%, #0000ff44), color-stop(61%, #ff000044), color-stop(81%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -49%, #ff000044 -39% -29%, #0000ff44 -17% 51%, #ff000044 61% 71%, #0000ff44 81% 200%);
+  }
+  17% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-38%, #ff000044), color-stop(-16%, #0000ff44), color-stop(62%, #ff000044), color-stop(82%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -48%, #ff000044 -38% -28%, #0000ff44 -16% 52%, #ff000044 62% 72%, #0000ff44 82% 200%);
+  }
+  18% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-37%, #ff000044), color-stop(-15%, #0000ff44), color-stop(63%, #ff000044), color-stop(83%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -47%, #ff000044 -37% -27%, #0000ff44 -15% 53%, #ff000044 63% 73%, #0000ff44 83% 200%);
+  }
+  19% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-36%, #ff000044), color-stop(-14%, #0000ff44), color-stop(64%, #ff000044), color-stop(84%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -46%, #ff000044 -36% -26%, #0000ff44 -14% 54%, #ff000044 64% 74%, #0000ff44 84% 200%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-35%, #ff000044), color-stop(-13%, #0000ff44), color-stop(65%, #ff000044), color-stop(85%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -45%, #ff000044 -35% -25%, #0000ff44 -13% 55%, #ff000044 65% 75%, #0000ff44 85% 200%);
+  }
+  21% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-34%, #ff000044), color-stop(-12%, #0000ff44), color-stop(66%, #ff000044), color-stop(86%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -44%, #ff000044 -34% -24%, #0000ff44 -12% 56%, #ff000044 66% 76%, #0000ff44 86% 200%);
+  }
+  22% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-33%, #ff000044), color-stop(-11%, #0000ff44), color-stop(67%, #ff000044), color-stop(87%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -43%, #ff000044 -33% -23%, #0000ff44 -11% 57%, #ff000044 67% 77%, #0000ff44 87% 200%);
+  }
+  23% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-32%, #ff000044), color-stop(-10%, #0000ff44), color-stop(68%, #ff000044), color-stop(88%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -42%, #ff000044 -32% -22%, #0000ff44 -10% 58%, #ff000044 68% 78%, #0000ff44 88% 200%);
+  }
+  24% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-31%, #ff000044), color-stop(-9%, #0000ff44), color-stop(69%, #ff000044), color-stop(89%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -41%, #ff000044 -31% -21%, #0000ff44 -9% 59%, #ff000044 69% 79%, #0000ff44 89% 200%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-30%, #ff000044), color-stop(-8%, #0000ff44), color-stop(70%, #ff000044), color-stop(90%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -40%, #ff000044 -30% -20%, #0000ff44 -8% 60%, #ff000044 70% 80%, #0000ff44 90% 200%);
+  }
+  26% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-29%, #ff000044), color-stop(-7%, #0000ff44), color-stop(71%, #ff000044), color-stop(91%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -39%, #ff000044 -29% -19%, #0000ff44 -7% 61%, #ff000044 71% 81%, #0000ff44 91% 200%);
+  }
+  27% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-28%, #ff000044), color-stop(-6%, #0000ff44), color-stop(72%, #ff000044), color-stop(92%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -38%, #ff000044 -28% -18%, #0000ff44 -6% 62%, #ff000044 72% 82%, #0000ff44 92% 200%);
+  }
+  28% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-27%, #ff000044), color-stop(-5%, #0000ff44), color-stop(73%, #ff000044), color-stop(93%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -37%, #ff000044 -27% -17%, #0000ff44 -5% 63%, #ff000044 73% 83%, #0000ff44 93% 200%);
+  }
+  29% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-26%, #ff000044), color-stop(-4%, #0000ff44), color-stop(74%, #ff000044), color-stop(94%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -36%, #ff000044 -26% -16%, #0000ff44 -4% 64%, #ff000044 74% 84%, #0000ff44 94% 200%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-25%, #ff000044), color-stop(-3%, #0000ff44), color-stop(75%, #ff000044), color-stop(95%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -35%, #ff000044 -25% -15%, #0000ff44 -3% 65%, #ff000044 75% 85%, #0000ff44 95% 200%);
+  }
+  31% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-24%, #ff000044), color-stop(-2%, #0000ff44), color-stop(76%, #ff000044), color-stop(96%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -34%, #ff000044 -24% -14%, #0000ff44 -2% 66%, #ff000044 76% 86%, #0000ff44 96% 200%);
+  }
+  32% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-23%, #ff000044), color-stop(-1%, #0000ff44), color-stop(77%, #ff000044), color-stop(97%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -33%, #ff000044 -23% -13%, #0000ff44 -1% 67%, #ff000044 77% 87%, #0000ff44 97% 200%);
+  }
+  33% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-22%, #ff000044), color-stop(0%, #0000ff44), color-stop(78%, #ff000044), color-stop(98%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -32%, #ff000044 -22% -12%, #0000ff44 0% 68%, #ff000044 78% 88%, #0000ff44 98% 200%);
+  }
+  34% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-21%, #ff000044), color-stop(1%, #0000ff44), color-stop(79%, #ff000044), color-stop(99%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -31%, #ff000044 -21% -11%, #0000ff44 1% 69%, #ff000044 79% 89%, #0000ff44 99% 200%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-20%, #ff000044), color-stop(2%, #0000ff44), color-stop(80%, #ff000044), to(#0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -30%, #ff000044 -20% -10%, #0000ff44 2% 70%, #ff000044 80% 90%, #0000ff44 100% 200%);
+  }
+  36% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-19%, #ff000044), color-stop(3%, #0000ff44), color-stop(81%, #ff000044), color-stop(101%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -29%, #ff000044 -19% -9%, #0000ff44 3% 71%, #ff000044 81% 91%, #0000ff44 101% 200%);
+  }
+  37% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-18%, #ff000044), color-stop(4%, #0000ff44), color-stop(82%, #ff000044), color-stop(102%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -28%, #ff000044 -18% -8%, #0000ff44 4% 72%, #ff000044 82% 92%, #0000ff44 102% 200%);
+  }
+  38% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-17%, #ff000044), color-stop(5%, #0000ff44), color-stop(83%, #ff000044), color-stop(103%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -27%, #ff000044 -17% -7%, #0000ff44 5% 73%, #ff000044 83% 93%, #0000ff44 103% 200%);
+  }
+  39% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-16%, #ff000044), color-stop(6%, #0000ff44), color-stop(84%, #ff000044), color-stop(104%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -26%, #ff000044 -16% -6%, #0000ff44 6% 74%, #ff000044 84% 94%, #0000ff44 104% 200%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-15%, #ff000044), color-stop(7%, #0000ff44), color-stop(85%, #ff000044), color-stop(105%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -25%, #ff000044 -15% -5%, #0000ff44 7% 75%, #ff000044 85% 95%, #0000ff44 105% 200%);
+  }
+  41% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-14%, #ff000044), color-stop(8%, #0000ff44), color-stop(86%, #ff000044), color-stop(106%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -24%, #ff000044 -14% -4%, #0000ff44 8% 76%, #ff000044 86% 96%, #0000ff44 106% 200%);
+  }
+  42% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-13%, #ff000044), color-stop(9%, #0000ff44), color-stop(87%, #ff000044), color-stop(107%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -23%, #ff000044 -13% -3%, #0000ff44 9% 77%, #ff000044 87% 97%, #0000ff44 107% 200%);
+  }
+  43% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-12%, #ff000044), color-stop(10%, #0000ff44), color-stop(88%, #ff000044), color-stop(108%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -22%, #ff000044 -12% -2%, #0000ff44 10% 78%, #ff000044 88% 98%, #0000ff44 108% 200%);
+  }
+  44% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-11%, #ff000044), color-stop(11%, #0000ff44), color-stop(89%, #ff000044), color-stop(109%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -21%, #ff000044 -11% -1%, #0000ff44 11% 79%, #ff000044 89% 99%, #0000ff44 109% 200%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-10%, #ff000044), color-stop(12%, #0000ff44), color-stop(90%, #ff000044), color-stop(110%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -20%, #ff000044 -10% 0%, #0000ff44 12% 80%, #ff000044 90% 100%, #0000ff44 110% 200%);
+  }
+  46% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-9%, #ff000044), color-stop(13%, #0000ff44), color-stop(91%, #ff000044), color-stop(111%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -19%, #ff000044 -9% 1%, #0000ff44 13% 81%, #ff000044 91% 101%, #0000ff44 111% 200%);
+  }
+  47% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-8%, #ff000044), color-stop(14%, #0000ff44), color-stop(92%, #ff000044), color-stop(112%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -18%, #ff000044 -8% 2%, #0000ff44 14% 82%, #ff000044 92% 102%, #0000ff44 112% 200%);
+  }
+  48% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-7%, #ff000044), color-stop(15%, #0000ff44), color-stop(93%, #ff000044), color-stop(113%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -17%, #ff000044 -7% 3%, #0000ff44 15% 83%, #ff000044 93% 103%, #0000ff44 113% 200%);
+  }
+  49% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-6%, #ff000044), color-stop(16%, #0000ff44), color-stop(94%, #ff000044), color-stop(114%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -16%, #ff000044 -6% 4%, #0000ff44 16% 84%, #ff000044 94% 104%, #0000ff44 114% 200%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-5%, #ff000044), color-stop(17%, #0000ff44), color-stop(95%, #ff000044), color-stop(115%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -15%, #ff000044 -5% 5%, #0000ff44 17% 85%, #ff000044 95% 105%, #0000ff44 115% 200%);
+  }
+  51% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-4%, #ff000044), color-stop(18%, #0000ff44), color-stop(96%, #ff000044), color-stop(116%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -14%, #ff000044 -4% 6%, #0000ff44 18% 86%, #ff000044 96% 106%, #0000ff44 116% 200%);
+  }
+  52% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-3%, #ff000044), color-stop(19%, #0000ff44), color-stop(97%, #ff000044), color-stop(117%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -13%, #ff000044 -3% 7%, #0000ff44 19% 87%, #ff000044 97% 107%, #0000ff44 117% 200%);
+  }
+  53% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-2%, #ff000044), color-stop(20%, #0000ff44), color-stop(98%, #ff000044), color-stop(118%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -12%, #ff000044 -2% 8%, #0000ff44 20% 88%, #ff000044 98% 108%, #0000ff44 118% 200%);
+  }
+  54% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-1%, #ff000044), color-stop(21%, #0000ff44), color-stop(99%, #ff000044), color-stop(119%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -11%, #ff000044 -1% 9%, #0000ff44 21% 89%, #ff000044 99% 109%, #0000ff44 119% 200%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(0%, #ff000044), color-stop(22%, #0000ff44), color-stop(100%, #ff000044), color-stop(120%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -10%, #ff000044 0% 10%, #0000ff44 22% 90%, #ff000044 100% 110%, #0000ff44 120% 200%);
+  }
+  56% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(1%, #ff000044), color-stop(23%, #0000ff44), color-stop(101%, #ff000044), color-stop(121%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -9%, #ff000044 1% 11%, #0000ff44 23% 91%, #ff000044 101% 111%, #0000ff44 121% 200%);
+  }
+  57% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(2%, #ff000044), color-stop(24%, #0000ff44), color-stop(102%, #ff000044), color-stop(122%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -8%, #ff000044 2% 12%, #0000ff44 24% 92%, #ff000044 102% 112%, #0000ff44 122% 200%);
+  }
+  58% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(3%, #ff000044), color-stop(25%, #0000ff44), color-stop(103%, #ff000044), color-stop(123%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -7%, #ff000044 3% 13%, #0000ff44 25% 93%, #ff000044 103% 113%, #0000ff44 123% 200%);
+  }
+  59% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(4%, #ff000044), color-stop(26%, #0000ff44), color-stop(104%, #ff000044), color-stop(124%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -6%, #ff000044 4% 14%, #0000ff44 26% 94%, #ff000044 104% 114%, #0000ff44 124% 200%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(5%, #ff000044), color-stop(27%, #0000ff44), color-stop(105%, #ff000044), color-stop(125%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -5%, #ff000044 5% 15%, #0000ff44 27% 95%, #ff000044 105% 115%, #0000ff44 125% 200%);
+  }
+  61% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(6%, #ff000044), color-stop(28%, #0000ff44), color-stop(106%, #ff000044), color-stop(126%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -4%, #ff000044 6% 16%, #0000ff44 28% 96%, #ff000044 106% 116%, #0000ff44 126% 200%);
+  }
+  62% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(7%, #ff000044), color-stop(29%, #0000ff44), color-stop(107%, #ff000044), color-stop(127%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -3%, #ff000044 7% 17%, #0000ff44 29% 97%, #ff000044 107% 117%, #0000ff44 127% 200%);
+  }
+  63% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(8%, #ff000044), color-stop(30%, #0000ff44), color-stop(108%, #ff000044), color-stop(128%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -2%, #ff000044 8% 18%, #0000ff44 30% 98%, #ff000044 108% 118%, #0000ff44 128% 200%);
+  }
+  64% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(9%, #ff000044), color-stop(31%, #0000ff44), color-stop(109%, #ff000044), color-stop(129%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -1%, #ff000044 9% 19%, #0000ff44 31% 99%, #ff000044 109% 119%, #0000ff44 129% 200%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(10%, #ff000044), color-stop(32%, #0000ff44), color-stop(110%, #ff000044), color-stop(130%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 0%, #ff000044 10% 20%, #0000ff44 32% 100%, #ff000044 110% 120%, #0000ff44 130% 200%);
+  }
+  66% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(11%, #ff000044), color-stop(33%, #0000ff44), color-stop(111%, #ff000044), color-stop(131%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 1%, #ff000044 11% 21%, #0000ff44 33% 101%, #ff000044 111% 121%, #0000ff44 131% 200%);
+  }
+  67% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(12%, #ff000044), color-stop(34%, #0000ff44), color-stop(112%, #ff000044), color-stop(132%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 2%, #ff000044 12% 22%, #0000ff44 34% 102%, #ff000044 112% 122%, #0000ff44 132% 200%);
+  }
+  68% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(13%, #ff000044), color-stop(35%, #0000ff44), color-stop(113%, #ff000044), color-stop(133%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 3%, #ff000044 13% 23%, #0000ff44 35% 103%, #ff000044 113% 123%, #0000ff44 133% 200%);
+  }
+  69% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(14%, #ff000044), color-stop(36%, #0000ff44), color-stop(114%, #ff000044), color-stop(134%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 4%, #ff000044 14% 24%, #0000ff44 36% 104%, #ff000044 114% 124%, #0000ff44 134% 200%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(15%, #ff000044), color-stop(37%, #0000ff44), color-stop(115%, #ff000044), color-stop(135%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 5%, #ff000044 15% 25%, #0000ff44 37% 105%, #ff000044 115% 125%, #0000ff44 135% 200%);
+  }
+  71% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(16%, #ff000044), color-stop(38%, #0000ff44), color-stop(116%, #ff000044), color-stop(136%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 6%, #ff000044 16% 26%, #0000ff44 38% 106%, #ff000044 116% 126%, #0000ff44 136% 200%);
+  }
+  72% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(17%, #ff000044), color-stop(39%, #0000ff44), color-stop(117%, #ff000044), color-stop(137%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 7%, #ff000044 17% 27%, #0000ff44 39% 107%, #ff000044 117% 127%, #0000ff44 137% 200%);
+  }
+  73% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(18%, #ff000044), color-stop(40%, #0000ff44), color-stop(118%, #ff000044), color-stop(138%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 8%, #ff000044 18% 28%, #0000ff44 40% 108%, #ff000044 118% 128%, #0000ff44 138% 200%);
+  }
+  74% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(19%, #ff000044), color-stop(41%, #0000ff44), color-stop(119%, #ff000044), color-stop(139%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 9%, #ff000044 19% 29%, #0000ff44 41% 109%, #ff000044 119% 129%, #0000ff44 139% 200%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(20%, #ff000044), color-stop(42%, #0000ff44), color-stop(120%, #ff000044), color-stop(140%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 10%, #ff000044 20% 30%, #0000ff44 42% 110%, #ff000044 120% 130%, #0000ff44 140% 200%);
+  }
+  76% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(21%, #ff000044), color-stop(43%, #0000ff44), color-stop(121%, #ff000044), color-stop(141%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 11%, #ff000044 21% 31%, #0000ff44 43% 111%, #ff000044 121% 131%, #0000ff44 141% 200%);
+  }
+  77% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(22%, #ff000044), color-stop(44%, #0000ff44), color-stop(122%, #ff000044), color-stop(142%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 12%, #ff000044 22% 32%, #0000ff44 44% 112%, #ff000044 122% 132%, #0000ff44 142% 200%);
+  }
+  78% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(23%, #ff000044), color-stop(45%, #0000ff44), color-stop(123%, #ff000044), color-stop(143%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 13%, #ff000044 23% 33%, #0000ff44 45% 113%, #ff000044 123% 133%, #0000ff44 143% 200%);
+  }
+  79% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(24%, #ff000044), color-stop(46%, #0000ff44), color-stop(124%, #ff000044), color-stop(144%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 14%, #ff000044 24% 34%, #0000ff44 46% 114%, #ff000044 124% 134%, #0000ff44 144% 200%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(25%, #ff000044), color-stop(47%, #0000ff44), color-stop(125%, #ff000044), color-stop(145%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 15%, #ff000044 25% 35%, #0000ff44 47% 115%, #ff000044 125% 135%, #0000ff44 145% 200%);
+  }
+  81% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(26%, #ff000044), color-stop(48%, #0000ff44), color-stop(126%, #ff000044), color-stop(146%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 16%, #ff000044 26% 36%, #0000ff44 48% 116%, #ff000044 126% 136%, #0000ff44 146% 200%);
+  }
+  82% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(27%, #ff000044), color-stop(49%, #0000ff44), color-stop(127%, #ff000044), color-stop(147%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 17%, #ff000044 27% 37%, #0000ff44 49% 117%, #ff000044 127% 137%, #0000ff44 147% 200%);
+  }
+  83% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(28%, #ff000044), color-stop(50%, #0000ff44), color-stop(128%, #ff000044), color-stop(148%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 18%, #ff000044 28% 38%, #0000ff44 50% 118%, #ff000044 128% 138%, #0000ff44 148% 200%);
+  }
+  84% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(29%, #ff000044), color-stop(51%, #0000ff44), color-stop(129%, #ff000044), color-stop(149%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 19%, #ff000044 29% 39%, #0000ff44 51% 119%, #ff000044 129% 139%, #0000ff44 149% 200%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(30%, #ff000044), color-stop(52%, #0000ff44), color-stop(130%, #ff000044), color-stop(150%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 20%, #ff000044 30% 40%, #0000ff44 52% 120%, #ff000044 130% 140%, #0000ff44 150% 200%);
+  }
+  86% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(31%, #ff000044), color-stop(53%, #0000ff44), color-stop(131%, #ff000044), color-stop(151%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 21%, #ff000044 31% 41%, #0000ff44 53% 121%, #ff000044 131% 141%, #0000ff44 151% 200%);
+  }
+  87% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(32%, #ff000044), color-stop(54%, #0000ff44), color-stop(132%, #ff000044), color-stop(152%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 22%, #ff000044 32% 42%, #0000ff44 54% 122%, #ff000044 132% 142%, #0000ff44 152% 200%);
+  }
+  88% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(33%, #ff000044), color-stop(55%, #0000ff44), color-stop(133%, #ff000044), color-stop(153%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 23%, #ff000044 33% 43%, #0000ff44 55% 123%, #ff000044 133% 143%, #0000ff44 153% 200%);
+  }
+  89% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(34%, #ff000044), color-stop(56%, #0000ff44), color-stop(134%, #ff000044), color-stop(154%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 24%, #ff000044 34% 44%, #0000ff44 56% 124%, #ff000044 134% 144%, #0000ff44 154% 200%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(35%, #ff000044), color-stop(57%, #0000ff44), color-stop(135%, #ff000044), color-stop(155%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 25%, #ff000044 35% 45%, #0000ff44 57% 125%, #ff000044 135% 145%, #0000ff44 155% 200%);
+  }
+  91% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(36%, #ff000044), color-stop(58%, #0000ff44), color-stop(136%, #ff000044), color-stop(156%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 26%, #ff000044 36% 46%, #0000ff44 58% 126%, #ff000044 136% 146%, #0000ff44 156% 200%);
+  }
+  92% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(37%, #ff000044), color-stop(59%, #0000ff44), color-stop(137%, #ff000044), color-stop(157%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 27%, #ff000044 37% 47%, #0000ff44 59% 127%, #ff000044 137% 147%, #0000ff44 157% 200%);
+  }
+  93% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(38%, #ff000044), color-stop(60%, #0000ff44), color-stop(138%, #ff000044), color-stop(158%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 28%, #ff000044 38% 48%, #0000ff44 60% 128%, #ff000044 138% 148%, #0000ff44 158% 200%);
+  }
+  94% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(39%, #ff000044), color-stop(61%, #0000ff44), color-stop(139%, #ff000044), color-stop(159%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 29%, #ff000044 39% 49%, #0000ff44 61% 129%, #ff000044 139% 149%, #0000ff44 159% 200%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(40%, #ff000044), color-stop(62%, #0000ff44), color-stop(140%, #ff000044), color-stop(160%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 30%, #ff000044 40% 50%, #0000ff44 62% 130%, #ff000044 140% 150%, #0000ff44 160% 200%);
+  }
+  96% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(41%, #ff000044), color-stop(63%, #0000ff44), color-stop(141%, #ff000044), color-stop(161%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 31%, #ff000044 41% 51%, #0000ff44 63% 131%, #ff000044 141% 151%, #0000ff44 161% 200%);
+  }
+  97% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(42%, #ff000044), color-stop(64%, #0000ff44), color-stop(142%, #ff000044), color-stop(162%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 32%, #ff000044 42% 52%, #0000ff44 64% 132%, #ff000044 142% 152%, #0000ff44 162% 200%);
+  }
+  98% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(43%, #ff000044), color-stop(65%, #0000ff44), color-stop(143%, #ff000044), color-stop(163%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 33%, #ff000044 43% 53%, #0000ff44 65% 133%, #ff000044 143% 153%, #0000ff44 163% 200%);
+  }
+  99% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(44%, #ff000044), color-stop(66%, #0000ff44), color-stop(144%, #ff000044), color-stop(164%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 34%, #ff000044 44% 54%, #0000ff44 66% 134%, #ff000044 144% 154%, #0000ff44 164% 200%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(45%, #ff000044), color-stop(67%, #0000ff44), color-stop(145%, #ff000044), color-stop(165%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 35%, #ff000044 45% 55%, #0000ff44 67% 135%, #ff000044 145% 155%, #0000ff44 165% 200%);
+  }
+}
+
+@keyframes animation__footer__bg__waves {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-55%, #ff000044), color-stop(-33%, #0000ff44), color-stop(45%, #ff000044), color-stop(65%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -65%, #ff000044 -55% -45%, #0000ff44 -33% 35%, #ff000044 45% 55%, #0000ff44 65% 200%);
+  }
+  1% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-54%, #ff000044), color-stop(-32%, #0000ff44), color-stop(46%, #ff000044), color-stop(66%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -64%, #ff000044 -54% -44%, #0000ff44 -32% 36%, #ff000044 46% 56%, #0000ff44 66% 200%);
+  }
+  2% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-53%, #ff000044), color-stop(-31%, #0000ff44), color-stop(47%, #ff000044), color-stop(67%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -63%, #ff000044 -53% -43%, #0000ff44 -31% 37%, #ff000044 47% 57%, #0000ff44 67% 200%);
+  }
+  3% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-52%, #ff000044), color-stop(-30%, #0000ff44), color-stop(48%, #ff000044), color-stop(68%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -62%, #ff000044 -52% -42%, #0000ff44 -30% 38%, #ff000044 48% 58%, #0000ff44 68% 200%);
+  }
+  4% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-51%, #ff000044), color-stop(-29%, #0000ff44), color-stop(49%, #ff000044), color-stop(69%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -61%, #ff000044 -51% -41%, #0000ff44 -29% 39%, #ff000044 49% 59%, #0000ff44 69% 200%);
+  }
+  5% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-50%, #ff000044), color-stop(-28%, #0000ff44), color-stop(50%, #ff000044), color-stop(70%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -60%, #ff000044 -50% -40%, #0000ff44 -28% 40%, #ff000044 50% 60%, #0000ff44 70% 200%);
+  }
+  6% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-49%, #ff000044), color-stop(-27%, #0000ff44), color-stop(51%, #ff000044), color-stop(71%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -59%, #ff000044 -49% -39%, #0000ff44 -27% 41%, #ff000044 51% 61%, #0000ff44 71% 200%);
+  }
+  7% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-48%, #ff000044), color-stop(-26%, #0000ff44), color-stop(52%, #ff000044), color-stop(72%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -58%, #ff000044 -48% -38%, #0000ff44 -26% 42%, #ff000044 52% 62%, #0000ff44 72% 200%);
+  }
+  8% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-47%, #ff000044), color-stop(-25%, #0000ff44), color-stop(53%, #ff000044), color-stop(73%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -57%, #ff000044 -47% -37%, #0000ff44 -25% 43%, #ff000044 53% 63%, #0000ff44 73% 200%);
+  }
+  9% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-46%, #ff000044), color-stop(-24%, #0000ff44), color-stop(54%, #ff000044), color-stop(74%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -56%, #ff000044 -46% -36%, #0000ff44 -24% 44%, #ff000044 54% 64%, #0000ff44 74% 200%);
+  }
+  10% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-45%, #ff000044), color-stop(-23%, #0000ff44), color-stop(55%, #ff000044), color-stop(75%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -55%, #ff000044 -45% -35%, #0000ff44 -23% 45%, #ff000044 55% 65%, #0000ff44 75% 200%);
+  }
+  11% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-44%, #ff000044), color-stop(-22%, #0000ff44), color-stop(56%, #ff000044), color-stop(76%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -54%, #ff000044 -44% -34%, #0000ff44 -22% 46%, #ff000044 56% 66%, #0000ff44 76% 200%);
+  }
+  12% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-43%, #ff000044), color-stop(-21%, #0000ff44), color-stop(57%, #ff000044), color-stop(77%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -53%, #ff000044 -43% -33%, #0000ff44 -21% 47%, #ff000044 57% 67%, #0000ff44 77% 200%);
+  }
+  13% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-42%, #ff000044), color-stop(-20%, #0000ff44), color-stop(58%, #ff000044), color-stop(78%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -52%, #ff000044 -42% -32%, #0000ff44 -20% 48%, #ff000044 58% 68%, #0000ff44 78% 200%);
+  }
+  14% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-41%, #ff000044), color-stop(-19%, #0000ff44), color-stop(59%, #ff000044), color-stop(79%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -51%, #ff000044 -41% -31%, #0000ff44 -19% 49%, #ff000044 59% 69%, #0000ff44 79% 200%);
+  }
+  15% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-40%, #ff000044), color-stop(-18%, #0000ff44), color-stop(60%, #ff000044), color-stop(80%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -50%, #ff000044 -40% -30%, #0000ff44 -18% 50%, #ff000044 60% 70%, #0000ff44 80% 200%);
+  }
+  16% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-39%, #ff000044), color-stop(-17%, #0000ff44), color-stop(61%, #ff000044), color-stop(81%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -49%, #ff000044 -39% -29%, #0000ff44 -17% 51%, #ff000044 61% 71%, #0000ff44 81% 200%);
+  }
+  17% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-38%, #ff000044), color-stop(-16%, #0000ff44), color-stop(62%, #ff000044), color-stop(82%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -48%, #ff000044 -38% -28%, #0000ff44 -16% 52%, #ff000044 62% 72%, #0000ff44 82% 200%);
+  }
+  18% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-37%, #ff000044), color-stop(-15%, #0000ff44), color-stop(63%, #ff000044), color-stop(83%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -47%, #ff000044 -37% -27%, #0000ff44 -15% 53%, #ff000044 63% 73%, #0000ff44 83% 200%);
+  }
+  19% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-36%, #ff000044), color-stop(-14%, #0000ff44), color-stop(64%, #ff000044), color-stop(84%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -46%, #ff000044 -36% -26%, #0000ff44 -14% 54%, #ff000044 64% 74%, #0000ff44 84% 200%);
+  }
+  20% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-35%, #ff000044), color-stop(-13%, #0000ff44), color-stop(65%, #ff000044), color-stop(85%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -45%, #ff000044 -35% -25%, #0000ff44 -13% 55%, #ff000044 65% 75%, #0000ff44 85% 200%);
+  }
+  21% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-34%, #ff000044), color-stop(-12%, #0000ff44), color-stop(66%, #ff000044), color-stop(86%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -44%, #ff000044 -34% -24%, #0000ff44 -12% 56%, #ff000044 66% 76%, #0000ff44 86% 200%);
+  }
+  22% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-33%, #ff000044), color-stop(-11%, #0000ff44), color-stop(67%, #ff000044), color-stop(87%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -43%, #ff000044 -33% -23%, #0000ff44 -11% 57%, #ff000044 67% 77%, #0000ff44 87% 200%);
+  }
+  23% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-32%, #ff000044), color-stop(-10%, #0000ff44), color-stop(68%, #ff000044), color-stop(88%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -42%, #ff000044 -32% -22%, #0000ff44 -10% 58%, #ff000044 68% 78%, #0000ff44 88% 200%);
+  }
+  24% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-31%, #ff000044), color-stop(-9%, #0000ff44), color-stop(69%, #ff000044), color-stop(89%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -41%, #ff000044 -31% -21%, #0000ff44 -9% 59%, #ff000044 69% 79%, #0000ff44 89% 200%);
+  }
+  25% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-30%, #ff000044), color-stop(-8%, #0000ff44), color-stop(70%, #ff000044), color-stop(90%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -40%, #ff000044 -30% -20%, #0000ff44 -8% 60%, #ff000044 70% 80%, #0000ff44 90% 200%);
+  }
+  26% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-29%, #ff000044), color-stop(-7%, #0000ff44), color-stop(71%, #ff000044), color-stop(91%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -39%, #ff000044 -29% -19%, #0000ff44 -7% 61%, #ff000044 71% 81%, #0000ff44 91% 200%);
+  }
+  27% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-28%, #ff000044), color-stop(-6%, #0000ff44), color-stop(72%, #ff000044), color-stop(92%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -38%, #ff000044 -28% -18%, #0000ff44 -6% 62%, #ff000044 72% 82%, #0000ff44 92% 200%);
+  }
+  28% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-27%, #ff000044), color-stop(-5%, #0000ff44), color-stop(73%, #ff000044), color-stop(93%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -37%, #ff000044 -27% -17%, #0000ff44 -5% 63%, #ff000044 73% 83%, #0000ff44 93% 200%);
+  }
+  29% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-26%, #ff000044), color-stop(-4%, #0000ff44), color-stop(74%, #ff000044), color-stop(94%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -36%, #ff000044 -26% -16%, #0000ff44 -4% 64%, #ff000044 74% 84%, #0000ff44 94% 200%);
+  }
+  30% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-25%, #ff000044), color-stop(-3%, #0000ff44), color-stop(75%, #ff000044), color-stop(95%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -35%, #ff000044 -25% -15%, #0000ff44 -3% 65%, #ff000044 75% 85%, #0000ff44 95% 200%);
+  }
+  31% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-24%, #ff000044), color-stop(-2%, #0000ff44), color-stop(76%, #ff000044), color-stop(96%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -34%, #ff000044 -24% -14%, #0000ff44 -2% 66%, #ff000044 76% 86%, #0000ff44 96% 200%);
+  }
+  32% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-23%, #ff000044), color-stop(-1%, #0000ff44), color-stop(77%, #ff000044), color-stop(97%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -33%, #ff000044 -23% -13%, #0000ff44 -1% 67%, #ff000044 77% 87%, #0000ff44 97% 200%);
+  }
+  33% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-22%, #ff000044), color-stop(0%, #0000ff44), color-stop(78%, #ff000044), color-stop(98%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -32%, #ff000044 -22% -12%, #0000ff44 0% 68%, #ff000044 78% 88%, #0000ff44 98% 200%);
+  }
+  34% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-21%, #ff000044), color-stop(1%, #0000ff44), color-stop(79%, #ff000044), color-stop(99%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -31%, #ff000044 -21% -11%, #0000ff44 1% 69%, #ff000044 79% 89%, #0000ff44 99% 200%);
+  }
+  35% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-20%, #ff000044), color-stop(2%, #0000ff44), color-stop(80%, #ff000044), to(#0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -30%, #ff000044 -20% -10%, #0000ff44 2% 70%, #ff000044 80% 90%, #0000ff44 100% 200%);
+  }
+  36% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-19%, #ff000044), color-stop(3%, #0000ff44), color-stop(81%, #ff000044), color-stop(101%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -29%, #ff000044 -19% -9%, #0000ff44 3% 71%, #ff000044 81% 91%, #0000ff44 101% 200%);
+  }
+  37% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-18%, #ff000044), color-stop(4%, #0000ff44), color-stop(82%, #ff000044), color-stop(102%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -28%, #ff000044 -18% -8%, #0000ff44 4% 72%, #ff000044 82% 92%, #0000ff44 102% 200%);
+  }
+  38% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-17%, #ff000044), color-stop(5%, #0000ff44), color-stop(83%, #ff000044), color-stop(103%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -27%, #ff000044 -17% -7%, #0000ff44 5% 73%, #ff000044 83% 93%, #0000ff44 103% 200%);
+  }
+  39% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-16%, #ff000044), color-stop(6%, #0000ff44), color-stop(84%, #ff000044), color-stop(104%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -26%, #ff000044 -16% -6%, #0000ff44 6% 74%, #ff000044 84% 94%, #0000ff44 104% 200%);
+  }
+  40% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-15%, #ff000044), color-stop(7%, #0000ff44), color-stop(85%, #ff000044), color-stop(105%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -25%, #ff000044 -15% -5%, #0000ff44 7% 75%, #ff000044 85% 95%, #0000ff44 105% 200%);
+  }
+  41% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-14%, #ff000044), color-stop(8%, #0000ff44), color-stop(86%, #ff000044), color-stop(106%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -24%, #ff000044 -14% -4%, #0000ff44 8% 76%, #ff000044 86% 96%, #0000ff44 106% 200%);
+  }
+  42% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-13%, #ff000044), color-stop(9%, #0000ff44), color-stop(87%, #ff000044), color-stop(107%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -23%, #ff000044 -13% -3%, #0000ff44 9% 77%, #ff000044 87% 97%, #0000ff44 107% 200%);
+  }
+  43% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-12%, #ff000044), color-stop(10%, #0000ff44), color-stop(88%, #ff000044), color-stop(108%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -22%, #ff000044 -12% -2%, #0000ff44 10% 78%, #ff000044 88% 98%, #0000ff44 108% 200%);
+  }
+  44% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-11%, #ff000044), color-stop(11%, #0000ff44), color-stop(89%, #ff000044), color-stop(109%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -21%, #ff000044 -11% -1%, #0000ff44 11% 79%, #ff000044 89% 99%, #0000ff44 109% 200%);
+  }
+  45% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-10%, #ff000044), color-stop(12%, #0000ff44), color-stop(90%, #ff000044), color-stop(110%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -20%, #ff000044 -10% 0%, #0000ff44 12% 80%, #ff000044 90% 100%, #0000ff44 110% 200%);
+  }
+  46% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-9%, #ff000044), color-stop(13%, #0000ff44), color-stop(91%, #ff000044), color-stop(111%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -19%, #ff000044 -9% 1%, #0000ff44 13% 81%, #ff000044 91% 101%, #0000ff44 111% 200%);
+  }
+  47% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-8%, #ff000044), color-stop(14%, #0000ff44), color-stop(92%, #ff000044), color-stop(112%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -18%, #ff000044 -8% 2%, #0000ff44 14% 82%, #ff000044 92% 102%, #0000ff44 112% 200%);
+  }
+  48% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-7%, #ff000044), color-stop(15%, #0000ff44), color-stop(93%, #ff000044), color-stop(113%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -17%, #ff000044 -7% 3%, #0000ff44 15% 83%, #ff000044 93% 103%, #0000ff44 113% 200%);
+  }
+  49% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-6%, #ff000044), color-stop(16%, #0000ff44), color-stop(94%, #ff000044), color-stop(114%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -16%, #ff000044 -6% 4%, #0000ff44 16% 84%, #ff000044 94% 104%, #0000ff44 114% 200%);
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-5%, #ff000044), color-stop(17%, #0000ff44), color-stop(95%, #ff000044), color-stop(115%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -15%, #ff000044 -5% 5%, #0000ff44 17% 85%, #ff000044 95% 105%, #0000ff44 115% 200%);
+  }
+  51% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-4%, #ff000044), color-stop(18%, #0000ff44), color-stop(96%, #ff000044), color-stop(116%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -14%, #ff000044 -4% 6%, #0000ff44 18% 86%, #ff000044 96% 106%, #0000ff44 116% 200%);
+  }
+  52% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-3%, #ff000044), color-stop(19%, #0000ff44), color-stop(97%, #ff000044), color-stop(117%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -13%, #ff000044 -3% 7%, #0000ff44 19% 87%, #ff000044 97% 107%, #0000ff44 117% 200%);
+  }
+  53% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-2%, #ff000044), color-stop(20%, #0000ff44), color-stop(98%, #ff000044), color-stop(118%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -12%, #ff000044 -2% 8%, #0000ff44 20% 88%, #ff000044 98% 108%, #0000ff44 118% 200%);
+  }
+  54% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(-1%, #ff000044), color-stop(21%, #0000ff44), color-stop(99%, #ff000044), color-stop(119%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -11%, #ff000044 -1% 9%, #0000ff44 21% 89%, #ff000044 99% 109%, #0000ff44 119% 200%);
+  }
+  55% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(0%, #ff000044), color-stop(22%, #0000ff44), color-stop(100%, #ff000044), color-stop(120%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -10%, #ff000044 0% 10%, #0000ff44 22% 90%, #ff000044 100% 110%, #0000ff44 120% 200%);
+  }
+  56% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(1%, #ff000044), color-stop(23%, #0000ff44), color-stop(101%, #ff000044), color-stop(121%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -9%, #ff000044 1% 11%, #0000ff44 23% 91%, #ff000044 101% 111%, #0000ff44 121% 200%);
+  }
+  57% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(2%, #ff000044), color-stop(24%, #0000ff44), color-stop(102%, #ff000044), color-stop(122%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -8%, #ff000044 2% 12%, #0000ff44 24% 92%, #ff000044 102% 112%, #0000ff44 122% 200%);
+  }
+  58% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(3%, #ff000044), color-stop(25%, #0000ff44), color-stop(103%, #ff000044), color-stop(123%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -7%, #ff000044 3% 13%, #0000ff44 25% 93%, #ff000044 103% 113%, #0000ff44 123% 200%);
+  }
+  59% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(4%, #ff000044), color-stop(26%, #0000ff44), color-stop(104%, #ff000044), color-stop(124%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -6%, #ff000044 4% 14%, #0000ff44 26% 94%, #ff000044 104% 114%, #0000ff44 124% 200%);
+  }
+  60% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(5%, #ff000044), color-stop(27%, #0000ff44), color-stop(105%, #ff000044), color-stop(125%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -5%, #ff000044 5% 15%, #0000ff44 27% 95%, #ff000044 105% 115%, #0000ff44 125% 200%);
+  }
+  61% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(6%, #ff000044), color-stop(28%, #0000ff44), color-stop(106%, #ff000044), color-stop(126%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -4%, #ff000044 6% 16%, #0000ff44 28% 96%, #ff000044 106% 116%, #0000ff44 126% 200%);
+  }
+  62% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(7%, #ff000044), color-stop(29%, #0000ff44), color-stop(107%, #ff000044), color-stop(127%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -3%, #ff000044 7% 17%, #0000ff44 29% 97%, #ff000044 107% 117%, #0000ff44 127% 200%);
+  }
+  63% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(8%, #ff000044), color-stop(30%, #0000ff44), color-stop(108%, #ff000044), color-stop(128%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -2%, #ff000044 8% 18%, #0000ff44 30% 98%, #ff000044 108% 118%, #0000ff44 128% 200%);
+  }
+  64% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(9%, #ff000044), color-stop(31%, #0000ff44), color-stop(109%, #ff000044), color-stop(129%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% -1%, #ff000044 9% 19%, #0000ff44 31% 99%, #ff000044 109% 119%, #0000ff44 129% 200%);
+  }
+  65% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(10%, #ff000044), color-stop(32%, #0000ff44), color-stop(110%, #ff000044), color-stop(130%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 0%, #ff000044 10% 20%, #0000ff44 32% 100%, #ff000044 110% 120%, #0000ff44 130% 200%);
+  }
+  66% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(11%, #ff000044), color-stop(33%, #0000ff44), color-stop(111%, #ff000044), color-stop(131%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 1%, #ff000044 11% 21%, #0000ff44 33% 101%, #ff000044 111% 121%, #0000ff44 131% 200%);
+  }
+  67% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(12%, #ff000044), color-stop(34%, #0000ff44), color-stop(112%, #ff000044), color-stop(132%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 2%, #ff000044 12% 22%, #0000ff44 34% 102%, #ff000044 112% 122%, #0000ff44 132% 200%);
+  }
+  68% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(13%, #ff000044), color-stop(35%, #0000ff44), color-stop(113%, #ff000044), color-stop(133%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 3%, #ff000044 13% 23%, #0000ff44 35% 103%, #ff000044 113% 123%, #0000ff44 133% 200%);
+  }
+  69% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(14%, #ff000044), color-stop(36%, #0000ff44), color-stop(114%, #ff000044), color-stop(134%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 4%, #ff000044 14% 24%, #0000ff44 36% 104%, #ff000044 114% 124%, #0000ff44 134% 200%);
+  }
+  70% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(15%, #ff000044), color-stop(37%, #0000ff44), color-stop(115%, #ff000044), color-stop(135%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 5%, #ff000044 15% 25%, #0000ff44 37% 105%, #ff000044 115% 125%, #0000ff44 135% 200%);
+  }
+  71% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(16%, #ff000044), color-stop(38%, #0000ff44), color-stop(116%, #ff000044), color-stop(136%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 6%, #ff000044 16% 26%, #0000ff44 38% 106%, #ff000044 116% 126%, #0000ff44 136% 200%);
+  }
+  72% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(17%, #ff000044), color-stop(39%, #0000ff44), color-stop(117%, #ff000044), color-stop(137%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 7%, #ff000044 17% 27%, #0000ff44 39% 107%, #ff000044 117% 127%, #0000ff44 137% 200%);
+  }
+  73% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(18%, #ff000044), color-stop(40%, #0000ff44), color-stop(118%, #ff000044), color-stop(138%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 8%, #ff000044 18% 28%, #0000ff44 40% 108%, #ff000044 118% 128%, #0000ff44 138% 200%);
+  }
+  74% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(19%, #ff000044), color-stop(41%, #0000ff44), color-stop(119%, #ff000044), color-stop(139%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 9%, #ff000044 19% 29%, #0000ff44 41% 109%, #ff000044 119% 129%, #0000ff44 139% 200%);
+  }
+  75% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(20%, #ff000044), color-stop(42%, #0000ff44), color-stop(120%, #ff000044), color-stop(140%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 10%, #ff000044 20% 30%, #0000ff44 42% 110%, #ff000044 120% 130%, #0000ff44 140% 200%);
+  }
+  76% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(21%, #ff000044), color-stop(43%, #0000ff44), color-stop(121%, #ff000044), color-stop(141%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 11%, #ff000044 21% 31%, #0000ff44 43% 111%, #ff000044 121% 131%, #0000ff44 141% 200%);
+  }
+  77% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(22%, #ff000044), color-stop(44%, #0000ff44), color-stop(122%, #ff000044), color-stop(142%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 12%, #ff000044 22% 32%, #0000ff44 44% 112%, #ff000044 122% 132%, #0000ff44 142% 200%);
+  }
+  78% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(23%, #ff000044), color-stop(45%, #0000ff44), color-stop(123%, #ff000044), color-stop(143%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 13%, #ff000044 23% 33%, #0000ff44 45% 113%, #ff000044 123% 133%, #0000ff44 143% 200%);
+  }
+  79% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(24%, #ff000044), color-stop(46%, #0000ff44), color-stop(124%, #ff000044), color-stop(144%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 14%, #ff000044 24% 34%, #0000ff44 46% 114%, #ff000044 124% 134%, #0000ff44 144% 200%);
+  }
+  80% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(25%, #ff000044), color-stop(47%, #0000ff44), color-stop(125%, #ff000044), color-stop(145%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 15%, #ff000044 25% 35%, #0000ff44 47% 115%, #ff000044 125% 135%, #0000ff44 145% 200%);
+  }
+  81% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(26%, #ff000044), color-stop(48%, #0000ff44), color-stop(126%, #ff000044), color-stop(146%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 16%, #ff000044 26% 36%, #0000ff44 48% 116%, #ff000044 126% 136%, #0000ff44 146% 200%);
+  }
+  82% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(27%, #ff000044), color-stop(49%, #0000ff44), color-stop(127%, #ff000044), color-stop(147%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 17%, #ff000044 27% 37%, #0000ff44 49% 117%, #ff000044 127% 137%, #0000ff44 147% 200%);
+  }
+  83% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(28%, #ff000044), color-stop(50%, #0000ff44), color-stop(128%, #ff000044), color-stop(148%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 18%, #ff000044 28% 38%, #0000ff44 50% 118%, #ff000044 128% 138%, #0000ff44 148% 200%);
+  }
+  84% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(29%, #ff000044), color-stop(51%, #0000ff44), color-stop(129%, #ff000044), color-stop(149%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 19%, #ff000044 29% 39%, #0000ff44 51% 119%, #ff000044 129% 139%, #0000ff44 149% 200%);
+  }
+  85% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(30%, #ff000044), color-stop(52%, #0000ff44), color-stop(130%, #ff000044), color-stop(150%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 20%, #ff000044 30% 40%, #0000ff44 52% 120%, #ff000044 130% 140%, #0000ff44 150% 200%);
+  }
+  86% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(31%, #ff000044), color-stop(53%, #0000ff44), color-stop(131%, #ff000044), color-stop(151%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 21%, #ff000044 31% 41%, #0000ff44 53% 121%, #ff000044 131% 141%, #0000ff44 151% 200%);
+  }
+  87% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(32%, #ff000044), color-stop(54%, #0000ff44), color-stop(132%, #ff000044), color-stop(152%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 22%, #ff000044 32% 42%, #0000ff44 54% 122%, #ff000044 132% 142%, #0000ff44 152% 200%);
+  }
+  88% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(33%, #ff000044), color-stop(55%, #0000ff44), color-stop(133%, #ff000044), color-stop(153%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 23%, #ff000044 33% 43%, #0000ff44 55% 123%, #ff000044 133% 143%, #0000ff44 153% 200%);
+  }
+  89% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(34%, #ff000044), color-stop(56%, #0000ff44), color-stop(134%, #ff000044), color-stop(154%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 24%, #ff000044 34% 44%, #0000ff44 56% 124%, #ff000044 134% 144%, #0000ff44 154% 200%);
+  }
+  90% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(35%, #ff000044), color-stop(57%, #0000ff44), color-stop(135%, #ff000044), color-stop(155%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 25%, #ff000044 35% 45%, #0000ff44 57% 125%, #ff000044 135% 145%, #0000ff44 155% 200%);
+  }
+  91% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(36%, #ff000044), color-stop(58%, #0000ff44), color-stop(136%, #ff000044), color-stop(156%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 26%, #ff000044 36% 46%, #0000ff44 58% 126%, #ff000044 136% 146%, #0000ff44 156% 200%);
+  }
+  92% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(37%, #ff000044), color-stop(59%, #0000ff44), color-stop(137%, #ff000044), color-stop(157%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 27%, #ff000044 37% 47%, #0000ff44 59% 127%, #ff000044 137% 147%, #0000ff44 157% 200%);
+  }
+  93% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(38%, #ff000044), color-stop(60%, #0000ff44), color-stop(138%, #ff000044), color-stop(158%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 28%, #ff000044 38% 48%, #0000ff44 60% 128%, #ff000044 138% 148%, #0000ff44 158% 200%);
+  }
+  94% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(39%, #ff000044), color-stop(61%, #0000ff44), color-stop(139%, #ff000044), color-stop(159%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 29%, #ff000044 39% 49%, #0000ff44 61% 129%, #ff000044 139% 149%, #0000ff44 159% 200%);
+  }
+  95% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(40%, #ff000044), color-stop(62%, #0000ff44), color-stop(140%, #ff000044), color-stop(160%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 30%, #ff000044 40% 50%, #0000ff44 62% 130%, #ff000044 140% 150%, #0000ff44 160% 200%);
+  }
+  96% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(41%, #ff000044), color-stop(63%, #0000ff44), color-stop(141%, #ff000044), color-stop(161%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 31%, #ff000044 41% 51%, #0000ff44 63% 131%, #ff000044 141% 151%, #0000ff44 161% 200%);
+  }
+  97% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(42%, #ff000044), color-stop(64%, #0000ff44), color-stop(142%, #ff000044), color-stop(162%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 32%, #ff000044 42% 52%, #0000ff44 64% 132%, #ff000044 142% 152%, #0000ff44 162% 200%);
+  }
+  98% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(43%, #ff000044), color-stop(65%, #0000ff44), color-stop(143%, #ff000044), color-stop(163%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 33%, #ff000044 43% 53%, #0000ff44 65% 133%, #ff000044 143% 153%, #0000ff44 163% 200%);
+  }
+  99% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(44%, #ff000044), color-stop(66%, #0000ff44), color-stop(144%, #ff000044), color-stop(164%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 34%, #ff000044 44% 54%, #0000ff44 66% 134%, #ff000044 144% 154%, #0000ff44 164% 200%);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-100%, #0000ff44), color-stop(45%, #ff000044), color-stop(67%, #0000ff44), color-stop(145%, #ff000044), color-stop(165%, #0000ff44));
+    background: linear-gradient(to right, #0000ff44 -100% 35%, #ff000044 45% 55%, #0000ff44 67% 135%, #ff000044 145% 155%, #0000ff44 165% 200%);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+body::-webkit-scrollbar-button {
+  width: 14px;
+  background-color: #7c70ff;
+}
+
+body:hover::-webkit-scrollbar-button {
+  background-color: #fcecd2;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: rgba(124, 112, 255, 0.6);
+  border-radius: 10px;
+}
+
+body:hover::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(252, 236, 210, 0.6);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  background-color: #7c70ff;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #fcecd2;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 3px;
+  text-align: center;
+  cursor: context-menu;
+  color: #9c271f;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+h2::before,
+h2::after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin: 0 10px;
+  -webkit-animation: rotate_item_point 1s linear 1s infinite none;
+          animation: rotate_item_point 1s linear 1s infinite none;
+}
+
+h2::before {
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+h2::after {
+  animation-direction: reverse;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.center {
+  padding: 0 calc((100% - 1200px) / 2);
+}
+
+.header {
+  height: 50px;
+  background-color: #fcecd2;
+}
+
+.header__cont {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__cont__logo {
+  color: #7c70ff;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.header__cont__checkbox {
+  display: none;
+}
+
+.header__cont__burger_menu {
+  display: none;
+}
+
+.header__cont__cross {
+  display: none;
+}
+
+.header__cont__full_name_navi_mobile {
+  display: none;
+}
+
+.header__cont__navi {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__cont__navi__link {
+  color: #7c70ff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.header__cont__navi__link:hover {
+  color: #d69200;
+}
+
+.main__contacts_and_about_me {
+  background-color: #f3f2ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main__contacts_and_about_me__vacancy {
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.main__contacts_and_about_me__name {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.main__contacts_and_about_me__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.main__contacts_and_about_me__cont__my_photo {
+  max-width: 30%;
+  max-height: 480px;
+}
+
+.main__contacts_and_about_me__cont__info {
+  min-height: 480px;
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.anchor {
+  font-size: 0;
+  line-height: 0;
+}
+
+.career__line {
+  display: inline;
+  height: 0;
+  width: 0;
+  margin: 0 auto;
+}
+
+.career__line::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid #7c70ff;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.career__line:hover::after {
+  content: "";
+  border-bottom: 2px solid #d69200;
+}
+
+h2:hover + .career__line::after {
+  content: "";
+  border-bottom: 2px solid #d69200;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link {
+  text-decoration: none;
+  color: #7c70ff;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link:hover,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link:hover {
+  color: #d69200;
+}
+
+.main__contacts_and_about_me__cont__info__text__about_me__paragraph {
+  text-indent: 20pt;
+}
+
+.main__contacts_and_about_me__cont__info__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #7c70ff;
+  background-color: #fcecd2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 2px solid #7c70ff;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:hover {
+  color: #fcecd2;
+  background-color: #7c70ff;
+  border: 2px solid transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:active {
+  position: relative;
+  top: 5px;
+}
+
+.my_projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fffcf5;
+  background: conic-gradient(at 0% 100%, #ff000022 0 85deg, #39e295 85deg 0.25turn, #ff000022 0.25turn 1turn), conic-gradient(at 0% 100%, transparent 0 85deg, #1199ff 85deg 0.25turn, transparent 0.25turn 1turn);
+}
+
+.my_projects__cont__projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my_projects__cont__projects__item {
+  width: 300px;
+  margin: 10px;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  background-color: #add8e6aa;
+  -webkit-box-shadow: 5px 5px 2px 1px #00000033;
+          box-shadow: 5px 5px 2px 1px #00000033;
+}
+
+.my_projects__cont__projects__item:hover {
+  background-color: #add8e6dd;
+  -webkit-box-shadow: 5px 5px 2px 1px #00000055;
+          box-shadow: 5px 5px 2px 1px #00000055;
+}
+
+.my_projects__cont__projects__item__top_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my_projects__cont__projects__item__top_part__category {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__top_part__site_title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-shadow: 0 0 0px #5588bb;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: text-shadow 0.1s linear 0.01s, -webkit-transform 0.1s linear 0.01s;
+  transition: text-shadow 0.1s linear 0.01s, -webkit-transform 0.1s linear 0.01s;
+  transition: text-shadow 0.1s linear 0.01s, transform 0.1s linear 0.01s;
+  transition: text-shadow 0.1s linear 0.01s, transform 0.1s linear 0.01s, -webkit-transform 0.1s linear 0.01s;
+}
+
+.my_projects__cont__projects__item__top_part__site_title:hover {
+  text-shadow: 1px 1px 0px #5588bb;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.my_projects__cont__projects__item__top_part__site_title__link {
+  color: #7c70ff;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear 0.01s;
+  transition: color 0.1s linear 0.01s;
+}
+
+.my_projects__cont__projects__item__top_part__site_title__link:hover {
+  color: #d69200;
+}
+
+.my_projects__cont__projects__item__top_part__site_title__spare {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.my_projects__cont__projects__item__top_part__paragraph {
+  text-align: center;
+  font-weight: 400;
+}
+
+.my_projects__cont__projects__item__technologies {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 300;
+}
+
+.my_projects__cont__projects__item__GitHub {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__GitHub__link {
+  color: #7c70ff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  -webkit-transition: color 0.1s linear 0.01s;
+  transition: color 0.1s linear 0.01s;
+}
+
+.my_projects__cont__projects__item__GitHub__link:hover {
+  color: #d69200;
+}
+
+.my_projects__cont__projects__item__GitHub__spare {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.my_skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3f2ff;
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 11% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 55%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 32%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 98%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 11% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 55%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 32%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 98%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
+}
+
+.my_skills__cont__technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my_skills__cont__technologies__item {
+  margin: 10px;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.2s linear 0.1s;
+  transition: -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.my_skills__cont__technologies__item:hover {
+  background-color: rgba(252, 236, 210, 0.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.my_skills__cont__technologies__item__img {
+  width: 125px;
+  margin-bottom: 5px;
+}
+
+.my_skills__cont__technologies__item__description {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+
+.my_certificates {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fffcf5;
+  background: conic-gradient(at 0% 30%, red 7.14286%, orange 14.28571%, yellow 21.42857%, green 28.57143%, cyan 35.71428%, blue 42.85714%, blueviolet 50%);
+}
+
+.my_certificates__cont__description {
+  text-align: center;
+}
+
+.my_certificates__cont__tests,
+.my_certificates__cont__main,
+.my_certificates__cont__minor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my_certificates__cont__tests__card,
+.my_certificates__cont__main__card,
+.my_certificates__cont__minor__card {
+  margin: 10px;
+}
+
+.my_certificates__cont__tests__card:hover,
+.my_certificates__cont__main__card:hover,
+.my_certificates__cont__minor__card:hover {
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+.my_certificates__cont__tests__card__spec,
+.my_certificates__cont__main__card__spec,
+.my_certificates__cont__minor__card__spec,
+.my_certificates__big__spec {
+  position: relative;
+  line-height: 0;
+}
+
+.my_certificates__big__spec {
+  background-color: #7c70ff;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox,
+.my_certificates__cont__main__card__spec__checkbox,
+.my_certificates__cont__minor__card__spec__checkbox,
+.my_certificates__big__spec__checkbox {
+  position: absolute;
+  top: 0;
+  left: -500vw;
+}
+
+.my_certificates__cont__tests__card__spec__overlay,
+.my_certificates__cont__main__card__spec__overlay,
+.my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__overlay {
+  display: none;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__overlay,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__overlay,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 0;
+}
+
+.my_certificates__cont__tests__card__spec__overlay__img,
+.my_certificates__cont__main__card__spec__overlay__img,
+.my_certificates__cont__minor__card__spec__overlay__img {
+  width: 150px;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__img {
+  width: 150px;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__img {
+  visibility: hidden;
+}
+
+.my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__label {
+  position: relative;
+  left: 25px;
+  display: block;
+  height: 24px;
+  width: 50px;
+  background-color: red;
+  border-radius: 12px;
+  padding: 1px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s linear 0.1s;
+  transition: background-color 0.5s linear 0.1s;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear 0.01s;
+  transition: -webkit-transform 0.2s linear 0.01s;
+  transition: transform 0.2s linear 0.01s;
+  transition: transform 0.2s linear 0.01s, -webkit-transform 0.2s linear 0.01s;
+}
+
+.my_certificates__big__spec__label {
+  margin-top: 3px;
+}
+
+.my_certificates__big:hover .my_certificates__big__spec__label {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.my_certificates__cont__tests__card:hover
+.my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card:hover
+.my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card:hover
+.my_certificates__cont__minor__card__spec__label {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  position: relative;
+  top: 10px;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label {
+  background-color: green;
+}
+
+.my_certificates__cont__tests__card__spec__label::before,
+.my_certificates__cont__main__card__spec__label::before,
+.my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__label::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  display: block;
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+  -webkit-transition: left 0.5s linear 0.1s;
+  transition: left 0.5s linear 0.1s;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__label::before,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label::before,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label::before {
+  left: 26px;
+}
+
+.my_certificates__cont__tests__card__spec__label::after,
+.my_certificates__cont__main__card__spec__label::after,
+.my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  content: "ru";
+  color: red;
+  -webkit-transition: left 0.01s linear 0.6s;
+  transition: left 0.01s linear 0.6s;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+~ .my_certificates__cont__tests__card__spec__label::after,
+.my_certificates__cont__main__card__spec__checkbox:checked
+~ .my_certificates__cont__main__card__spec__label::after,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+~ .my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__checkbox:checked
+~ .my_certificates__big__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: 53px;
+  content: "en";
+  color: green;
+}
+
+.my_certificates__big {
+  position: fixed;
+  top: 2vh;
+  left: 20vw;
+  z-index: 2;
+  display: none;
+}
+
+.my_certificates__big__btn {
+  display: block;
+  width: 5vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+.my_certificates__big__btn:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+  color: #d69200;
+}
+
+.my_certificates__big__btn-back {
+  left: -5vw;
+  background: radial-gradient(ellipse farthest-side at 100% 50%, rgba(252, 236, 210, 0.2), rgba(30, 144, 255, 0.5) 50%, transparent);
+}
+
+.my_certificates__big__btn-back:hover {
+  background: radial-gradient(ellipse farthest-side at 100% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+}
+
+.my_certificates__big__btn-next {
+  right: -5vw;
+  background: radial-gradient(ellipse farthest-side at 0% 50%, rgba(252, 236, 210, 0.2), rgba(30, 144, 255, 0.5) 50%, transparent);
+}
+
+.my_certificates__big__btn-next:hover {
+  background: radial-gradient(ellipse farthest-side at 0% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+}
+
+.my_certificates__big__spec__overlay__img {
+  width: 60vw;
+}
+
+.my_certificates__big__spec__img {
+  width: 60vw;
+}
+
+.my_certificates__big__close_big_certificate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  font-size: 40px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.my_certificates__big__spec:hover
+~ .my_certificates__big__close_big_certificate,
+.my_certificates__big__spec:hover
+~ .my_certificates__big__close_big_certificate {
+  color: #7c70ff;
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.my_certificates__big__close_big_certificate:hover {
+  color: #d69200;
+  background-color: rgba(133, 133, 133, 0.8);
+}
+
+.my_certificates__big__close_big_certificate__cross {
+  display: block;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.education {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3f2ff;
+  background: linear-gradient(45deg, #ff990022 50%, #eb23ff22), linear-gradient(-45deg, #eb23ff22 50%, #ff990022);
+}
+
+.education__cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education__cards__item__period {
+  width: 15%;
+  font-weight: 700;
+}
+
+.education__cards__item__where {
+  width: 80%;
+}
+
+.education__cards__item__where__institution {
+  font-weight: 700;
+}
+
+.education__cards__item__where__institution__link {
+  color: #7c70ff;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear 0.01s;
+  transition: color 0.1s linear 0.01s;
+}
+
+.education__cards__item__where__institution__link:hover {
+  color: #d69200;
+}
+
+.career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #0066ff22;
+  background: linear-gradient(0deg, #ff000022, transparent 66.67%), linear-gradient(120deg, #00ff0022, transparent 66.67%), linear-gradient(240deg, #0000ff22, transparent 66.67%);
+}
+
+.career__title__cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career__title__cards__item__period {
+  width: 15%;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description {
+  width: 80%;
+}
+
+.career__title__cards__item__description__position {
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__list {
+  margin-bottom: 10px;
+}
+
+.career__title__cards__item__description__responsibilities__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.career__title__cards__item__description__responsibilities__list__item::before {
+  content: "";
+  height: 100%;
+  width: 0;
+  border: 5px solid red;
+  margin: 0 10px;
+}
+
+.career__title__cards__item:hover
+.career__title__cards__item__description__responsibilities__list__item::before {
+  -webkit-animation: rotate_point_item 4s linear 0.5s infinite normal none;
+          animation: rotate_point_item 4s linear 0.5s infinite normal none;
+}
+
+.career__title__cards__item__description__achievements__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__achievements__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.career__title__cards__item__description__achievements__list__item::before {
+  content: "";
+  height: 100%;
+  width: 0;
+  border: 5px solid red;
+  margin: 0 10px;
+}
+
+.career__title__cards__item:hover
+.career__title__cards__item__description__achievements__list__item::before {
+  -webkit-animation: rotate_point_item 4s linear 0.5s infinite normal none;
+          animation: rotate_point_item 4s linear 0.5s infinite normal none;
+}
+
+.footer {
+  background-color: #00ff0022;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
+          animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__info__name {
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  white-space: nowrap;
+  color: #00000088;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.footer__info__panel {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__info__panel__btn {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #7c70ff;
+  background-color: #fcecd2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 2px solid #7c70ff;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  -webkit-transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s, background-color 0.2s linear 0.1s, border 0.2s linear 0.1s, -webkit-transform 0.2s linear 0.1s;
+}
+
+.footer__info__panel__btn:hover {
+  color: #fcecd2;
+  background-color: #7c70ff;
+  border: 2px solid transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer__info__panel__btn:active {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 1240px), (orientation: portrait) {
+  .center {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header__cont__burger_menu {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .header__cont__burger_menu__img {
+    fill: #7c70ff;
+  }
+  .header__cont__burger_menu__img:hover {
+    fill: #d69200;
+  }
+  .header__cont__cross {
+    display: block;
+    position: fixed;
+    top: 55px;
+    left: -10vw;
+    font-size: 5vw;
+    line-height: 3.5vw;
+    color: #7c70ff;
+    cursor: pointer;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 1s linear 0.5s;
+    transition: -webkit-transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s, -webkit-transform 1s linear 0.5s;
+    z-index: 3;
+  }
+  .header__cont__checkbox:checked ~ .header__cont__cross {
+    -webkit-transform: translateX(80vw);
+            transform: translateX(80vw);
+  }
+  .header__cont__cross:hover {
+    color: #d69200;
+  }
+  .header__cont__full_name_navi_mobile {
+    display: block;
+    position: fixed;
+    top: 2vw;
+    left: -66vw;
+    font-size: 4vw;
+    font-family: "Roboro", sans-serif;
+    font-weight: 400;
+    color: #00000088;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 1s linear 0.5s;
+    transition: -webkit-transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s, -webkit-transform 1s linear 0.5s;
+    z-index: 3;
+  }
+  .header__cont__checkbox:checked ~ .header__cont__full_name_navi_mobile {
+    -webkit-transform: translateX(80vw);
+            transform: translateX(80vw);
+  }
+  .header__cont__navi {
+    position: fixed;
+    top: 0;
+    left: -80vw;
+    width: 80vw;
+    height: 100vh;
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fcecd2;
+    z-index: 2;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 1s linear 0.5s;
+    transition: -webkit-transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s;
+    transition: transform 1s linear 0.5s, -webkit-transform 1s linear 0.5s;
+  }
+  .header__cont__checkbox:checked ~ .header__cont__navi {
+    -webkit-transform: translateX(80vw);
+            transform: translateX(80vw);
+  }
+  .header__cont__navi__link {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__info__name {
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main__contacts_and_about_me__cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main__contacts_and_about_me__cont__my_photo {
+    margin-bottom: 10px;
+  }
+  .main__contacts_and_about_me__cont__info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__info__name {
+    font-size: 5vw;
+    line-height: 4vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */

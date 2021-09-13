@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/myCertificatesTests.js" defer></script>
+    <script src="scripts/myCertificatesMain.js" defer></script>
+    <script src="scripts/myCertificatesMinor.js" defer></script>
+    <script src="scripts/bigCertificate.js" defer></script>
+    <script src="scripts/sectionLayoutMyCertificates.js" defer></script>
+    <script src="scripts/closeBigCertificate.js" defer></script>
+    <script src="scripts/flipBigCertificate.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <script src="scripts/vueComponentMyProjects.js" defer></script>
+    <script src="scripts/vueMain.js" defer></script>
+    <title>Резюме Юрий Беркуль</title>
+</head>
+<body>
+    <header class="header center">
+        <div class="header__cont">
+            <p class="header__cont__logo">Юрий Беркуль</p>
+            <input class="header__cont__checkbox" type="checkbox" id="header__cont__checkbox">
+            <label class="header__cont__burger_menu" for="header__cont__checkbox">
+                <svg class="header__cont__burger_menu__img" viewBox="0 0 100 80" width="40" height="40">
+                    <rect class="header__cont__burger_menu__img__line" y="0" width="100" height="20" rx="8"></rect>
+                    <rect class="header__cont__burger_menu__img__line" y="30" width="100" height="20" rx="8"></rect>
+                    <rect class="header__cont__burger_menu__img__line" y="60" width="100" height="20" rx="8"></rect>
+                </svg>
+            </label>
+            <label class="header__cont__cross" for="header__cont__checkbox">&#10006;</label>
+            <p class="header__cont__full_name_navi_mobile">Беркуль Юрий Эдуардович</p>
+            <nav class="header__cont__navi">
+                <a class="header__cont__navi__link" href="#contacts">Контакты</a>
+                <a class="header__cont__navi__link" href="#about_me">Обо мне</a>
+                <a class="header__cont__navi__link" href="#my_projects">Мои проекты</a>
+                <a class="header__cont__navi__link" href="#my_skills">Навыки</a>
+                <a class="header__cont__navi__link" href="#my_certificates">Мои сертификаты</a>
+                <a class="header__cont__navi__link" href="#education">Образование</a>
+                <a class="header__cont__navi__link" href="#career">Карьера</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__contacts_and_about_me center">
+            <h1 class="main__contacts_and_about_me__vacancy">Frontend-разработчик</h1>
+            <p class="main__contacts_and_about_me__name">Беркуль Юрий Эдуардович</p>
+            <div class="main__contacts_and_about_me__cont">
+                <img class="main__contacts_and_about_me__cont__my_photo" src="img/My_Photo.jpg" alt="My_Photo" width="400">
+                <div class="main__contacts_and_about_me__cont__info">
+                    <div class="main__contacts_and_about_me__cont__info__text">
+                        <div class="main__contacts_and_about_me__cont__info__text__contacts">
+                            <a class="main__contacts_and_about_me__cont__info__text__contacts__anchor anchor" name="contacts" href="#"></a>
+                            <h2 class="main__contacts_and_about_me__cont__info__text__contacts__title">Контакты</h2>
+                            <div class="career__line"></div>
+                            <p class="main__contacts_and_about_me__cont__info__text__contacts__phone">Телефон: 
+                                <a class="main__contacts_and_about_me__cont__info__text__contacts__phone__link" href="tel:89043396633">+7(904)33-966-33</a>
+                            </p>
+                            <p class="main__contacts_and_about_me__cont__info__text__contacts__email">Почта: 
+                                <a class="main__contacts_and_about_me__cont__info__text__contacts__email__link" href="mailto:t79043396633@gmail.com?subject=Добрый день, Юрий!">t79043396633@gmail.com</a>
+                            </p>
+                            <p class="main__contacts_and_about_me__cont__info__text__contacts__address">Адрес: Санкт-Петербург, м. Озерки</p>
+                        </div>
+                        <div class="main__contacts_and_about_me__cont__info__text__about_me">
+                            <a class="main__contacts_and_about_me__cont__info__text__about_me__anchor anchor" name="about_me" href="#"></a>
+                            <h2 class="main__contacts_and_about_me__cont__info__text__about_me__title">Обо мне</h2>
+                            <div class="career__line"></div>
+                            <p class="main__contacts_and_about_me__cont__info__text__about_me__paragraph">
+                                Выпускник Санкт-Петербургского Политехнического Университета Петра Великого. Окончил бакалавриат и магистратуру по направлению "Управление и защита в чрезвычайных ситуациях" со средними баллами выше 4,5. Затем освоил бухгалтерию и работал некоторое время бухгалтером в компании по производству и продаже соков. Отвечал в компании за документооборот и расчёты по логистике. Однако, достигнув потолка и не имея возможности дальнейшего роста в данной компании, я покинул её с целью освоения новой специальности, которая была бы более сложной, многогранной и престижной, в которой можно было бы постоянно куда-то развиваться и расти. Свой выбор я остановил по началу на программировании в целом, а затем &ndash; и на веб-разработке.
+                            </p>
+                            <p class="main__contacts_and_about_me__cont__info__text__about_me__paragraph">
+                                Окончил курсы по основам программирования на языке Python, в настоящий время обучаюсь на Full-Stack веб-разработчика (html, CSS, SCSS, JavaScript, Vue.js, React.js, PHP, SQL, Laraval). На данный момент окончил первую часть обучения (frontend-разработка сайтов).
+                            </p>
+                            <p class="main__contacts_and_about_me__cont__info__text__about_me__paragraph">
+                                Программирование и, в частности, веб-разработка, по моему мнению &ndash; это бескрайнее, бесконечное поле технологий. В ней я могу постоянно развиваться, создавать что-то новое, улучшать и дорабатывать, быть творцом и архитектором, и при этом, также работать с цифрами и производить расчёты.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main__contacts_and_about_me__cont__info__action">
+                        <a class="main__contacts_and_about_me__cont__info__action__communication" target="_blank" href="tel:89043396633">Позвонить</a>
+                        <a class="main__contacts_and_about_me__cont__info__action__communication" target="_blank" href="https://wa.me/79043396633">Whatsapp</a>
+                        <a class="main__contacts_and_about_me__cont__info__action__communication" target="_blank" href="https://telegram.me/Juris_B">Telegram</a>
+                        <a class="main__contacts_and_about_me__cont__info__action__communication" target="_blank" href="mailto:t79043396633@gmail.com?subject=Добрый день, Юрий!">e-mail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my_projects center" id="main">
+            <myprojectslist></myprojectslist>
+            <!--* Ниже приведён пример получающегося html-кода, а вся секция свёрстана при помощи vue.js-кода в vue.js-файле "vueComponentMyProjects.js" под управлением vue.js-файла "vueMain.js":
+            <div class="my_projects__cont">
+                <a class="my_projects__cont__anchor anchor" name="my_projects" href="#"></a>
+                <h2 class="my_projects__cont__title">Мои проекты</h2>
+                <div class="career__line"></div>
+                <div class="my_projects__cont__projects">
+                    <div class="my_projects__cont__projects__item">
+                        <div class="my_projects__cont__projects__item__top_part">
+                            <p class="my_projects__cont__projects__item__top_part__category">{{ projectItem.category }}</p>
+                            <p class="my_projects__cont__projects__item__top_part__site_title" v-if="projectItem.hrefSite">
+                                <a class="my_projects__cont__projects__item__top_part__site_title__link" target="_blank" :href="projectItem.hrefSite">{{ projectItem.title }}</a>
+                            </p>
+                            <p class="my_projects__cont__projects__item__top_part__site_title__spare" v-else="projectItem.hrefSite">{{ projectItem.title }}</p>
+                            <p class="my_projects__cont__projects__item__top_part__paragraph">Используемые технологии:</p>
+                        </div>
+                        <p class="my_projects__cont__projects__item__technologies">{{ projectItem.technologies }}</p>
+                        <p class="my_projects__cont__projects__item__GitHub">Проект на 
+                            <a class="my_projects__cont__projects__item__GitHub__link" target="_blank" :href="projectItem.hrefGitHub">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            -->
+        </section>
+        <section class="my_skills center">
+            <div class="my_skills__cont">
+                <a class="my_skills__cont__anchor anchor" name="my_skills" href="#"></a>
+                <h2 class="my_skills__cont__title">Мои навыки</h2>
+                <div class="career__line"></div>
+                <div class="my_skills__cont__technologies">
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/HTML5.png" alt="HTML5" width="200">
+                        <p class="my_skills__cont__technologies__item__description">HTML5</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/CSS3.png" alt="CSS3" width="200">
+                        <p class="my_skills__cont__technologies__item__description">CSS3</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/JS.png" alt="JavaScript" width="200">
+                        <p class="my_skills__cont__technologies__item__description">JavaScrirt</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/vue.js.png" alt="vue" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Vue.js</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/Python.png" alt="Python" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Python</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/SASS.png" alt="SASS" width="200">
+                        <p class="my_skills__cont__technologies__item__description">SASS/SCSS</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/Git.png" alt="Git" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Git</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/GitHub.png" alt="GitHub" width="200">
+                        <p class="my_skills__cont__technologies__item__description">GitHub</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/bootstrap.png" alt="bootstrap" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Bootstrap</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/SVG.png" alt="SVG" width="200">
+                        <p class="my_skills__cont__technologies__item__description">SVG</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/PyCharm.png" alt="PyCharm" width="200">
+                        <p class="my_skills__cont__technologies__item__description">PyCharm</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/VSCode.png" alt="VSCode" width="200">
+                        <p class="my_skills__cont__technologies__item__description">VSCode</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/DOM.png" alt="DOM" width="200">
+                        <p class="my_skills__cont__technologies__item__description">DOM</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/Figma.png" alt="Figma" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Figma</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/w3c.png" alt="w3c" width="200">
+                        <p class="my_skills__cont__technologies__item__description">W3C</p>
+                    </div>
+                    <div class="my_skills__cont__technologies__item">
+                        <img class="my_skills__cont__technologies__item__img" src="img/my_skills/PerfectPixel.png" alt="PerfectPixel" width="200">
+                        <p class="my_skills__cont__technologies__item__description">Perfect Pixel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my_certificates center">
+            <div class="my_certificates__cont">
+                <a class="my_certificates__cont__anchor anchor" name="my_certificates" href="#"></a>
+                <h2 class="my_certificates__cont__title">Мои сертификаты</h2>
+                <div class="career__line"></div>
+                <p class="my_certificates__cont__description">Более 80-ти сертификатов</p>
+                <h3 class="my_certificates__cont__title">Сертификаты за прохождение тестов</h3>
+                <div class="my_certificates__cont__tests">
+                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов без переключателей свёрстаны в js-файлах myCertificatesTests.js и sectionLayoutMyCertificates.js: -->
+                    <!-- <div class="my_certificates__cont__tests__card">
+                        <div class="my_certificates__cont__tests__card__spec">
+                            <img class="my_certificates__cont__tests__card__spec__img" src="img/my_certificates/jpg/tests/Сертификат. GoIT. Марафон по вёрстке (3 места) - 2021.06.09.jpg" alt="Сертификат. GoIT. Марафон по вёрстке (3 места) - 2021.06.09" width="50">
+                        </div>
+                    </div> -->
+                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesTests.js и sectionLayoutMyCertificates.js: -->
+                    <!-- <div class="my_certificates__cont__tests__card">
+                        <div class="my_certificates__cont__tests__card__spec">
+                            <input class="my_certificates__cont__tests__card__spec__checkbox" type="checkbox" id="certificate_tests_1">
+                            <div class="my_certificates__cont__tests__card__spec__overlay">
+                                <img class="my_certificates__cont__tests__card__spec__overlay__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en" width="50">
+                            </div>
+                            <img class="my_certificates__cont__tests__card__spec__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru" width="50">
+                            <label class="my_certificates__cont__tests__card__spec__label" for="certificate_tests_1"></label>
+                        </div>
+                    </div> -->
+                </div>
+                <h3 class="my_certificates__cont__title">Основные сертификаты</h3>
+                <div class="my_certificates__cont__main">
+                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов без переключателей свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
+                    <!-- <div class="my_certificates__cont__main__card">
+                        <div class="my_certificates__cont__main__card__spec">
+                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02.png" alt="Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02" width="50">
+                        </div>
+                    </div>
+                    <div class="my_certificates__cont__main__card">
+                        <div class="my_certificates__cont__main__card__spec">
+                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 1.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 1" width="50">
+                        </div>
+                    </div>
+                    <div class="my_certificates__cont__main__card">
+                        <div class="my_certificates__cont__main__card__spec">
+                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 2.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 2" width="50">
+                        </div>
+                    </div> -->
+                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
+                    <!-- <div class="my_certificates__cont__main__card">
+                        <div class="my_certificates__cont__main__card__spec">
+                            <input class="my_certificates__cont__main__card__spec__checkbox" type="checkbox" id="certificate_main_1">
+                            <div class="my_certificates__cont__main__card__spec__overlay">
+                                <img class="my_certificates__cont__main__card__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50">
+                            </div>
+                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
+                            <label class="my_certificates__cont__main__card__spec__label" for="certificate_main_1"></label>
+                        </div>
+                    </div> -->
+                </div>
+                <h3 class="my_certificates__cont__title">Сертификаты в смежных облостях</h3>
+                <div class="my_certificates__cont__minor">
+                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMinor.js и sectionLayoutMyCertificates.js: -->
+                    <!-- <div class="my_certificates__cont__minor__card">
+                        <div class="my_certificates__cont__minor__card__spec">
+                            <input class="my_certificates__cont__minor__card__spec__checkbox" type="checkbox" id="certificate_minor_1">
+                            <div class="my_certificates__cont__minor__card__spec__overlay">
+                                <img class="my_certificates__cont__minor__card__spec__overlay__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.en.jpg" alt="Сертификат. GeekBrains. Big Data в действии.en" width="50">
+                            </div>
+                            <img class="my_certificates__cont__minor__card__spec__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.ru.jpg" alt="Сертификат. GeekBrains. Big Data в действии.ru" width="50">
+                            <label class="my_certificates__cont__minor__card__spec__label" for="certificate_minor_1"></label>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="my_certificates__big">
+                <button class="my_certificates__big__btn my_certificates__big__btn-back">Назад</button>
+                <div class="my_certificates__big__spec">
+                    <!-- <input class="my_certificates__big__spec__checkbox" type="checkbox" id="certificate_big">
+                    <div class="my_certificates__big__spec__overlay">
+                        <img class="my_certificates__big__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50" id="img_overlay">
+                    </div>
+                    <img class="my_certificates__big__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50" id="img_normal">
+                    <label class="my_certificates__big__spec__label" for="certificate_big"></label> -->
+                </div>
+                <button class="my_certificates__big__btn my_certificates__big__btn-next">Далее</button>
+                <button class="my_certificates__big__close_big_certificate">
+                    <span class="my_certificates__big__close_big_certificate__cross">+</span>
+                </button>
+            </div>
+        </section>
+        <section class="education center">
+            <a class="education__anchor anchor" name="education" href="#"></a>
+            <h2 class="education__title">Образование</h2>
+            <div class="career__line"></div>
+            <div class="education__cards">
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2021 - н.в.</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Школа английского языка "Chicaga"</p>
+                        <p class="education__cards__item__where__direction">Английский язык</p>
+                    </div>
+                </div>
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2021 - н.в.</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Онлайн-Университет 
+                            <a class="education__cards__item__where__institution__link" target="_blank" href="https://gb.ru/go/6Gdfgk">"GeekBrains"</a>
+                        </p>
+                        <p class="education__cards__item__where__direction">Full-Stack Web-Developer</p>
+                    </div>
+                </div>
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2020, 2021</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Центр IT-обучения "LevelUP"</p>
+                        <p class="education__cards__item__where__direction">Основы программирования на языке Python</p>
+                    </div>
+                </div>
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2019</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Обучающий Центр "Коннессанс"</p>
+                        <p class="education__cards__item__where__direction">Бухгалтерский учет и налогообложение</p>
+                    </div>
+                </div>
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2016 - 2018</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Санкт-Петербургский Государственный Политехнический Университет Петра Великого (Политех)</p>
+                        <p class="education__cards__item__where__direction">Высшая школа техносферной безопасности, Управление безопасностью и защита в чрезвычайных ситуациях</p>
+                    </div>
+                </div>
+                <div class="education__cards__item">
+                    <p class="education__cards__item__period">2012 - 2016</p>
+                    <div class="education__cards__item__where">
+                        <p class="education__cards__item__where__institution">Санкт-Петербургский Государственный Политехнический Университет Петра Великого (Политех)</p>
+                        <p class="education__cards__item__where__direction">Институт военно-технического образования и безопасности, Управление и защита в чрезвычайных ситуациях</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="career center">
+            <a class="career__anchor anchor" name="career" href="#"></a>
+            <h2 class="career__title">Карьера</h2>
+            <div class="career__line"></div>
+            <div class="career__title__cards">
+                <div class="career__title__cards__item">
+                    <p class="career__title__cards__item__period">Июль 2019 - ноябрь 2020</p>
+                    <div class="career__title__cards__item__description">
+                        <p class="career__title__cards__item__description__position">Бухгалтер</p>
+                        <p class="career__title__cards__item__description__company">ГК "НАР"</p>
+                        <div class="career__title__cards__item__description__responsibilities">
+                            <p class="career__title__cards__item__description__responsibilities__paragraph">Основные обязанности:</p>
+                            <ul class="career__title__cards__item__description__responsibilities__list">
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Проверка корректности заполнения первичной документации и ввод её в программу по 7-ми организациям;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Проведение оплат в 1С 8.3 и 1С 7.7;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Контроль долей и лимитов по оплатам с разных счетов;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Утверждение решений по суммам оплат поставщикам и введение корректировок по ним;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Запрос учредительных документов у новых контрагентов;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Проверка корректности заполнения договоров с новыми контрагентами и проверка их на предмет фальсификации;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Контроль взаиморасчётов и проведение сверок с поставщиками (около 200 контрагентов);</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Архивирование документов;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Предоставление документов по запросам налоговой;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Сдача Декларации по НДС;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Расчёт процентов по займам между организациями компании и проведение их в программу;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Составление договоров по займам;</li>
+                                <li class="career__title__cards__item__description__responsibilities__list__item">Проведение инвентаризации.</li>
+                            </ul>
+                        </div>
+                        <div class="career__title__cards__item__description__achievements">
+                            <p class="career__title__cards__item__description__achievements__paragraph">Основные достижения:</p>
+                            <ul class="career__title__cards__item__description__achievements__list">
+                                <li class="career__title__cards__item__description__achievements__list__item">Восстановил бухгалтерский учёт на участке "логистика";</li>
+                                <li class="career__title__cards__item__description__achievements__list__item">Выравнил сверки между программами компании и со всеми действующими контрагентами (более 100) за всё время существования фирмы (с 2013 года);</li>
+                                <li class="career__title__cards__item__description__achievements__list__item">Самостоятельно создал алгоритм, позволяющий в полуавтоматическом режиме сопоставлять данные двух программ для их сведения между собой всего за час независимо от количества фактов хозяйственной жизни и времени сотрудничества с контрагентом (год, два и т.д.);</li>
+                                <li class="career__title__cards__item__description__achievements__list__item">Самостоятельно согласовал все сверки с поставщиками услуг и указал на неточности в их сверках;</li>
+                                <li class="career__title__cards__item__description__achievements__list__item">Фактически до нуля снизил временные трудозатраты по ежеквартальным сверкам;</li>
+                                <li class="career__title__cards__item__description__achievements__list__item">Выравнил обороты между организациями компании.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer center">
+        <h2 class="footer__tittle">Frontend-разработка сайтов</h2>
+        <div class="career__line"></div>
+        <div class="footer__info">
+            <p class="footer__info__name">Беркуль Юрий Эдуардович</p>
+            <div class="footer__info__panel">
+                <a class="footer__info__panel__btn" target="_blank" href="tel:89043396633">Позвонить</a>
+                <a class="footer__info__panel__btn" target="_blank" href="https://wa.me/79043396633">Whatsapp</a>
+                <a class="footer__info__panel__btn" target="_blank" href="https://telegram.me/Juris_B">Telegram</a>
+                <a class="footer__info__panel__btn" target="_blank" href="mailto:t79043396633@gmail.com?subject=Добрый день, Юрий!">e-mail</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

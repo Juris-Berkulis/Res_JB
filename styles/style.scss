@@ -1,0 +1,2327 @@
+$header__height: 50px;
+$color__main: #fcecd2;
+$color__main_trasparent: rgba(252, 236, 210, 0.2);
+$color__link_hover: #d69200;
+$color__link_text: #7c70ff;
+$width__navi__mobile: 80vw;
+$color_bg__section_1: #f3f2ff;
+$color_bg__section_2: #fffcf5;
+$transition__time__my_project_title: 0.1s linear 0.01s;
+$color_bg__line: #39e295;
+$incline_bg_color__line: 85deg;
+$height__my_photo: 480px;
+$action__card_certificates_up: 10px;
+$width__image__certificate: 150px;
+$width__period: 15%;
+$animation__point_item: rotate_point_item 4s linear 0.5s infinite normal none;
+$color_bg__sky: #1199ff;
+$stars__controlling_spread__initial_value: 1;
+$stars__controlling_spread__scatter: 98;
+$stars__color: yellow 1px, white 1.2px, transparent 1.6px;
+
+@mixin text_font($fs: 20px, $lh: 24px) {
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin transition_navi_moving {
+  transform: translateX(0);
+  transition: transform 1s linear 0.5s;
+}
+
+@mixin title_decoration {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top: 7px solid red;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin: 0 10px;
+  animation: rotate_item_point 1s linear 1s infinite none;
+}
+
+@mixin my_project__title__font {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  @include text_font(20px, 20px);
+}
+
+@mixin transform__when_card_hover__for_label {
+  transform: scale(1);
+}
+
+@mixin point_item {
+  content: "";
+  height: 100%;
+  width: 0;
+  border: 5px solid red;
+  margin: 0 10px;
+}
+
+@keyframes rotate_item_point {
+  0% {
+    transform: rotateZ(0deg);
+    border-top: 7px solid red;
+  }
+  14.285714% {
+    transform: rotateZ(51.4285714deg);
+    border-top: 7px solid orange;
+  }
+  28.571428% {
+    transform: rotateZ(102.857143deg);
+    border-top: 7px solid yellow;
+  }
+  42.857142% {
+    transform: rotateZ(154.285714deg);
+    border-top: 7px solid green;
+  }
+  57.142856% {
+    transform: rotateZ(205.714286deg);
+    border-top: 7px solid cyan;
+  }
+  71.42857% {
+    transform: rotateZ(257.142857deg);
+    border-top: 7px solid blue;
+  }
+  85.714284% {
+    transform: rotateZ(308.871429deg);
+    border-top: 7px solid blueviolet;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    border-top: 7px solid red;
+  }
+}
+
+@keyframes rotate_point_item {
+  0% {
+    transform: rotateZ(0deg);
+    border-radius: 0%;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotateZ(360deg);
+    border-radius: 0%;
+  }
+}
+
+@keyframes animation__footer__bg__waves {
+  @for $i from 0 through 100 {
+    #{$i * 1%} {
+      background: linear-gradient(
+        to right,
+        #0000ff44 -100% #{($i - 65) * 1%},
+        #ff000044 #{($i - 55) * 1%} #{($i - 45) * 1%},
+        #0000ff44 #{($i - 33) * 1%} #{($i + 35) * 1%},
+        #ff000044 #{($i + 45) * 1%} #{($i + 55) * 1%},
+        #0000ff44 #{($i + 65) * 1%} 200%
+      );
+    }
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+body::-webkit-scrollbar-button {
+  width: 14px;
+  background-color: $color__link_text;
+}
+
+body:hover::-webkit-scrollbar-button {
+  background-color: $color__main;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: rgba(124, 112, 255, 0.6);
+  border-radius: 10px;
+}
+
+body:hover::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(252, 236, 210, 0.6);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  background-color: $color__link_text;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: $color__main;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 3px;
+  text-align: center;
+  cursor: context-menu;
+  color: #9c271f;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+h2::before,
+h2::after {
+  @include title_decoration;
+}
+
+h2::before {
+  animation-direction: normal;
+}
+
+h2::after {
+  animation-direction: reverse;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  @include text_font;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.center {
+  padding: 0 calc((100% - 1200px) / 2);
+}
+
+.header {
+  height: $header__height;
+  background-color: $color__main;
+}
+
+.header__cont {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__cont__logo {
+  color: $color__link_text;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.header__cont__checkbox {
+  display: none;
+}
+
+.header__cont__burger_menu {
+  display: none;
+}
+
+.header__cont__cross {
+  display: none;
+}
+
+.header__cont__full_name_navi_mobile {
+  display: none;
+}
+
+.header__cont__navi {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__cont__navi__link {
+  color: $color__link_text;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.header__cont__navi__link:hover {
+  color: $color__link_hover;
+}
+
+.main__contacts_and_about_me {
+  background-color: $color_bg__section_1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main__contacts_and_about_me__vacancy {
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.main__contacts_and_about_me__name {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.main__contacts_and_about_me__cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main__contacts_and_about_me__cont__my_photo {
+  max-width: 30%;
+  max-height: $height__my_photo;
+}
+
+.main__contacts_and_about_me__cont__info {
+  min-height: $height__my_photo;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.anchor {
+  font-size: 0;
+  line-height: 0;
+}
+
+.career__line {
+  display: inline;
+  height: 0;
+  width: 0;
+  margin: 0 auto;
+}
+
+.career__line::after {
+  content: "";
+  width: 250px;
+  border-bottom: 2px solid $color__link_text;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.career__line:hover::after {
+  content: "";
+  border-bottom: 2px solid $color__link_hover;
+}
+
+h2:hover + .career__line::after {
+  content: "";
+  border-bottom: 2px solid $color__link_hover;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link {
+  text-decoration: none;
+  color: $color__link_text;
+}
+
+.main__contacts_and_about_me__cont__info__text__contacts__phone__link:hover,
+.main__contacts_and_about_me__cont__info__text__contacts__email__link:hover {
+  color: $color__link_hover;
+}
+
+.main__contacts_and_about_me__cont__info__text__about_me__paragraph {
+  text-indent: 20pt;
+}
+
+.main__contacts_and_about_me__cont__info__action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication {
+  margin: 5px 0;
+  text-decoration: none;
+  color: $color__link_text;
+  background-color: $color__main;
+  padding: 10px 20px;
+  border-radius: 20px;
+  @include text_font(16px, 16px);
+  border: 2px solid $color__link_text;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s,
+    background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:hover {
+  color: $color__main;
+  background-color: $color__link_text;
+  border: 2px solid transparent;
+  transform: scale(1.2);
+}
+
+.main__contacts_and_about_me__cont__info__action__communication:active {
+  position: relative;
+  top: 5px;
+}
+
+.my_projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_2;
+  background: conic-gradient(
+      at 0% 100%,
+      #ff000022 0 $incline_bg_color__line,
+      $color_bg__line $incline_bg_color__line 0.25turn,
+      #ff000022 0.25turn 1turn
+    ),
+    conic-gradient(
+      at 0% 100%,
+      transparent 0 $incline_bg_color__line,
+      $color_bg__sky $incline_bg_color__line 0.25turn,
+      transparent 0.25turn 1turn
+    );
+}
+
+.my_projects__cont__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.my_projects__cont__projects__item {
+  width: 300px;
+  margin: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #add8e6aa;
+  box-shadow: 5px 5px 2px 1px #00000033;
+}
+
+.my_projects__cont__projects__item:hover {
+  background-color: #add8e6dd;
+  box-shadow: 5px 5px 2px 1px #00000055;
+}
+
+.my_projects__cont__projects__item__top_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_projects__cont__projects__item__top_part__category {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__top_part__site_title {
+  text-align: center;
+  @include my_project__title__font;
+  text-shadow: 0 0 0px #5588bb;
+  transform: scale(1);
+  transition: text-shadow $transition__time__my_project_title,
+    transform $transition__time__my_project_title;
+}
+
+.my_projects__cont__projects__item__top_part__site_title:hover {
+  text-shadow: 1px 1px 0px #5588bb;
+  transform: scale(1.2);
+}
+
+.my_projects__cont__projects__item__top_part__site_title__link {
+  color: $color__link_text;
+  text-decoration: none;
+  transition: color $transition__time__my_project_title;
+}
+
+.my_projects__cont__projects__item__top_part__site_title__link:hover {
+  color: $color__link_hover;
+}
+
+.my_projects__cont__projects__item__top_part__site_title__spare {
+  text-align: center;
+  @include my_project__title__font;
+}
+
+.my_projects__cont__projects__item__top_part__paragraph {
+  text-align: center;
+  font-weight: 400;
+}
+
+.my_projects__cont__projects__item__technologies {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 300;
+}
+
+.my_projects__cont__projects__item__GitHub {
+  text-align: center;
+}
+
+.my_projects__cont__projects__item__GitHub__link {
+  color: $color__link_text;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  transition: color $transition__time__my_project_title;
+}
+
+.my_projects__cont__projects__item__GitHub__link:hover {
+  color: $color__link_hover;
+}
+
+.my_projects__cont__projects__item__GitHub__spare {
+  @include text_font;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.my_skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_1;
+  background: conic-gradient(
+      at 100% 0%,
+      transparent 0 (180deg + $incline_bg_color__line),
+      $color_bg__line (180deg + $incline_bg_color__line) 0.75turn,
+      transparent 0.75turn 1turn
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      orange 20px,
+      yellow 40px,
+      transparent 60px
+    ),
+    radial-gradient(
+      circle closest-side at 20% 50%,
+      white 30px,
+      cyan 32px,
+      transparent 40px
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    radial-gradient(
+      circle closest-side at
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        )
+        (
+          (
+              random($stars__controlling_spread__scatter) +
+                $stars__controlling_spread__initial_value
+            ) * 1%
+        ),
+      $stars__color
+    ),
+    linear-gradient($color_bg__sky);
+}
+
+.my_skills__cont__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.my_skills__cont__technologies__item {
+  margin: 10px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transform: scale(1);
+  transition: transform 0.2s linear 0.1s;
+}
+
+.my_skills__cont__technologies__item:hover {
+  background-color: $color__main_trasparent;
+  transform: scale(1.2);
+}
+
+.my_skills__cont__technologies__item__img {
+  width: 125px;
+  margin-bottom: 5px;
+}
+
+.my_skills__cont__technologies__item__description {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+
+.my_certificates {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_2;
+  background: conic-gradient(
+    at 0% 30%,
+    red 7.1428571%,
+    orange 14.285714%,
+    yellow 21.428571%,
+    green 28.571428%,
+    cyan 35.714285%,
+    blue 42.857142%,
+    blueviolet 50%
+  );
+}
+
+.my_certificates__cont__description {
+  text-align: center;
+}
+
+.my_certificates__cont__tests,
+.my_certificates__cont__main,
+.my_certificates__cont__minor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.my_certificates__cont__tests__card,
+.my_certificates__cont__main__card,
+.my_certificates__cont__minor__card {
+  margin: 10px;
+}
+
+.my_certificates__cont__tests__card:hover,
+.my_certificates__cont__main__card:hover,
+.my_certificates__cont__minor__card:hover {
+  position: relative;
+  bottom: $action__card_certificates_up;
+  padding-bottom: $action__card_certificates_up;
+  margin-bottom: -$action__card_certificates_up;
+}
+
+.my_certificates__cont__tests__card__spec,
+.my_certificates__cont__main__card__spec,
+.my_certificates__cont__minor__card__spec,
+.my_certificates__big__spec {
+  position: relative;
+  line-height: 0;
+}
+
+.my_certificates__big__spec {
+  background-color: $color__link_text;
+  //* padding-bottom: управление идёт в файле "bigCertificate.js";
+}
+
+.my_certificates__cont__tests__card__spec__checkbox,
+.my_certificates__cont__main__card__spec__checkbox,
+.my_certificates__cont__minor__card__spec__checkbox,
+.my_certificates__big__spec__checkbox {
+  position: absolute;
+  top: 0;
+  left: -500vw;
+}
+
+.my_certificates__cont__tests__card__spec__overlay,
+.my_certificates__cont__main__card__spec__overlay,
+.my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__overlay {
+  display: none;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__overlay,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__overlay,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__overlay,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 0;
+}
+
+.my_certificates__cont__tests__card__spec__overlay__img,
+.my_certificates__cont__main__card__spec__overlay__img,
+.my_certificates__cont__minor__card__spec__overlay__img {
+  width: $width__image__certificate;
+  cursor: zoom-in;
+}
+
+.my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__img {
+  width: $width__image__certificate;
+  cursor: zoom-in;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__img,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__img,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__img {
+  visibility: hidden;
+}
+
+.my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__label {
+  position: relative;
+  left: 25px;
+  display: block;
+  height: 24px;
+  width: 50px;
+  background-color: red;
+  border-radius: 12px;
+  padding: 1px;
+  cursor: pointer;
+  transition: background-color 0.5s linear 0.1s;
+  transform-origin: top;
+  transform: scale(0);
+  transition: transform 0.2s linear 0.01s;
+}
+
+.my_certificates__big__spec__label {
+  margin-top: 3px;
+  //* bottom: 30px - Возможно, так менее красиво;
+}
+
+.my_certificates__big:hover .my_certificates__big__spec__label {
+  @include transform__when_card_hover__for_label;
+}
+
+.my_certificates__cont__tests__card:hover
+  .my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card:hover
+  .my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card:hover
+  .my_certificates__cont__minor__card__spec__label {
+  @include transform__when_card_hover__for_label;
+  position: relative;
+  top: $action__card_certificates_up;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__label,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__label,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__label,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label {
+  background-color: green;
+}
+
+.my_certificates__cont__tests__card__spec__label::before,
+.my_certificates__cont__main__card__spec__label::before,
+.my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__label::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  display: block;
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+  transition: left 0.5s linear 0.1s;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__label::before,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__label::before,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__label::before,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label::before {
+  left: 26px;
+}
+
+.my_certificates__cont__tests__card__spec__label::after,
+.my_certificates__cont__main__card__spec__label::after,
+.my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  content: "ru";
+  color: red;
+  transition: left 0.01s linear 0.6s;
+}
+
+.my_certificates__cont__tests__card__spec__checkbox:checked
+  ~ .my_certificates__cont__tests__card__spec__label::after,
+.my_certificates__cont__main__card__spec__checkbox:checked
+  ~ .my_certificates__cont__main__card__spec__label::after,
+.my_certificates__cont__minor__card__spec__checkbox:checked
+  ~ .my_certificates__cont__minor__card__spec__label::after,
+.my_certificates__big__spec__checkbox:checked
+  ~ .my_certificates__big__spec__label::after {
+  position: absolute;
+  top: 12px;
+  left: 53px;
+  content: "en";
+  color: green;
+}
+
+.my_certificates__big {
+  position: fixed;
+  top: 2vh;
+  left: 20vw;
+  z-index: 2;
+  display: none;
+}
+
+.my_certificates__big__btn {
+  display: block;
+  width: 5vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+.my_certificates__big__btn:hover {
+  background-color: rgba(239, 239, 239, 0.8);
+  color: $color__link_hover;
+}
+
+.my_certificates__big__btn-back {
+  left: -5vw;
+  background: radial-gradient(
+    ellipse farthest-side at 100% 50%,
+    $color__main_trasparent,
+    rgba(30, 144, 255, 0.5) 50%,
+    transparent
+  );
+}
+
+.my_certificates__big__btn-back:hover {
+  background: radial-gradient(
+    ellipse farthest-side at 100% 50%,
+    $color__link_text,
+    rgba(30, 144, 255, 1) 50%,
+    rgba(239, 239, 239, 0.8)
+  );
+}
+
+.my_certificates__big__btn-next {
+  right: -5vw;
+  background: radial-gradient(
+    ellipse farthest-side at 0% 50%,
+    $color__main_trasparent,
+    rgba(30, 144, 255, 0.5) 50%,
+    transparent
+  );
+}
+
+.my_certificates__big__btn-next:hover {
+  background: radial-gradient(
+    ellipse farthest-side at 0% 50%,
+    $color__link_text,
+    rgba(30, 144, 255, 1) 50%,
+    rgba(239, 239, 239, 0.8)
+  );
+}
+
+.my_certificates__big__spec__overlay__img {
+  width: 60vw;
+}
+
+.my_certificates__big__spec__img {
+  width: 60vw;
+}
+
+.my_certificates__big__close_big_certificate {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  font-size: 40px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.my_certificates__big__spec:hover
+  ~ .my_certificates__big__close_big_certificate,
+.my_certificates__big__spec:hover
+  ~ .my_certificates__big__close_big_certificate {
+  color: $color__link_text;
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.my_certificates__big__close_big_certificate:hover {
+  color: $color__link_hover;
+  background-color: rgba(133, 133, 133, 0.8);
+}
+
+.my_certificates__big__close_big_certificate__cross {
+  display: block;
+  transform: rotateZ(45deg);
+}
+
+.education {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color_bg__section_1;
+  background: linear-gradient(45deg, #ff990022 50%, #eb23ff22),
+    linear-gradient(-45deg, #eb23ff22 50%, #ff990022);
+}
+
+.education__cards__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.education__cards__item__period {
+  width: $width__period;
+  font-weight: 700;
+}
+
+.education__cards__item__where {
+  width: 100% - $width__period - 5%;
+}
+
+.education__cards__item__where__institution {
+  font-weight: 700;
+}
+
+.education__cards__item__where__institution__link {
+  color: $color__link_text;
+  text-decoration: none;
+  transition: color $transition__time__my_project_title;
+}
+
+.education__cards__item__where__institution__link:hover {
+  color: $color__link_hover;
+}
+
+.career {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include text_font(20px, 20px);
+  background-color: #0066ff22;
+  background: linear-gradient(0deg, #ff000022, transparent 66.67%),
+    linear-gradient(120deg, #00ff0022, transparent 66.67%),
+    linear-gradient(240deg, #0000ff22, transparent 66.67%);
+}
+
+.career__title__cards__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.career__title__cards__item__period {
+  width: $width__period;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description {
+  width: 100% - $width__period - 5%;
+}
+
+.career__title__cards__item__description__position {
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__responsibilities__list {
+  margin-bottom: 10px;
+}
+
+.career__title__cards__item__description__responsibilities__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.career__title__cards__item__description__responsibilities__list__item::before {
+  @include point_item;
+}
+
+.career__title__cards__item:hover
+  .career__title__cards__item__description__responsibilities__list__item::before {
+  animation: $animation__point_item;
+}
+
+.career__title__cards__item__description__achievements__paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.career__title__cards__item__description__achievements__list__item {
+  margin-top: 3px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.career__title__cards__item__description__achievements__list__item::before {
+  @include point_item;
+}
+
+.career__title__cards__item:hover
+  .career__title__cards__item__description__achievements__list__item::before {
+  animation: $animation__point_item;
+}
+
+.footer {
+  background-color: #00ff0022;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation: animation__footer__bg__waves 5s linear 0.5s infinite normal both;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__info__name {
+  @include text_font(2.5vw, 2.5vw);
+  white-space: nowrap;
+  color: #00000088;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.footer__info__panel {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer__info__panel__btn {
+  margin: 5px 0;
+  text-decoration: none;
+  color: $color__link_text;
+  background-color: $color__main;
+  padding: 10px 20px;
+  border-radius: 20px;
+  @include text_font(16px, 16px);
+  border: 2px solid $color__link_text;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  transition: transform 0.2s linear 0.1s, color 0.2s linear 0.1s,
+    background-color 0.2s linear 0.1s, border 0.2s linear 0.1s;
+}
+
+.footer__info__panel__btn:hover {
+  color: $color__main;
+  background-color: $color__link_text;
+  border: 2px solid transparent;
+  transform: scale(1.2);
+}
+
+.footer__info__panel__btn:active {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 1240px), (orientation: portrait) {
+  .center {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .header__cont__burger_menu {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .header__cont__burger_menu__img {
+    fill: $color__link_text;
+  }
+
+  .header__cont__burger_menu__img:hover {
+    fill: $color__link_hover;
+  }
+
+  .header__cont__cross {
+    display: block;
+    position: fixed;
+    top: 55px;
+    left: -10vw;
+    font-size: 5vw;
+    line-height: 3.5vw;
+    color: $color__link_text;
+    cursor: pointer;
+    @include transition_navi_moving;
+    z-index: 3;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__cross {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__cross:hover {
+    color: $color__link_hover;
+  }
+
+  .header__cont__full_name_navi_mobile {
+    display: block;
+    position: fixed;
+    top: 2vw;
+    left: -$width__navi__mobile + 14vw;
+    font-size: 4vw;
+    font-family: "Roboro", sans-serif;
+    font-weight: 400;
+    color: #00000088;
+    @include transition_navi_moving;
+    z-index: 3;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__full_name_navi_mobile {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__navi {
+    position: fixed;
+    top: 0;
+    left: -$width__navi__mobile;
+    width: $width__navi__mobile;
+    height: 100vh;
+    padding-top: $header__height;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color__main;
+    z-index: 2;
+    @include transition_navi_moving;
+  }
+
+  .header__cont__checkbox:checked ~ .header__cont__navi {
+    transform: translateX($width__navi__mobile);
+  }
+
+  .header__cont__navi__link {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__info__name {
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main__contacts_and_about_me__cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main__contacts_and_about_me__cont__my_photo {
+    margin-bottom: 10px;
+  }
+
+  .main__contacts_and_about_me__cont__info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__info__name {
+    font-size: 5vw;
+    line-height: 4vw;
+  }
+}

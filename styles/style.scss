@@ -2412,7 +2412,7 @@ h2:hover + .career__line::after {
   }
 }
 
-@media (any-hover: none) {
+@media (hover: none) {
   .my_certificates__big__btn {
     background-color: rgba(239, 239, 239, 0.8);
     color: $color__link_hover;

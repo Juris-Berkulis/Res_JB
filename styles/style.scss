@@ -2299,7 +2299,7 @@ h2:hover + .career__line::after {
     width: $width__navi__mobile;
     height: 100vh;
     padding-top: $header__height;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -2314,7 +2314,7 @@ h2:hover + .career__line::after {
   }
 
   .header__cont__navi__link {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 

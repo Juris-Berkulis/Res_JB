@@ -2316,6 +2316,38 @@ h2:hover + .career__line::after {
   .header__cont__navi__link {
     font-size: 6vw;
   }
+
+  .my_certificates__big__spec__label {
+    transform: scale(1);
+  }
+
+  .my_certificates__big__btn {
+    background-color: rgba(239, 239, 239, 0.8);
+    color: $color__link_hover;
+  }
+
+  .my_certificates__big__btn-back {
+    background: radial-gradient(
+      ellipse farthest-side at 100% 50%,
+      $color__link_text,
+      rgba(30, 144, 255, 1) 50%,
+      rgba(239, 239, 239, 0.8)
+    );
+  }
+
+  .my_certificates__big__btn-next {
+    background: radial-gradient(
+      ellipse farthest-side at 0% 50%,
+      $color__link_text,
+      rgba(30, 144, 255, 1) 50%,
+      rgba(239, 239, 239, 0.8)
+    );
+  }
+
+  .my_certificates__big__close_big_certificate {
+    color: $color__link_text;
+    background-color: rgba(133, 133, 133, 0.3);
+  }
 }
 
 @media (max-width: 1000px) {
@@ -2413,39 +2445,9 @@ h2:hover + .career__line::after {
   }
 }
 
-@media (max-width: 1240px), (orientation: landscape) {
+@media (max-width: 1240px) and (orientation: landscape) {
   .header__cont__navi__link {
     font-size: 4vw;
-  }
-}
-
-@media (hover: none) {
-  .my_certificates__big__btn {
-    background-color: rgba(239, 239, 239, 0.8);
-    color: $color__link_hover;
-  }
-
-  .my_certificates__big__btn-back {
-    background: radial-gradient(
-      ellipse farthest-side at 100% 50%,
-      $color__link_text,
-      rgba(30, 144, 255, 1) 50%,
-      rgba(239, 239, 239, 0.8)
-    );
-  }
-
-  .my_certificates__big__btn-next {
-    background: radial-gradient(
-      ellipse farthest-side at 0% 50%,
-      $color__link_text,
-      rgba(30, 144, 255, 1) 50%,
-      rgba(239, 239, 239, 0.8)
-    );
-  }
-
-  .my_certificates__big__close_big_certificate {
-    color: $color__link_text;
-    background-color: rgba(133, 133, 133, 0.3);
   }
 }
 

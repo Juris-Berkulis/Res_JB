@@ -2299,6 +2299,7 @@ h2:hover + .career__line::after {
     width: $width__navi__mobile;
     height: 100vh;
     padding-top: $header__height;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

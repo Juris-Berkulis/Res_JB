@@ -2314,7 +2314,7 @@ h2:hover + .career__line::after {
   }
 
   .header__cont__navi__link {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 
@@ -2410,6 +2410,12 @@ h2:hover + .career__line::after {
   .footer__info__name {
     font-size: 5vw;
     line-height: 4vw;
+  }
+}
+
+@media (max-width: 1240px), (orientation: landscape) {
+  .header__cont__navi__link {
+    font-size: 4vw;
   }
 }
 

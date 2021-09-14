@@ -1057,13 +1057,29 @@ p {
 }
 
 .header__cont__logo {
-  color: #7c70ff;
   font-size: 36px;
   line-height: 36px;
   margin: 0;
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.header__cont__logo__link {
+  color: #7c70ff;
+  text-decoration: none;
+}
+
+.header__cont__logo__link:hover {
+  color: #7c70ff;
+}
+
+.header__cont__logo__link:active {
+  color: #7c70ff;
+}
+
+.header__cont__logo__link:visited {
+  color: #7c70ff;
 }
 
 .header__cont__checkbox {
@@ -1387,8 +1403,8 @@ h2:hover + .career__line::after {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f3f2ff;
-  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 11% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 55%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 32%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 98%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
-  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 11% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 49% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 99%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 74% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 6% 86%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 96% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 93% 89%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 41%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 81%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 87%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 92% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 69% 15%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 34% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 42%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 26% 10%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 5%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 44% 19%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 77% 22%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 53% 55%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 64% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 30% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 27% 32%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 71%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 13% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 75% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 89% 36%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 56% 94%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 52%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 80% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 48%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 23% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 50% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 39%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 97%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 18% 63%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 33% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 18%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 8%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 4% 65%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 88% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 63% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 98%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 66%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 11% 56%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 90% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 38%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 84% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 76%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 59% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 4%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 12%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 28% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 15% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 31% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 9%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 85% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 67%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 44%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 19% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 18%, yellow 1px, white 1.2px, transparent 1.6px), -webkit-gradient(linear, left top, left bottom, from(#1199ff));
+  background: conic-gradient(at 100% 0%, transparent 0 265deg, #39e295 265deg 0.75turn, transparent 0.75turn 1turn), radial-gradient(circle at 90% 20%, orange 20px, yellow 40px, transparent 60px), radial-gradient(circle closest-side at 20% 50%, white 30px, cyan 32px, transparent 40px), radial-gradient(circle closest-side at 90% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 38%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 84% 85%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 76%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 49%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 59% 13%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 45% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 84%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 39% 54%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 98% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 62%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 72% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 57%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 10% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 97% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 4%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 72%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 57% 56%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 43% 82%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 22% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 71% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 14% 29%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 36% 2%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 41% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 2% 91%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 47% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 74%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 76% 12%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 28% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 46% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 15% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 25% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 16% 96%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 67% 92%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 31% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 86% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 45%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 61% 83%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 40% 61%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 68% 9%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 85% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 65% 93%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 52% 67%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 24% 73%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 90% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 20% 64%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 21% 90%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 37% 51%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 70% 3%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 78% 14%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 82% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 42% 68%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 79% 7%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 50%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 88%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 54% 44%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 91% 60%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 35%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 19% 46%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 58% 78%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 51% 59%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 35% 77%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 7% 95%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 17% 20%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 99% 28%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 3% 37%, yellow 1px, white 1.2px, transparent 1.6px), radial-gradient(circle closest-side at 38% 18%, yellow 1px, white 1.2px, transparent 1.6px), linear-gradient(#1199ff);
 }
 
 .my_skills__cont__technologies {
@@ -1452,6 +1468,10 @@ h2:hover + .career__line::after {
 
 .my_certificates__cont__description {
   text-align: center;
+}
+
+.my_certificates__cont__title__js_scripts_not_available {
+  display: none;
 }
 
 .my_certificates__cont__tests,
@@ -1692,6 +1712,13 @@ h2:hover + .career__line::after {
   color: #d69200;
 }
 
+.my_certificates__big__btn__text {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+}
+
 .my_certificates__big__btn-back {
   left: -5vw;
   background: radial-gradient(ellipse farthest-side at 100% 50%, rgba(252, 236, 210, 0.2), rgba(30, 144, 255, 0.5) 50%, transparent);
@@ -1797,10 +1824,13 @@ h2:hover + .career__line::after {
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 20px;
-  line-height: 20px;
   background-color: #0066ff22;
   background: linear-gradient(0deg, #ff000022, transparent 66.67%), linear-gradient(120deg, #00ff0022, transparent 66.67%), linear-gradient(240deg, #0000ff22, transparent 66.67%);
+}
+
+.career__title__cards {
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .career__title__cards__item {
@@ -2031,6 +2061,7 @@ h2:hover + .career__line::after {
     width: 80vw;
     height: 100vh;
     padding-top: 50px;
+    padding-bottom: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2057,11 +2088,33 @@ h2:hover + .career__line::after {
             transform: translateX(80vw);
   }
   .header__cont__navi__link {
-    font-size: 5vw;
+    font-size: 6vw;
+  }
+  .my_certificates__big__spec__label {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .my_certificates__big__btn {
+    background-color: rgba(239, 239, 239, 0.8);
+    color: #d69200;
+  }
+  .my_certificates__big__btn-back {
+    background: radial-gradient(ellipse farthest-side at 100% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+  }
+  .my_certificates__big__btn-next {
+    background: radial-gradient(ellipse farthest-side at 0% 50%, #7c70ff, dodgerblue 50%, rgba(239, 239, 239, 0.8));
+  }
+  .my_certificates__big__close_big_certificate {
+    color: #7c70ff;
+    background-color: rgba(133, 133, 133, 0.3);
   }
 }
 
 @media (max-width: 1000px) {
+  .my_certificates__big__btn__text {
+    font-size: 8px;
+    line-height: 8px;
+  }
   .footer__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2109,9 +2162,68 @@ h2:hover + .career__line::after {
 }
 
 @media (max-width: 500px) {
+  h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .header__cont__logo {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .main__contacts_and_about_me__vacancy {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .main__contacts_and_about_me__name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .my_certificates__cont__tests__card__spec__overlay__img,
+  .my_certificates__cont__main__card__spec__overlay__img,
+  .my_certificates__cont__minor__card__spec__overlay__img {
+    width: 50px;
+  }
+  .my_certificates__cont__tests__card__spec__img,
+  .my_certificates__cont__main__card__spec__img,
+  .my_certificates__cont__minor__card__spec__img {
+    width: 50px;
+  }
+  .my_certificates__cont__tests__card__spec__label,
+  .my_certificates__cont__main__card__spec__label,
+  .my_certificates__cont__minor__card__spec__label {
+    left: 0;
+  }
+  .my_certificates__big__btn__text {
+    display: none;
+  }
+  .career__title__cards {
+    font-size: 12px;
+    line-height: 16px;
+  }
   .footer__info__name {
     font-size: 5vw;
     line-height: 4vw;
+  }
+}
+
+@media (max-width: 1240px) and (orientation: landscape) {
+  .header__cont__navi__link {
+    font-size: 4vw;
+  }
+}
+
+@media (scripting: none) {
+  .my_certificates__cont__title__js_scripts_not_available {
+    display: block;
+    color: red;
   }
 }
 /*# sourceMappingURL=style.css.map */

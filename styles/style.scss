@@ -12,6 +12,7 @@ $incline_bg_color__line: 85deg;
 $height__my_photo: 480px;
 $action__card_certificates_up: 10px;
 $width__image__certificate: 150px;
+$width__image__certificate__little: 50px;
 $width__period: 15%;
 $animation__point_item: rotate_point_item 4s linear 0.5s infinite normal none;
 $color_bg__sky: #1199ff;
@@ -225,13 +226,29 @@ p {
 }
 
 .header__cont__logo {
-  color: $color__link_text;
   font-size: 36px;
   line-height: 36px;
   margin: 0;
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.header__cont__logo__link {
+  color: $color__link_text;
+  text-decoration: none;
+}
+
+.header__cont__logo__link:hover {
+  color: $color__link_text;
+}
+
+.header__cont__logo__link:active {
+  color: $color__link_text;
+}
+
+.header__cont__logo__link:visited {
+  color: $color__link_text;
 }
 
 .header__cont__checkbox {
@@ -1733,6 +1750,10 @@ h2:hover + .career__line::after {
   text-align: center;
 }
 
+.my_certificates__cont__title__js_scripts_not_available {
+  display: none;
+}
+
 .my_certificates__cont__tests,
 .my_certificates__cont__main,
 .my_certificates__cont__minor {
@@ -1957,6 +1978,12 @@ h2:hover + .career__line::after {
   color: $color__link_hover;
 }
 
+.my_certificates__big__btn__text {
+  @include text_font(12px, 12px);
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+}
+
 .my_certificates__big__btn-back {
   left: -5vw;
   background: radial-gradient(
@@ -2076,11 +2103,14 @@ h2:hover + .career__line::after {
 .career {
   padding-top: 20px;
   padding-bottom: 20px;
-  @include text_font(20px, 20px);
   background-color: #0066ff22;
   background: linear-gradient(0deg, #ff000022, transparent 66.67%),
     linear-gradient(120deg, #00ff0022, transparent 66.67%),
     linear-gradient(240deg, #0000ff22, transparent 66.67%);
+}
+
+.career__title__cards {
+  @include text_font(20px, 20px);
 }
 
 .career__title__cards__item {
@@ -2269,6 +2299,7 @@ h2:hover + .career__line::after {
     width: $width__navi__mobile;
     height: 100vh;
     padding-top: $header__height;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -2283,11 +2314,47 @@ h2:hover + .career__line::after {
   }
 
   .header__cont__navi__link {
-    font-size: 5vw;
+    font-size: 6vw;
+  }
+
+  .my_certificates__big__spec__label {
+    transform: scale(1);
+  }
+
+  .my_certificates__big__btn {
+    background-color: rgba(239, 239, 239, 0.8);
+    color: $color__link_hover;
+  }
+
+  .my_certificates__big__btn-back {
+    background: radial-gradient(
+      ellipse farthest-side at 100% 50%,
+      $color__link_text,
+      rgba(30, 144, 255, 1) 50%,
+      rgba(239, 239, 239, 0.8)
+    );
+  }
+
+  .my_certificates__big__btn-next {
+    background: radial-gradient(
+      ellipse farthest-side at 0% 50%,
+      $color__link_text,
+      rgba(30, 144, 255, 1) 50%,
+      rgba(239, 239, 239, 0.8)
+    );
+  }
+
+  .my_certificates__big__close_big_certificate {
+    color: $color__link_text;
+    background-color: rgba(133, 133, 133, 0.3);
   }
 }
 
 @media (max-width: 1000px) {
+  .my_certificates__big__btn__text {
+    @include text_font(8px, 8px);
+  }
+
   .footer__info {
     display: flex;
     flex-direction: column;
@@ -2320,8 +2387,73 @@ h2:hover + .career__line::after {
 }
 
 @media (max-width: 500px) {
+  h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  p {
+    @include text_font(12px, 16px);
+  }
+
+  .header__cont__logo {
+    @include text_font(24px, 24px);
+  }
+
+  .main__contacts_and_about_me__vacancy {
+    @include text_font(24px, 24px);
+  }
+
+  .main__contacts_and_about_me__name {
+    @include text_font(20px, 24px);
+  }
+
+  .my_certificates__cont__tests__card__spec__overlay__img,
+  .my_certificates__cont__main__card__spec__overlay__img,
+  .my_certificates__cont__minor__card__spec__overlay__img {
+    width: $width__image__certificate__little;
+  }
+
+  .my_certificates__cont__tests__card__spec__img,
+  .my_certificates__cont__main__card__spec__img,
+  .my_certificates__cont__minor__card__spec__img {
+    width: $width__image__certificate__little;
+  }
+
+  .my_certificates__cont__tests__card__spec__label,
+  .my_certificates__cont__main__card__spec__label,
+  .my_certificates__cont__minor__card__spec__label {
+    left: 0;
+  }
+
+  .my_certificates__big__btn__text {
+    display: none;
+  }
+
+  .career__title__cards {
+    @include text_font(12px, 16px);
+  }
+
   .footer__info__name {
     font-size: 5vw;
     line-height: 4vw;
+  }
+}
+
+@media (max-width: 1240px) and (orientation: landscape) {
+  .header__cont__navi__link {
+    font-size: 4vw;
+  }
+}
+
+@media (scripting: none) {
+  .my_certificates__cont__title__js_scripts_not_available {
+    display: block;
+    color: red;
   }
 }

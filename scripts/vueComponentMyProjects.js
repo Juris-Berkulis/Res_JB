@@ -75,7 +75,7 @@ const allProjects = [
         category: 'Составной учебный проект',
         title: 'Интернет-магазин с корзиной',
         hrefSite: '',
-        technologies: 'HTML, SCSS, JavaScript ES6, внешний API, API JSON, Vue.js, предоставленный Node.js, WebPack',
+        technologies: 'HTML, SCSS, JavaScript ES6, API JSON, Vue.js, предоставленный Node.js, WebPack',
         hrefGitHub: 'https://github.com/Juris-Berkulis/GB_1907_JS_L2_HW',
         place: 'GitHub'
     }

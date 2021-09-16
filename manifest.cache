@@ -1,0 +1,47 @@
+CACHE MANIFEST
+# Версия 1.0
+
+CACHE:
+index.html
+img/my_certificates/jpg/tests/Сертификат. GoIT. Марафон по вёрстке (3 места) - 2021.06.09.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Продвинутый уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Продвинутый уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Интерактивный курс.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Интерактивный курс.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Начальный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Начальный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Сложный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Сложный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Средний уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML&CSS. Средний уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML5&CSS3.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по HTML5&CSS3.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по JavaScript. Начальный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по JavaScript. Начальный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по JavaScript. Средний уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по JavaScript. Средний уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Python. Начальный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Python. Начальный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Python. Уровень 1.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Python. Уровень 1.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Линейная регрессия, градиентный спуск, библиотека sklearn.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Линейная регрессия, градиентный спуск, библиотека sklearn.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Онбординг студентов. Вводный курс студента GeekBrains (профессия).en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Онбординг студентов. Вводный курс студента GeekBrains (профессия).ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Онбординг студентов. Вводный курс студента GeekBrains.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Онбординг студентов. Вводный курс студента GeekBrains.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Основам программирования. Начальный уровень.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Основам программирования. Начальный уровень.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.ru.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Охота на уток на чистом HTML и CSS.en.jpg
+img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Охота на уток на чистом HTML и CSS.ru.jpg
+scripts/myCertificatesMain.js
+scripts/myCertificatesTests.js
+scripts/myCertificatesMinor.js
+scripts/bigCertificate.js
+scripts/sectionLayoutMyCertificates.js
+scripts/closeBigCertificate.js
+scripts/flipBigCertificate.js

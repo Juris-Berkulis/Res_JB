@@ -35,7 +35,7 @@ const allProjects = [
         category: 'Тренировочный проект',
         title: 'Burger menu',
         hrefSite: 'https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html',
-        technologies: 'HTML, SCSS, JavaScript ES6, DOM',
+        technologies: 'HTML, SCSS, JavaScript ES6, DOM API',
         hrefGitHub: 'https://github.com/Juris-Berkulis/Burger_menu',
         place: 'GitHub'
     },
@@ -43,7 +43,7 @@ const allProjects = [
         category: 'Учебный проект',
         title: 'Home Work. JS - Level 1',
         hrefSite: 'https://juris-berkulis.github.io/GB_0106_JS_L1_HW/',
-        technologies: 'JavaScript ES5, DOM',
+        technologies: 'JavaScript ES5, DOM API',
         hrefGitHub: 'https://github.com/Juris-Berkulis/GB_0106_JS_L1_HW',
         place: 'GitHub'
     },
@@ -51,7 +51,7 @@ const allProjects = [
         category: 'Полностью собственный сайт',
         title: 'Этот сайт-резюме',
         hrefSite: '',
-        technologies: 'HTML, SCSS, JavaScript ES5/ES6, DOM, Vue.js',
+        technologies: 'HTML, SCSS, JavaScript ES5/ES6, DOM API, Vue.js',
         hrefGitHub: 'https://github.com/Juris-Berkulis/Res_JB',
         place: 'GitHub'
     },
@@ -67,7 +67,7 @@ const allProjects = [
         category: 'Учебный проект',
         title: 'Интернет-магазин с корзиной',
         hrefSite: 'https://juris-berkulis.github.io/04_JavaScript_Level_2_Site_with_only_Frontend/',
-        technologies: 'HTML, SCSS, JavaScript ES6, внешний API, Vue.js',
+        technologies: 'HTML, SCSS, JavaScript ES6, REST API, Vue.js',
         hrefGitHub: 'https://github.com/Juris-Berkulis/04_JavaScript_Level_2_Site_with_only_Frontend',
         place: 'GitHub'
     },
@@ -75,7 +75,7 @@ const allProjects = [
         category: 'Составной учебный проект',
         title: 'Интернет-магазин с корзиной',
         hrefSite: '',
-        technologies: 'HTML, SCSS, JavaScript ES6, API JSON, Vue.js, предоставленный Node.js, WebPack',
+        technologies: 'HTML, SCSS, JavaScript ES6, JSON API, Vue.js, предоставленный Node.js, WebPack',
         hrefGitHub: 'https://github.com/Juris-Berkulis/GB_1907_JS_L2_HW',
         place: 'GitHub'
     }

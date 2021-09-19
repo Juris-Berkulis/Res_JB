@@ -121,7 +121,7 @@ const myprojectslist = {
             <div class="my_projects__cont">
                 <a class="my_projects__cont__anchor anchor" name="my_projects" href="#"></a>
                 <h2 class="my_projects__cont__title">Мои проекты</h2>
-                <div class="career__line"></div>
+                <div class="title_line"></div>
                 <div class="my_projects__cont__projects">
                     <myprojectitem v-for="project of projects" :projectItem="project"></myprojectitem>
                 </div>

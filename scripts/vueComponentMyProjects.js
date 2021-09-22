@@ -4,7 +4,7 @@ const allProjects = [
         title: 'New Automation',
         hrefSite: 'https://juris-berkulis.github.io/GB_0902/',
         technologies: 'HTML, SCSS, Figma',
-        hrefGitHub: 'https://juris-berkulis.github.io/GB_0902/',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/GB_0902',
         place: 'GitHub'
     },
     {
@@ -24,15 +24,15 @@ const allProjects = [
         place: 'GitHub'
     },
     {
-        category: 'Полностью собственная игра',
-        title: 'Duck hunt',
+        category: 'Свой собственный проект',
+        title: 'Игра "Duck hunt"',
         hrefSite: 'https://juris-berkulis.github.io/Duck_hunt/',
         technologies: 'HTML, SCSS',
         hrefGitHub: 'https://github.com/Juris-Berkulis/Duck_hunt',
         place: 'GitHub'
     },
     {
-        category: 'Тренировочный проект',
+        category: 'Мой тренировочный проект',
         title: 'Burger menu',
         hrefSite: 'https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html',
         technologies: 'HTML, SCSS, JavaScript ES6, DOM API',
@@ -48,7 +48,7 @@ const allProjects = [
         place: 'GitHub'
     },
     {
-        category: 'Полностью собственный сайт',
+        category: 'Свой собственный проект',
         title: 'Этот сайт-резюме',
         hrefSite: '',
         technologies: 'HTML, SCSS, JavaScript ES5/ES6, DOM API, Vue.js',

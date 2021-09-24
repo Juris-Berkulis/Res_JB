@@ -27,7 +27,7 @@ function enlargeImg(event, btnJ, btnI, btnLang) {
     btnBack.onclick = imgBack;
     btnNext.onclick = imgNext;
 
-    console.log('Финал', j, i, lang);
+    // console.log('Финал', j, i, lang);
 
     if (!(masMyCertificates[j - 1][i - 1].en == '') && !(masMyCertificates[j - 1][i - 1].ru == '')) {
         var inputMyCertificatesBigSpecCheckbox = document.createElement('input');
@@ -36,7 +36,7 @@ function enlargeImg(event, btnJ, btnI, btnLang) {
         inputMyCertificatesBigSpecCheckbox.setAttribute('id', 'certificate_big');
 
         if (lang == 'en') {
-            console.log('Сработал checked');
+            // console.log('Сработал checked');
             inputMyCertificatesBigSpecCheckbox.setAttribute('checked', 'checked');
         }
     
@@ -58,8 +58,8 @@ function enlargeImg(event, btnJ, btnI, btnLang) {
     imgMyCertificatesBigSpecImg.setAttribute('class', 'my_certificates__big__spec__img');
 
     if (!(masMyCertificates[j - 1][i - countCertificatesInHtml - 1].ru == '')) {
-        console.log('Финал', j, i, lang);
-        console.log('img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + masMyCertificates[j - 1][i - countCertificatesInHtml - 1].ru + '.jpg');
+        // console.log('Финал', j, i, lang);
+        // console.log('img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + masMyCertificates[j - 1][i - countCertificatesInHtml - 1].ru + '.jpg');
         imgMyCertificatesBigSpecImg.src = 'img/my_certificates/jpg/' + myPartClass[j - 1] + '/' + masMyCertificates[j - 1][i - countCertificatesInHtml - 1].ru + '.jpg';
         imgMyCertificatesBigSpecImg.alt = masMyCertificates[j - 1][i - countCertificatesInHtml - 1].ru;
     }

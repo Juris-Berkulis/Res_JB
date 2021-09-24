@@ -69,8 +69,4 @@ var myCertificatesTests = [
         en: 'Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.en', 
         ru: 'Сертификат. GeekBrains. Тест по Основы программирования на JavaScript.ru'
     }, 
-    {
-        en: 'Сертификат. GeekBrains. Тест по Охота на уток на чистом HTML и CSS.en', 
-        ru: 'Сертификат. GeekBrains. Тест по Охота на уток на чистом HTML и CSS.ru'
-    }, 
 ]

@@ -78,6 +78,14 @@ const allProjects = [
         technologies: 'HTML, SCSS, JavaScript ES6, JSON API, Vue.js, предоставленный Node.js, WebPack',
         hrefGitHub: 'https://github.com/Juris-Berkulis/GB_1907_JS_L2_HW',
         place: 'GitHub'
+    },
+    {
+        category: 'Тестовый проект',
+        title: 'Набор монет 1987 год',
+        hrefSite: 'https://juris-berkulis.github.io/set_of_coins/',
+        technologies: 'HTML, SCSS, Figma, JavaScript ES6, jQuery',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/set_of_coins',
+        place: 'GitHub'
     }
 ]
 

@@ -42,7 +42,7 @@ const allProjects = [
     {
         category: 'Учебный проект',
         title: 'Home Work. JS - Level 1',
-        hrefSite: 'https://juris-berkulis.github.io/GB_0106_JS_L1_HW/',
+        hrefSite: '',
         technologies: 'JavaScript ES5, DOM API',
         hrefGitHub: 'https://github.com/Juris-Berkulis/GB_0106_JS_L1_HW',
         place: 'GitHub'
@@ -85,6 +85,14 @@ const allProjects = [
         hrefSite: 'https://juris-berkulis.github.io/set_of_coins/',
         technologies: 'HTML, SCSS, Figma, JavaScript ES6, jQuery',
         hrefGitHub: 'https://github.com/Juris-Berkulis/set_of_coins',
+        place: 'GitHub'
+    },
+    {
+        category: 'Тестовый проект',
+        title: 'Картины эпохи Возрождения',
+        hrefSite: 'https://juris-berkulis.github.io/renaissance_paintings/',
+        technologies: 'Vue.js, SCSS, Figma, WebPack',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/renaissance_paintings',
         place: 'GitHub'
     }
 ]

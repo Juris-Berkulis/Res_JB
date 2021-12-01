@@ -26,6 +26,10 @@ var myCertificatesMain = [
         ru: 'Сертификат. GeekBrains. Python для начинающих.ru'
     }, 
     {
+        en: 'Сертификат. GeekBrains. ReactJS. Базовый курс.en', 
+        ru: 'Сертификат. GeekBrains. ReactJS. Базовый курс.ru'
+    }, 
+    {
         en: 'Сертификат. GeekBrains. SEO - что это такое. Основы продвижения простым языком.en', 
         ru: 'Сертификат. GeekBrains. SEO - что это такое. Основы продвижения простым языком.ru'
     }, 

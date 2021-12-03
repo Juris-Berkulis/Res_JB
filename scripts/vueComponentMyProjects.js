@@ -94,7 +94,15 @@ const allProjects = [
         technologies: 'Vue.js, SCSS, Figma, WebPack',
         hrefGitHub: 'https://github.com/Juris-Berkulis/renaissance_paintings',
         place: 'GitHub'
-    }
+    },
+    {
+        category: 'Учебно-собственный проект',
+        title: 'Firess Messenger',
+        hrefSite: 'https://messenger-fireactbase-211015.web.app/',
+        technologies: 'ReactJS, Redux, Thunk, Persist, JavaScript ES6, REST API, Firebase 8, Material-UI, SCSS, HTML, Jest',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/gb_211015_react',
+        place: 'GitHub'
+    },
 ]
 
 const myprojectitem = {

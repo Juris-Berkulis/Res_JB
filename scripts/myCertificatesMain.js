@@ -162,3 +162,31 @@ var myCertificatesMain = [
         ru: 'Сертификат. Restart-Academy. Дизайнер сайтов на Тильде'
     }, 
 ]
+
+/** Ниже приведён пример получающегося html-кода, а все карточки сертификатов без переключателей свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
+<!-- <div class="my_certificates__cont__main__card">
+    <div class="my_certificates__cont__main__card__spec">
+        <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02.png" alt="Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02" width="50">
+    </div>
+</div>
+<div class="my_certificates__cont__main__card">
+    <div class="my_certificates__cont__main__card__spec">
+        <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 1.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 1" width="50">
+    </div>
+</div>
+<div class="my_certificates__cont__main__card">
+    <div class="my_certificates__cont__main__card__spec">
+        <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 2.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 2" width="50">
+    </div>
+</div> -->
+<!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
+<!-- <div class="my_certificates__cont__main__card">
+    <div class="my_certificates__cont__main__card__spec">
+        <input class="my_certificates__cont__main__card__spec__checkbox" type="checkbox" id="certificate_main_1">
+        <div class="my_certificates__cont__main__card__spec__overlay">
+            <img class="my_certificates__cont__main__card__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50">
+        </div>
+        <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
+        <label class="my_certificates__cont__main__card__spec__label" for="certificate_main_1"></label>
+    </div>
+</div> */

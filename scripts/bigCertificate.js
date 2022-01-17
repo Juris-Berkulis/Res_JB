@@ -91,3 +91,12 @@ function enlargeImg(event, btnJ, btnI, btnLang) {
 
     divMyCertificatesBig.style.display = 'block';
 }
+
+/**
+<input class="my_certificates__big__spec__checkbox" type="checkbox" id="certificate_big">
+<div class="my_certificates__big__spec__overlay">
+    <img class="my_certificates__big__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50" id="img_overlay">
+</div>
+<img class="my_certificates__big__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50" id="img_normal">
+<label class="my_certificates__big__spec__label" for="certificate_big"></label> 
+*/

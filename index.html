@@ -110,29 +110,6 @@
         </section>
         <section class="my_projects center" id="main">
             <myprojectslist></myprojectslist>
-            <!--* Ниже приведён пример получающегося html-кода, а вся секция свёрстана при помощи vue.js-кода в vue.js-файле "vueComponentMyProjects.js" под управлением vue.js-файла "vueMain.js":
-            <div class="my_projects__cont">
-                <a class="my_projects__cont__anchor anchor" name="my_projects" href="#"></a>
-                <h2 class="my_projects__cont__title">Мои проекты</h2>
-                <div class="title_line"></div>
-                <div class="my_projects__cont__projects">
-                    <div class="my_projects__cont__projects__item">
-                        <div class="my_projects__cont__projects__item__top_part">
-                            <p class="my_projects__cont__projects__item__top_part__category">{{ projectItem.category }}</p>
-                            <p class="my_projects__cont__projects__item__top_part__site_title" v-if="projectItem.hrefSite">
-                                <a class="my_projects__cont__projects__item__top_part__site_title__link" target="_blank" :href="projectItem.hrefSite">{{ projectItem.title }}</a>
-                            </p>
-                            <p class="my_projects__cont__projects__item__top_part__site_title__spare" v-else="projectItem.hrefSite">{{ projectItem.title }}</p>
-                            <p class="my_projects__cont__projects__item__top_part__paragraph">Используемые технологии:</p>
-                        </div>
-                        <p class="my_projects__cont__projects__item__technologies">{{ projectItem.technologies }}</p>
-                        <p class="my_projects__cont__projects__item__GitHub">Проект на 
-                            <a class="my_projects__cont__projects__item__GitHub__link" target="_blank" :href="projectItem.hrefGitHub">GitHub</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            -->
         </section>
         <section class="my_skills center">
             <div class="my_skills__cont">
@@ -251,84 +228,19 @@
                 <p class="my_certificates__cont__description">Более 80-ти сертификатов</p>
                 <h3 class="my_certificates__cont__title">Сертификаты за прохождение тестов</h3>
                 <p class="my_certificates__cont__title__js_scripts_not_available">Error: Изображение отсутствует, так как в Вашем браузере отключены JS-сценарии, или Ваш браузер их не поддерживает!</p>
-                <div class="my_certificates__cont__tests">
-                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов без переключателей свёрстаны в js-файлах myCertificatesTests.js и sectionLayoutMyCertificates.js: -->
-                    <!-- <div class="my_certificates__cont__tests__card">
-                        <div class="my_certificates__cont__tests__card__spec">
-                            <img class="my_certificates__cont__tests__card__spec__img" src="img/my_certificates/jpg/tests/Сертификат. GoIT. Марафон по вёрстке (3 места) - 2021.06.09.jpg" alt="Сертификат. GoIT. Марафон по вёрстке (3 места) - 2021.06.09" width="50">
-                        </div>
-                    </div> -->
-                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesTests.js и sectionLayoutMyCertificates.js: -->
-                    <!-- <div class="my_certificates__cont__tests__card">
-                        <div class="my_certificates__cont__tests__card__spec">
-                            <input class="my_certificates__cont__tests__card__spec__checkbox" type="checkbox" id="certificate_tests_1">
-                            <div class="my_certificates__cont__tests__card__spec__overlay">
-                                <img class="my_certificates__cont__tests__card__spec__overlay__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Тест по Figma. Начальный уровень.en" width="50">
-                            </div>
-                            <img class="my_certificates__cont__tests__card__spec__img" src="img/my_certificates/jpg/tests/Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Тест по Figma. Начальный уровень.ru" width="50">
-                            <label class="my_certificates__cont__tests__card__spec__label" for="certificate_tests_1"></label>
-                        </div>
-                    </div> -->
-                </div>
+                <div class="my_certificates__cont__tests"></div>
                 <h3 class="my_certificates__cont__title">Основные сертификаты</h3>
                 <p class="my_certificates__cont__title__js_scripts_not_available">Error: Изображение отсутствует, так как в Вашем браузере отключены JS-сценарии, или Ваш браузер их не поддерживает!</p>
-                <div class="my_certificates__cont__main">
-                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов без переключателей свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
-                    <!-- <div class="my_certificates__cont__main__card">
-                        <div class="my_certificates__cont__main__card__spec">
-                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02.png" alt="Сертификат. GoIT. GoIT English HTML (html-теги) - 2021.06.02" width="50">
-                        </div>
-                    </div>
-                    <div class="my_certificates__cont__main__card">
-                        <div class="my_certificates__cont__main__card__spec">
-                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 1.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 1" width="50">
-                        </div>
-                    </div>
-                    <div class="my_certificates__cont__main__card">
-                        <div class="my_certificates__cont__main__card__spec">
-                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. Level Up. Основы программирования на языке Python. Уровень 2.jpg" alt="Сертификат. Level Up. Основы программирования на языке Python. Уровень 2" width="50">
-                        </div>
-                    </div> -->
-                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMain.js и sectionLayoutMyCertificates.js: -->
-                    <!-- <div class="my_certificates__cont__main__card">
-                        <div class="my_certificates__cont__main__card__spec">
-                            <input class="my_certificates__cont__main__card__spec__checkbox" type="checkbox" id="certificate_main_1">
-                            <div class="my_certificates__cont__main__card__spec__overlay">
-                                <img class="my_certificates__cont__main__card__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50">
-                            </div>
-                            <img class="my_certificates__cont__main__card__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50">
-                            <label class="my_certificates__cont__main__card__spec__label" for="certificate_main_1"></label>
-                        </div>
-                    </div> -->
-                </div>
+                <div class="my_certificates__cont__main"></div>
                 <h3 class="my_certificates__cont__title">Сертификаты в смежных облостях</h3>
                 <p class="my_certificates__cont__title__js_scripts_not_available">Error: Изображение отсутствует, так как в Вашем браузере отключены JS-сценарии, или Ваш браузер их не поддерживает!</p>
-                <div class="my_certificates__cont__minor">
-                    <!--* Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMinor.js и sectionLayoutMyCertificates.js: -->
-                    <!-- <div class="my_certificates__cont__minor__card">
-                        <div class="my_certificates__cont__minor__card__spec">
-                            <input class="my_certificates__cont__minor__card__spec__checkbox" type="checkbox" id="certificate_minor_1">
-                            <div class="my_certificates__cont__minor__card__spec__overlay">
-                                <img class="my_certificates__cont__minor__card__spec__overlay__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.en.jpg" alt="Сертификат. GeekBrains. Big Data в действии.en" width="50">
-                            </div>
-                            <img class="my_certificates__cont__minor__card__spec__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.ru.jpg" alt="Сертификат. GeekBrains. Big Data в действии.ru" width="50">
-                            <label class="my_certificates__cont__minor__card__spec__label" for="certificate_minor_1"></label>
-                        </div>
-                    </div> -->
-                </div>
+                <div class="my_certificates__cont__minor"></div>
             </div>
             <div class="my_certificates__big">
                 <button class="my_certificates__big__btn my_certificates__big__btn-back">
                     <span class="my_certificates__big__btn__text">Назад</span>
                 </button>
-                <div class="my_certificates__big__spec">
-                    <!-- <input class="my_certificates__big__spec__checkbox" type="checkbox" id="certificate_big">
-                    <div class="my_certificates__big__spec__overlay">
-                        <img class="my_certificates__big__spec__overlay__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.en.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.en" width="50" id="img_overlay">
-                    </div>
-                    <img class="my_certificates__big__spec__img" src="img/my_certificates/jpg/main/Сертификат. GeekBrains. Figma. Начальный уровень.ru.jpg" alt="Сертификат. GeekBrains. Figma. Начальный уровень.ru" width="50" id="img_normal">
-                    <label class="my_certificates__big__spec__label" for="certificate_big"></label> -->
-                </div>
+                <div class="my_certificates__big__spec"></div>
                 <button class="my_certificates__big__btn my_certificates__big__btn-next">
                     <span class="my_certificates__big__btn__text">Далее</span>
                 </button>

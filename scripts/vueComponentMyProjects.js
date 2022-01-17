@@ -1,22 +1,6 @@
 const allProjects = [
     {
         category: 'Учебный проект',
-        title: 'New Automation',
-        hrefSite: 'https://juris-berkulis.github.io/GB_0902/',
-        technologies: 'HTML, SCSS, Figma',
-        hrefGitHub: 'https://github.com/Juris-Berkulis/GB_0902',
-        place: 'GitHub'
-    },
-    {
-        category: 'Учебный проект',
-        title: 'Simple',
-        hrefSite: 'https://juris-berkulis.github.io/GB_1204/',
-        technologies: 'HTML, SCSS, Figma',
-        hrefGitHub: 'https://github.com/Juris-Berkulis/GB_1204',
-        place: 'GitHub'
-    },
-    {
-        category: 'Учебный проект',
         title: 'Waxom',
         hrefSite: 'https://juris-berkulis.github.io/GB_1204_Second_Layout/',
         technologies: 'HTML, SCSS, Figma',
@@ -24,7 +8,7 @@ const allProjects = [
         place: 'GitHub'
     },
     {
-        category: 'Свой собственный проект',
+        category: 'Собственный проект',
         title: 'Игра "Duck hunt"',
         hrefSite: 'https://juris-berkulis.github.io/Duck_hunt/',
         technologies: 'HTML, SCSS',
@@ -32,23 +16,7 @@ const allProjects = [
         place: 'GitHub'
     },
     {
-        category: 'Мой тренировочный проект',
-        title: 'Burger menu',
-        hrefSite: 'https://juris-berkulis.github.io/Burger_menu/by_css_with_transition.html',
-        technologies: 'HTML, SCSS, JavaScript ES6, DOM API',
-        hrefGitHub: 'https://github.com/Juris-Berkulis/Burger_menu',
-        place: 'GitHub'
-    },
-    {
-        category: 'Учебный проект',
-        title: 'Home Work. JS - Level 1',
-        hrefSite: '',
-        technologies: 'JavaScript ES5, DOM API',
-        hrefGitHub: 'https://github.com/Juris-Berkulis/GB_0106_JS_L1_HW',
-        place: 'GitHub'
-    },
-    {
-        category: 'Свой собственный проект',
+        category: 'Собственный проект',
         title: 'Этот сайт-резюме',
         hrefSite: '',
         technologies: 'HTML, SCSS, JavaScript ES5/ES6, DOM API, Vue.js',
@@ -96,7 +64,7 @@ const allProjects = [
         place: 'GitHub'
     },
     {
-        category: 'Учебно-собственный проект',
+        category: 'Собственный проект',
         title: 'Firess Messenger',
         hrefSite: 'https://messenger-fireactbase-211015.web.app/',
         technologies: 'ReactJS, Redux, Thunk, Persist, JavaScript ES6, REST API, Firebase 8, Material-UI, SCSS, HTML, Jest',
@@ -152,3 +120,27 @@ const myprojectslist = {
             </div>
             `
 };
+
+/** Ниже приведён пример получающегося html-кода, а вся секция свёрстана при помощи vue.js-кода в vue.js-файле "vueComponentMyProjects.js" под управлением vue.js-файла "vueMain.js":
+<div class="my_projects__cont">
+    <a class="my_projects__cont__anchor anchor" name="my_projects" href="#"></a>
+    <h2 class="my_projects__cont__title">Мои проекты</h2>
+    <div class="title_line"></div>
+    <div class="my_projects__cont__projects">
+        <div class="my_projects__cont__projects__item">
+            <div class="my_projects__cont__projects__item__top_part">
+                <p class="my_projects__cont__projects__item__top_part__category">{{ projectItem.category }}</p>
+                <p class="my_projects__cont__projects__item__top_part__site_title" v-if="projectItem.hrefSite">
+                    <a class="my_projects__cont__projects__item__top_part__site_title__link" target="_blank" :href="projectItem.hrefSite">{{ projectItem.title }}</a>
+                </p>
+                <p class="my_projects__cont__projects__item__top_part__site_title__spare" v-else="projectItem.hrefSite">{{ projectItem.title }}</p>
+                <p class="my_projects__cont__projects__item__top_part__paragraph">Используемые технологии:</p>
+            </div>
+            <p class="my_projects__cont__projects__item__technologies">{{ projectItem.technologies }}</p>
+            <p class="my_projects__cont__projects__item__GitHub">Проект на 
+                <a class="my_projects__cont__projects__item__GitHub__link" target="_blank" :href="projectItem.hrefGitHub">GitHub</a>
+            </p>
+        </div>
+    </div>
+</div>
+*/

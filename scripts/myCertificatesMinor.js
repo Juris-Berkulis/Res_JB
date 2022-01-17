@@ -86,3 +86,15 @@ var myCertificatesMinor = [
         ru: 'Сертификат. GeekBrains. Чем занимается игровой аналитик и как им стать.ru'
     }, 
 ]
+
+/** Ниже приведён пример получающегося html-кода, а все карточки сертификатов с переключателями свёрстаны в js-файлах myCertificatesMinor.js и sectionLayoutMyCertificates.js: -->
+<!-- <div class="my_certificates__cont__minor__card">
+    <div class="my_certificates__cont__minor__card__spec">
+        <input class="my_certificates__cont__minor__card__spec__checkbox" type="checkbox" id="certificate_minor_1">
+        <div class="my_certificates__cont__minor__card__spec__overlay">
+            <img class="my_certificates__cont__minor__card__spec__overlay__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.en.jpg" alt="Сертификат. GeekBrains. Big Data в действии.en" width="50">
+        </div>
+        <img class="my_certificates__cont__minor__card__spec__img" src="img/my_certificates/jpg/minor/Сертификат. GeekBrains. Big Data в действии.ru.jpg" alt="Сертификат. GeekBrains. Big Data в действии.ru" width="50">
+        <label class="my_certificates__cont__minor__card__spec__label" for="certificate_minor_1"></label>
+    </div>
+</div> */

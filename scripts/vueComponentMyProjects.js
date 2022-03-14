@@ -71,6 +71,22 @@ const allProjects = [
         hrefGitHub: 'https://github.com/Juris-Berkulis/gb_211015_react',
         place: 'GitHub'
     },
+    {
+        category: 'Тестовый проект',
+        title: 'Статья про WebSocket',
+        hrefSite: 'https://juris-berkulis.github.io/article_about_WebSocket/',
+        technologies: 'HTML, SCSS, JavaScript ES6',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/article_about_WebSocket',
+        place: 'GitHub'
+    },
+    {
+        category: 'Тестовый проект',
+        title: 'Novoselie Development',
+        hrefSite: 'https://juris-berkulis.github.io/novoselie_development/',
+        technologies: 'HTML, SCSS, Figma, JavaScript ES6',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/novoselie_development',
+        place: 'GitHub'
+    },
 ]
 
 const myprojectitem = {

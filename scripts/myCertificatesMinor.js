@@ -6,6 +6,10 @@ var myCertificatesMinor = [
         ru: ''
     }, 
     {
+        en: 'Сертификат. Chicaga English School. English Language. Level A2', 
+        ru: ''
+    }, 
+    {
         en: 'Сертификат. GeekBrains. Big Data в действии.en', 
         ru: 'Сертификат. GeekBrains. Big Data в действии.ru'
     }, 

@@ -87,6 +87,22 @@ const allProjects = [
         hrefGitHub: 'https://github.com/Juris-Berkulis/novoselie_development',
         place: 'GitHub'
     },
+    {
+        category: 'Тестовый проект',
+        title: 'Without Redux: SK Design. Verification',
+        hrefSite: 'http://krztfj7f.beget.tech/',
+        technologies: 'ReactJS, JavaScript ES6, Styled-Components',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/sk_design_verification_without_redux',
+        place: 'GitHub'
+    },
+    {
+        category: 'Тестовый проект',
+        title: 'With Redux: SK Design. Verification',
+        hrefSite: 'http://krztfjbf.beget.tech/',
+        technologies: 'ReactJS, Redux, Persist, JavaScript ES6, Styled-Components',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/sk_design_verification',
+        place: 'GitHub'
+    },
 ]
 
 const myprojectitem = {

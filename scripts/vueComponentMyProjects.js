@@ -66,8 +66,8 @@ const allProjects = [
     {
         category: 'Собственный проект',
         title: 'Firess Messenger',
-        hrefSite: 'https://messenger-fireactbase-211015.web.app/',
-        technologies: 'ReactJS, Redux, Thunk, Persist, JavaScript ES6, REST API, Firebase 8, Material-UI, SCSS, HTML, Jest',
+        hrefSite: 'https://firess.surge.sh/',
+        technologies: 'ReactJS, Redux, Thunk, Persist, JavaScript ES6, Firebase 8, Material-UI, SCSS, HTML, Jest',
         hrefGitHub: 'https://github.com/Juris-Berkulis/gb_211015_react',
         place: 'GitHub'
     },
@@ -101,6 +101,14 @@ const allProjects = [
         hrefSite: 'http://krztfjbf.beget.tech/',
         technologies: 'ReactJS, Redux, Persist, JavaScript ES6, Styled-Components',
         hrefGitHub: 'https://github.com/Juris-Berkulis/sk_design_verification',
+        place: 'GitHub'
+    },
+    {
+        category: 'Собственный проект',
+        title: 'Entertask',
+        hrefSite: 'https://entertask.surge.sh/',
+        technologies: 'ReactJS, Redux, Thunk, Persist, JavaScript ES6, Firebase 8, CSS-IN-JS, SCSS, HTML',
+        hrefGitHub: 'https://github.com/Juris-Berkulis/entertask',
         place: 'GitHub'
     },
 ]

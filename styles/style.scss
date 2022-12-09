@@ -1792,16 +1792,8 @@ h2:hover + .title_line::after {
 .my_certificates__cont__tests__card,
 .my_certificates__cont__main__card,
 .my_certificates__cont__minor__card {
+  border: 1px solid transparent; //* - Без рамки сертификат подпрыгивает, если навести на самый низ карточки.
   margin: 10px;
-}
-
-.my_certificates__cont__tests__card:hover,
-.my_certificates__cont__main__card:hover,
-.my_certificates__cont__minor__card:hover {
-  position: relative;
-  bottom: $action__card_certificates_up;
-  padding-bottom: $action__card_certificates_up;
-  margin-bottom: -$action__card_certificates_up;
 }
 
 .my_certificates__cont__tests__card__spec,
@@ -1810,6 +1802,25 @@ h2:hover + .title_line::after {
 .my_certificates__big__spec {
   position: relative;
   line-height: 0;
+}
+
+.my_certificates__cont__tests__card__spec,
+.my_certificates__cont__main__card__spec,
+.my_certificates__cont__minor__card__spec {
+  transform: translateY(0);
+  transition: transform 0.01s linear 0.01s;
+}
+
+.my_certificates__cont__tests__card:hover .my_certificates__cont__tests__card__spec {
+  transform: translateY(-$action__card_certificates_up);
+}
+
+.my_certificates__cont__main__card:hover .my_certificates__cont__main__card__spec {
+  transform: translateY(-$action__card_certificates_up);
+}
+
+.my_certificates__cont__minor__card:hover .my_certificates__cont__minor__card__spec {
+  transform: translateY(-$action__card_certificates_up);
 }
 
 .my_certificates__big__spec {
@@ -1886,10 +1897,9 @@ h2:hover + .title_line::after {
   border-radius: 12px;
   padding: 1px;
   cursor: pointer;
-  transition: background-color 0.5s linear 0.1s;
   transform-origin: top;
   transform: scale(0);
-  transition: transform 0.2s linear 0.01s;
+  transition: transform 0.2s linear 0.01s, background-color 0.5s linear 0.1s;
 }
 
 .my_certificates__big__spec__label {
@@ -1960,7 +1970,7 @@ h2:hover + .title_line::after {
   left: -15px;
   content: "ru";
   color: red;
-  transition: left 0.01s linear 0.6s;
+  transition: left 0.01s linear 0.6s, color 0.5s linear 0.1s;
 }
 
 .my_certificates__cont__tests__card__spec__checkbox:checked

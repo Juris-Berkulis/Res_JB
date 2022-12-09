@@ -1990,8 +1990,9 @@ h2:hover + .title_line::after {
 
 .my_certificates__big {
   position: fixed;
-  top: 2vh;
-  left: 20vw;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
   z-index: 2;
   display: none;
 }
@@ -2059,12 +2060,14 @@ h2:hover + .title_line::after {
   );
 }
 
-.my_certificates__big__spec__overlay__img {
+.my_certificates__big__spec__overlay__img, .my_certificates__big__spec__img {
   width: 60vw;
 }
 
-.my_certificates__big__spec__img {
-  width: 60vw;
+@media (orientation: landscape) {
+  .my_certificates__big__spec__img, .my_certificates__big__spec__overlay__img {
+    width: 90vh;
+  }
 }
 
 .my_certificates__big__close_big_certificate {
